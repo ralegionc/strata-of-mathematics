@@ -1,0 +1,14 @@
+key,source,auto_year,category,note
+f81,wikipedia,250,source error,picked Euclid's 3rd-century-BC result mentioned in the sentence; the sentence dates Euler's proof to 1737
+f89,wikipedia,450,source error,search returned the Chinese remainder theorem article (Sunzi) for the factor and remainder theorems
+wQ670235,wikipedia,1200,source error,1200 is the worked example number in the lead
+f26,wikipedia,1450,earlier result,Madhava's series predates Leibniz; the hand date credits Leibniz
+wQ190391,wikipedia,1811,different version,Laplace's 1811 version; hand dates use de Moivre 1733 and Lyapunov 1901
+wQ939927,wikipedia,1885,different version,Weierstrass approximation 1885; hand date is Stone's general theorem 1937
+wQ26708,mactutor,1665,different version,Newton's general binomial theorem; hand date is al-Karaji for natural exponents
+wQ189136,mactutor,1965,source error,matched Bombieri's mean value theorem
+wQ192760,mactutor,1746,earlier result,d'Alembert's incomplete proof
+wQ193878,mactutor,1247,different version,Qin Jiushao's general method; hand date is Sunzi Suanjing
+wQ193910,mactutor,1635,source error,matched Euler's polyhedron formula
+wQ2267175,mactutor,1624,source error,matched Briggs on logarithms of tangents and secants
+f76,mactutor,1900,source error,matched Fejer's summation theorem

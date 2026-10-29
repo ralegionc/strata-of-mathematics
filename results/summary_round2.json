@@ -1,0 +1,426 @@
+{
+ "p1": {
+  "sample": {
+   "n": 249,
+   "chain_max": 232,
+   "chain_median": 91.0,
+   "own_folder_median": 4.0,
+   "own_parent_median": 13.0,
+   "own_parent_max": 158,
+   "library_max": 211,
+   "deepest": [
+    {
+     "title": "Rademacher's theorem",
+     "chain_layers": 220,
+     "own_folder": 10,
+     "own_parent": 69
+    },
+    {
+     "title": "Dirichlet's theorem on arithmetic progressions",
+     "chain_layers": 227,
+     "own_folder": 22,
+     "own_parent": 24
+    },
+    {
+     "title": "Dirichlet's unit theorem",
+     "chain_layers": 232,
+     "own_folder": 12,
+     "own_parent": 25
+    }
+   ]
+  },
+  "research": [
+   {
+    "name": "pfr",
+    "title": "Polynomial Freiman\u2013Ruzsa conjecture",
+    "chain_layers": 263.0,
+    "own_layers": 23.0,
+    "library_layers": 240.0
+   },
+   {
+    "name": "sphere-eversion",
+    "title": "Smale's sphere eversion",
+    "chain_layers": 235.0,
+    "own_layers": 29.0,
+    "library_layers": 206.0
+   },
+   {
+    "name": "carleson",
+    "title": "Carleson's theorem",
+    "chain_layers": 250.0,
+    "own_layers": 46.0,
+    "library_layers": 204.0
+   }
+  ],
+  "research_library_above_sample_max": 1,
+  "research_own_above_sample_own_max": 0
+ },
+ "p2": {
+  "n_under": 370,
+  "n_over": 325,
+  "median_under": 20.0,
+  "median_over": 13.0,
+  "p_less": 0.9999986282933215,
+  "p_greater": 1.3742483067645305e-06,
+  "share_real_under": 0.4837837837837838,
+  "share_real_over": 0.3230769230769231,
+  "strata": {
+   "no real": {
+    "n_under": 191,
+    "n_over": 220,
+    "median_under": 11.0,
+    "median_over": 9.5,
+    "p_less": 0.9989426641942649
+   },
+   "real": {
+    "n_under": 179,
+    "n_over": 105,
+    "median_under": 35.0,
+    "median_over": 40.0,
+    "p_less": 0.07762269276621434
+   }
+  },
+  "areas": {
+   "overview: Analysis": 35.0,
+   "overview: Combinatorics": 12.0,
+   "overview: Data structures": 4.0,
+   "overview: Dynamics": 18.5,
+   "overview: General algebra": 10.0,
+   "overview: Geometry": 40.0,
+   "overview: Linear algebra": 12.0,
+   "overview: Logic and computation": 11.0,
+   "overview: Probability Theory": 42.0,
+   "overview: Topology": 11.0,
+   "undergraduate: Affine and Euclidean Geometry": 12.0,
+   "undergraduate: Bilinear and Quadratic Forms Over a Vector Space": 18.0,
+   "undergraduate: Distribution calculus": 44.0,
+   "undergraduate: Group Theory": 10.0,
+   "undergraduate: Linear algebra": 15.5,
+   "undergraduate: Measures and integral calculus": 44.0,
+   "undergraduate: Multivariable calculus": 36.0,
+   "undergraduate: Numerical Analysis": 20.0,
+   "undergraduate: Probability Theory": 36.0,
+   "undergraduate: Ring Theory": 11.0,
+   "undergraduate: Single Variable Complex Analysis": 34.5,
+   "undergraduate: Single Variable Real Analysis": 30.5,
+   "undergraduate: Topology": 29.0
+  }
+ },
+ "p3": {
+  "n_fresh": 215,
+  "n_fresh_real": 59,
+  "n_wiki": 63,
+  "n_wiki_real": 19,
+  "hand": {
+   "rho": 0.5081453205451779,
+   "lo": 0.31291829343561856,
+   "hi": 0.6668532097761734,
+   "p": 3.9809828987113667e-05,
+   "n": 59
+  },
+  "hand_high_medium": {
+   "rho": 0.5492760296993981,
+   "lo": 0.22958598666406443,
+   "hi": 0.7797442812014743,
+   "p": 0.003003330419284631,
+   "n": 27
+  },
+  "wikipedia": {
+   "rho": 0.2543046605465329,
+   "lo": -0.2729490738406238,
+   "hi": 0.7330568051265584,
+   "p": 0.29342746440554246,
+   "n": 19
+  },
+  "pooled": {
+   "rho": 0.41427161584916605,
+   "lo": 0.26151058680325423,
+   "hi": 0.5492589702535181,
+   "p": 2.8177559776621233e-06,
+   "n": 119
+  }
+ },
+ "p4": {
+  "audit": {
+   "concept": {
+    "n": 10,
+    "found_by_git": 10,
+    "same_month": 10,
+    "late": 0,
+    "late_max": 0,
+    "early": 0,
+    "early_via_namespace_change": 0
+   },
+   "theorem": {
+    "n": 30,
+    "found_by_git": 30,
+    "same_month": 29,
+    "late": 0,
+    "late_max": 0,
+    "early": 1,
+    "early_via_namespace_change": 1
+   }
+  },
+  "counts": {
+   "concept": {
+    "core": 3,
+    "mathlib3": 155,
+    "mathlib4": 24,
+    "not found": 1
+   },
+   "theorem": {
+    "core": 0,
+    "mathlib3": 141,
+    "mathlib4": 104,
+    "not found": 5
+   }
+  },
+  "renames_followed": 8,
+  "real_entered": "2017-08-15",
+  "p4a_violations": 0,
+  "all": {
+   "rho": 0.165688419004705,
+   "lo": 0.03942863449387521,
+   "hi": 0.28289817955066726,
+   "p": 0.009822027756125012,
+   "n": 242
+  },
+  "ported": {
+   "rho": 0.3639022525129221,
+   "lo": 0.20152630632233323,
+   "hi": 0.501971906184386,
+   "p": 1.0649529021630041e-05,
+   "n": 139
+  },
+  "history_same": {
+   "rho": -0.09607157886964833,
+   "lo": -0.2256557489031513,
+   "hi": 0.032325530981760775,
+   "p": 0.1361626966453632,
+   "n": 242
+  },
+  "history_ported": {
+   "rho": -0.009410269296331299,
+   "lo": -0.18438409428374553,
+   "hi": 0.15612188144229872,
+   "p": 0.912452196624097,
+   "n": 139
+  },
+  "diff_all": {
+   "diff": 0.26175999787435333,
+   "lo": 0.11519134648292438,
+   "hi": 0.3995515124965849,
+   "n": 242
+  },
+  "diff_ported": {
+   "diff": 0.3733125218092534,
+   "lo": 0.20020455044623595,
+   "hi": 0.5507182846793915,
+   "n": 139
+  },
+  "concepts": {
+   "rho": 0.3627248594895164,
+   "lo": 0.22065249816263335,
+   "hi": 0.4897049472299248,
+   "p": 6.040292651769637e-07,
+   "n": 179
+  },
+  "concepts_ported": {
+   "rho": 0.32624890802355944,
+   "lo": 0.16855625904494526,
+   "hi": 0.4680682784889813,
+   "p": 3.430603942577672e-05,
+   "n": 155
+  },
+  "by_year": {
+   "2017": {
+    "median": 7.0,
+    "n": 7,
+    "share_real": 0.14285714285714285
+   },
+   "2018": {
+    "median": 12.0,
+    "n": 9,
+    "share_real": 0.1111111111111111
+   },
+   "2019": {
+    "median": 29.0,
+    "n": 20,
+    "share_real": 0.6
+   },
+   "2020": {
+    "median": 23.0,
+    "n": 33,
+    "share_real": 0.5151515151515151
+   },
+   "2021": {
+    "median": 18.0,
+    "n": 37,
+    "share_real": 0.4864864864864865
+   },
+   "2022": {
+    "median": 33.0,
+    "n": 29,
+    "share_real": 0.7241379310344828
+   },
+   "2023": {
+    "median": 17.0,
+    "n": 33,
+    "share_real": 0.45454545454545453
+   },
+   "2024": {
+    "median": 17.0,
+    "n": 31,
+    "share_real": 0.3225806451612903
+   },
+   "2025": {
+    "median": 32.5,
+    "n": 30,
+    "share_real": 0.6
+   },
+   "2026": {
+    "median": 31.0,
+    "n": 13,
+    "share_real": 0.5384615384615384
+   }
+  },
+  "within": {
+   "all, no real": {
+    "rho": 0.25910354626558607,
+    "lo": 0.07772159922755806,
+    "hi": 0.4272556027935058,
+    "p": 0.003953923137568045,
+    "n": 122
+   },
+   "all, real": {
+    "rho": 0.25029669469908283,
+    "lo": 0.07294898049708941,
+    "hi": 0.412372221464927,
+    "p": 0.005829955524611377,
+    "n": 120
+   },
+   "ported, no real": {
+    "rho": 0.20272683033025599,
+    "lo": -0.0487237886785763,
+    "hi": 0.436337608689351,
+    "p": 0.10532061800917884,
+    "n": 65
+   },
+   "ported, real": {
+    "rho": 0.2866250439988856,
+    "lo": 0.060787700957728556,
+    "hi": 0.48312235669344855,
+    "p": 0.013291934970543288,
+    "n": 74
+   }
+  },
+  "first": [
+   {
+    "title": "Euclid's theorem",
+    "entered": "2017-09-15",
+    "stmt_depth": "7"
+   },
+   {
+    "title": "Carath\u00e9odory's theorem (measure theory)",
+    "entered": "2017-09-15",
+    "stmt_depth": "27"
+   },
+   {
+    "title": "Cantor\u2013Bernstein\u2013Schroeder theorem",
+    "entered": "2017-12-15",
+    "stmt_depth": "3"
+   },
+   {
+    "title": "Matiyasevich's theorem",
+    "entered": "2017-12-15",
+    "stmt_depth": "8"
+   },
+   {
+    "title": "B\u00e9zout's identity",
+    "entered": "2017-12-15",
+    "stmt_depth": "12"
+   },
+   {
+    "title": "Cantor's theorem",
+    "entered": "2017-12-15",
+    "stmt_depth": "2"
+   }
+  ]
+ },
+ "p5": {
+  "n_statements": 84,
+  "n_dated": 83,
+  "tower": {
+   "type:num": 5,
+   "type:nadd": 11,
+   "type:hreal": 13,
+   "type:real": 15,
+   "type:int": 18,
+   "rational": 20
+  },
+  "p5a": true,
+  "trend": {
+   "rho": -0.09604609069668088,
+   "lo": -0.32900167828793747,
+   "hi": 0.13890844771997038,
+   "p": 0.38772496801625567,
+   "n": 83
+  },
+  "r2": {
+   "year": 0.028315137489016706,
+   "passes through the reals": 0.5320005018862639
+  },
+  "share_real": 0.9518072289156626,
+  "median_depth": 32.0,
+  "vs_mathlib": {
+   "rho": 0.6754088993629971,
+   "lo": 0.5192997531310021,
+   "hi": 0.7900516692504901,
+   "p": 2.6529945645473644e-10,
+   "n": 68
+  },
+  "vs_metamath": {
+   "rho": 0.4697867188504383,
+   "lo": 0.23384546141898344,
+   "hi": 0.6595408704855209,
+   "p": 6.050737590422777e-05,
+   "n": 67
+  },
+  "shallowest": [
+   {
+    "title": "Cantor's Theorem",
+    "stmt_depth": 4
+   },
+   {
+    "title": "Schroeder-Bernstein Theorem",
+    "stmt_depth": 5
+   },
+   {
+    "title": "The Friendship Theorem",
+    "stmt_depth": 6
+   },
+   {
+    "title": "Ramsey's Theorem",
+    "stmt_depth": 9
+   }
+  ],
+  "deepest": [
+   {
+    "title": "Isosceles Triangle Theorem",
+    "stmt_depth": 43
+   },
+   {
+    "title": "Sum of the Angles of a Triangle",
+    "stmt_depth": 43
+   },
+   {
+    "title": "The Law of Cosines",
+    "stmt_depth": 43
+   },
+   {
+    "title": "Morley's Theorem",
+    "stmt_depth": 43
+   }
+  ]
+ }
+}

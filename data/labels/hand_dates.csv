@@ -1,0 +1,254 @@
+key,year_stated,year_proved,confidence,note
+wQ11518,-500,-500,medium,Pythagorean school; proof in Euclid I.47
+wQ26708,1000,1000,low,al-Karaji for natural exponents; Pascal 1654; Newton general 1665
+wQ132427,1919,1919,high,Rademacher
+wQ132469,1637,1995,high,Fermat margin note; Wiles and Taylor-Wiles published 1995
+wQ137164,1945,1945,medium,Besicovitch
+wQ172298,1905,1905,medium,Lasker for polynomial rings; Noether general 1921
+wQ179208,1854,1854,high,Cayley
+wQ179467,1807,1829,medium,Fourier memoir; Dirichlet first convergence proof
+wQ180345X,1637,1637,low,rational root test known to Descartes
+wQ180345,1637,1637,low,rational root test known to Descartes
+wQ182505,1763,1763,high,Bayes essay published posthumously
+wQ188295,1640,1736,high,Fermat letter; Euler first published proof
+wQ189136,1797,1797,medium,Lagrange; Cauchy modern form 1823
+wQ190391,1733,1901,medium,de Moivre binomial case; Lyapunov general proof
+wQ190556,1722,1748,medium,de Moivre; Euler proof via exponential
+wQ191693,1910,1910,low,Lebesgue; general measures later
+wQ192760,1629,1799,high,Girard statement; Gauss dissertation
+wQ193286,1691,1691,high,Rolle
+wQ193878,400,400,low,Sunzi Suanjing 3rd to 5th century
+wQ193910,1763,1763,high,Euler totient theorem
+wQ203565,1545,1545,medium,Cardano Ars Magna (del Ferro and Tartaglia earlier)
+wQ213603,1678,1678,high,Giovanni Ceva
+wQ220680,1922,1922,high,Banach
+wQ226014,1890,1890,high,Poincare
+wQ245098,1817,1817,high,Bolzano
+wQ253214,1895,1895,medium,Borel countable covers; Heine 1872
+wQ258374,1914,1914,medium,Caratheodory criterion
+wQ276082,1770,1771,medium,Waring states it for Wilson; Lagrange proof
+wQ282649,1741,1750,medium,Euler
+wQ285719,-600,-600,medium,Thales by tradition; Euclid III.31
+wQ288465,1887,1887,low,folklore of permutation groups; Frobenius era
+wQ303402,1884,1884,low,Sylvester law of nullity
+wQ318767,1826,1826,high,Abel
+wQ338886,1762,1826,medium,Lagrange; Ostrogradsky general proof
+wQ420714,1998,1998,high,Akra and Bazzi
+wQ422187,1958,1958,medium,Nerode 1958; Myhill 1957
+wQ459547,150,150,high,Almagest
+wQ468391,1817,1817,medium,Bolzano; Weierstrass 1860s
+wQ470877,1730,1730,high,de Moivre and Stirling
+wQ472883,1783,1801,medium,Euler and Legendre statements; Gauss Disquisitiones
+wQ474881,1891,1891,high,Cantor diagonal paper
+wQ476776,1545,1545,medium,Ferrari published in Ars Magna
+wQ505798,1771,1771,medium,Lagrange on permutations
+wQ510197,1947,1947,high,Tutte
+wQ530152,1890,1890,medium,Picard; Lindelof 1894
+wQ536640,1935,1935,high,Philip Hall
+wQ537618,1932,1932,medium,Banach sequential form; Alaoglu general 1940
+wQ550402,1798,1837,medium,Legendre conjecture; Dirichlet proof
+wQ570779,1615,1615,low,Viete; Girard 1629 general
+wQ576478,1844,1844,high,Cauchy 1844; Liouville 1847
+wQ595466,1878,1878,high,Dini
+wQ609612,1928,1928,medium,Knaster and Tarski for power sets; Tarski general 1955
+wQ619985,1697,1697,low,de Moivre; Leibniz correspondence earlier
+wQ632546,1845,1852,high,Bertrand; Chebyshev
+wQ642620,1940,1940,high,Krein and Milman
+wQ643826,1925,1925,high,Slutsky
+wQ656198,1898,1898,medium,Maschke
+wQ656645,1890,1890,high,Hilbert
+wQ656772,1858,1878,high,Cayley memoir; Frobenius general proof
+wQ657482,1799,1824,high,Ruffini; Abel
+wQ660799,1875,1875,high,Darboux
+wQ670235,-300,1801,medium,Euclid VII.30 to 32; Gauss Disquisitiones
+wQ716171,1961,1961,high,Erdos Ginzburg Ziv
+wQ718875,1961,1961,high,proved 1938 published 1961
+wQ720469,1935,1935,high,Chevalley 1935; Warning 1936
+wQ727102,1636,1636,low,Fermat method of maxima and minima
+wQ739403,1746,1746,high,Matthew Stewart
+wQ752375,1860,1860,medium,Weierstrass; Bolzano 1830s unpublished
+wQ756946,1621,1770,high,Bachet edition of Diophantus; Lagrange
+wQ764287,1927,1927,high,van der Waerden (Baudet conjecture)
+wQ765987,1872,1872,medium,Heine; Dirichlet lectures 1854
+wQ776578,1907,1907,medium,Wedderburn; Artin 1927
+wQ791663,1894,1894,low,Rayleigh; Beatty problem 1926
+wQ810431,1650,1735,high,Mengoli; Euler
+wQ842953,1904,1904,low,Lebesgue
+wQ848375,1831,1831,medium,Cauchy analytic case; Dini real case 1878
+wQ853067,1657,1768,medium,Fermat challenge; Lagrange existence proof
+wQ859122,1821,1888,medium,Cauchy; Hadamard rediscovery and proof
+wQ866116,1927,1927,high,Hahn; Banach 1929
+wQ869647,1930,1930,high,Szpilrajn
+wQ872088,1936,1936,low,Stone representation era
+wQ877489,-200,-200,medium,Apollonius of Perga
+wQ914517,1640,1749,high,Fermat letter to Mersenne; Euler
+wQ931001,1878,1878,low,Dini era
+wQ939927,1937,1937,medium,Stone generalisation of Weierstrass 1885
+wQ943246,1905,1905,high,Wedderburn
+wQ944297,1929,1929,medium,Banach and Schauder
+wQ967972,1880,1880,low,19th century complex analysis
+wQ976607,1935,1935,high,Erdos and Szekeres
+wQ978688,1931,1931,high,Gershgorin
+wQ1008566,1836,1874,medium,Gauss note; Lucas proof
+wQ1032886,1963,1963,high,Hales and Jewett
+wQ1033910,1887,1897,medium,Cantor statement; Bernstein proof
+wQ1038716,1850,1850,low,19th century complex analysis
+wQ1047749,1941,1941,high,Turan
+wQ1050203,1880,1880,low,Cantor nested sets
+wQ1052678,1899,1899,high,Baire thesis
+wQ1057919,1872,1872,high,Sylow
+wQ1065257,1821,1821,low,ancient method of exhaustion; Cauchy era formal limit
+wQ1065966,1927,1927,low,Noether general form; Holder 1889 for groups
+wQ1067156,1908,1908,low,Lebesgue
+wQ1067156X,1902,1902,low,Lebesgue thesis; Arzela 1885 Riemann case
+wQ1068085,1932,1932,medium,Banach
+wQ1068283,1915,1915,high,Lowenheim; Skolem 1920
+wQ1068976,1893,1893,high,Hilbert
+wQ1077462,1905,1905,high,Julius Konig
+wQ1082910,1748,1748,high,Euler
+wQ1097021,1889,1889,medium,Minkowski
+wQ1137014,1930,1930,medium,Tychonoff; general 1935
+wQ1137206,1715,1797,medium,Taylor; Lagrange remainder
+wQ1139041,1845,1845,high,Cauchy
+wQ1140119,1886,1886,high,Morera
+wQ1148215,1964,1964,high,Mitchell
+wQ1149022,1907,1907,high,Fubini
+wQ1149458,1930,1930,high,Godel countable case; Malcev general 1936
+wQ1153584,1906,1906,medium,Beppo Levi
+wQ1186808,1878,1878,high,Lucas
+wQ1187646,1889,1889,low,Holder quotient groups
+wQ1188392,1952,1952,medium,Lekkerkerker; Zeckendorf published 1972
+wQ1191319,1930,1930,medium,Nikodym general; Radon 1913 for Rn
+wQ1191709,1911,1911,high,Egorov; Severini 1910
+wQ1194053,1925,1925,high,Urysohn
+wQ1217677,1670,1823,medium,Barrow Newton Leibniz; Cauchy rigorous proof
+wQ1227702,1846,1846,high,Dirichlet
+wQ1227703,1842,1842,high,Dirichlet
+wQ1243340,1946,1946,high,Birkhoff
+wQ1259814,1921,1927,medium,Nielsen finite case; Schreier general
+wQ1306095,1936,1936,medium,Whitney weak form
+wQ1346677,1915,1915,high,Tietze
+wQ1357684,1907,1907,medium,Riesz and Frechet
+wQ1426292,1927,1927,high,Banach and Steinhaus
+wQ1443036,1799,1799,high,Parseval
+wQ1457052,1904,1904,high,Zermelo
+wQ1471282,1921,1921,high,Radon
+wQ1472120,1910,1910,high,Hellinger and Toeplitz
+wQ1477053,1883,1895,medium,Ascoli; Arzela
+wQ1506253,-300,-300,high,Euclid IX.20
+wQ1535225,1955,1955,high,Los
+wQ1551745,1950,1950,medium,Woodbury
+wQ1566341,1974,1974,high,Hindman
+wQ1568811,1921,1921,high,Hahn
+wQ1632433,1913,1913,medium,Helly proved 1913 published 1923
+wQ1752621,1852,1852,high,Sylvester
+wQ1766814,1938,1938,medium,Kleene
+wQ1816952,1905,1905,high,Schur
+wQ1893717,1953,1953,high,Rice
+wQ1933521,1938,1938,high,Kleene
+wQ1966978,1925,1925,medium,Paul Levy
+wQ2027347,1953,1953,low,Doob
+wQ2093886,1831,1831,low,Galois; Steinitz general 1910
+wQ2096184,1910,1910,high,Plancherel
+wQ2226625,1565,1565,high,Commandino
+wQ2226677,1938,1938,high,Mazur; Gelfand 1941
+wQ2226786,1928,1928,high,Sperner
+wQ2226800,1904,1937,medium,Schur special case; Zassenhaus general
+wQ2226868,-300,-300,medium,Euclid VI.8
+wQ2253746,1887,1887,high,Bertrand
+wQ2267175,-300,-300,medium,Euclid III.36
+wQ2275191,1910,1910,medium,Lebesgue
+wQ2379132,1946,1946,high,Cohen and Seidenberg
+wQ2471737,1907,1907,high,Caratheodory
+wQ2525646,1869,1889,high,Jordan; Holder
+wQ2631152,1918,1918,low,Caratheodory
+wQ2919401,1916,1916,high,Ostrowski
+wQ3229335,1897,1897,low,Borel
+wQ3229352,1908,1908,high,Vitali
+wQ3527102,1963,1963,high,Kruskal; Katona 1968
+wQ3527118,1958,1958,high,Mahler
+wQ3527166,1920,1920,high,Steinhaus
+wQ3527189,1927,1927,low,correspondence theorem; Noether era
+wQ3527205,1888,1888,low,Peano era for finite dimension; Steinitz 1913 exchange
+wQ3527215,1934,1934,low,Riesz era; Levi 1906
+wQ3527217,1923,1923,high,Marcel Riesz
+wQ3527219,1886,1886,medium,Weierstrass
+wQ3527230,1840,1840,high,von Staudt and Clausen
+wQ3527241,1928,1928,high,Krull
+wQ3527250,1896,1896,low,Hadamard three-circle era
+wQ3527263,1952,1952,low,Kleene metamathematics
+wQ3984053,1822,1822,low,Fourier
+wQ4116459,1956,1956,high,Niven
+wQ4378868,1908,1908,high,Phragmen and Lindelof
+wQ4695203,1978,1978,high,Ahlswede and Daykin
+wQ4830725,1966,1966,medium,Grothendieck EGA IV; Ax 1968
+wQ4878586,1967,1967,high,Beck thesis
+wQ4950096,1949,1949,high,Bourbaki; Witt 1951
+wQ4971339,,,unknown,no reliable date known
+wQ513028,1624,1624,medium,Bachet for integers; Bezout polynomials 1779
+wQ5165492,1943,1943,high,Mann and Wald
+wQ5171652,1974,1974,high,Ajtai and Szemeredi
+wQ5421989,-300,-300,medium,Euclid I.16
+wQ5437947,1906,1906,medium,Fatou
+wQ5445112,1970,1970,high,Fernique
+wQ5463860,1953,1953,high,D. G. Higman
+wQ5504427,1966,1966,high,Erdos Renyi Sos
+wQ5566491,1883,1883,high,Glaisher
+wQ5638886,1907,1907,high,Hans Hahn
+wQ6783821,1981,1981,high,Stothers; Mason 1983
+wQ6813106,1896,1896,medium,Mellin
+wQ7208500,1837,1837,high,Poisson
+wQ7249519,1956,1956,high,Prokhorov
+wQ7432915,,,unknown,no reliable date known
+wQ7433182,1979,1979,medium,Zippel; Schwartz 1980; DeMillo and Lipton 1978
+wQ7660749,1851,1851,high,Sylvester
+wQ7888360,1930,1930,low,van der Waerden Moderne Algebra from Noether; Kronecker 1870 for abelian groups
+wQ9993851,1954,1954,high,Lax and Milgram
+wQ11352023,1907,1907,high,Vitali
+wQ16251580,1953,1970,medium,Davis conjecture; Matiyasevich
+wQ17005116,1937,1937,high,Garrett Birkhoff
+wQ17098298,1945,1945,high,Jacobson
+wQ18206266,-300,1747,medium,Euclid IX.36; Euler converse published 1849
+wQ20971632,1876,1876,medium,Sophus Lie
+wQ22952648,1874,1874,high,Cantor
+wQ25378679,1755,1755,medium,Euler Institutiones calculi differentialis
+wQ25378690,1949,1949,high,Ionescu Tulcea
+wQ107710112,1895,1895,high,Cantor
+f1,-500,-500,low,Pythagorean school (Hippasus by tradition)
+f3,1874,1874,high,Cantor
+f9,-250,-250,high,Archimedes Measurement of a Circle
+f18,1844,1844,high,Liouville
+f23,-300,-300,medium,Euclid X.29 lemma
+f26,1674,1674,medium,Leibniz; Madhava earlier; Gregory 1671
+f27,-300,-300,high,Euclid I.32
+f34,1350,1350,high,Oresme
+f38,1821,1821,medium,Cauchy general n
+f42,1672,1672,high,Leibniz for Huygens
+f52,-200,-200,low,Pingala combinatorics
+f54,1736,1736,high,Euler
+f55,-300,-300,high,Euclid III.35
+f57,60,60,high,Heron of Alexandria
+f58,850,850,low,Mahavira
+f59,1909,1933,medium,Borel strong law; Kolmogorov iid
+f64,1696,1696,high,L'Hopital textbook (Bernoulli 1694)
+f65,-300,-300,medium,Euclid I.5
+f66,-300,-300,medium,Euclid IX.35
+f68,-300,-300,low,ancient
+f69,-300,-300,high,Euclid VII.2
+f74,1654,1654,low,Pascal; Maurolico 1575
+f76,1807,1829,medium,Fourier; Dirichlet
+f77,1713,1713,medium,Jacob Bernoulli Ars Conjectandi
+f78,1821,1821,medium,Cauchy; Schwarz 1888 integrals
+f81,1737,1737,high,Euler
+f82,1940,1940,high,Brooks Smith Stone Tutte
+f85,,,unknown,no reliable date known
+f86,1902,1902,high,Lebesgue thesis
+f88,1708,1708,high,Montmort
+f89,1637,1637,medium,Descartes
+f91,-300,-300,high,Euclid I.20
+f93,1939,1939,medium,von Mises
+f94,-300,-300,medium,Euclid II.12 and II.13
+f96,1718,1718,medium,de Moivre
+f97,1750,1750,high,Cramer
+f99,1733,1777,high,Buffon
+f100,1637,1828,medium,Descartes; Gauss proof

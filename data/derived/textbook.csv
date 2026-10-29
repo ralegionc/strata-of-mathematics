@@ -1,0 +1,21 @@
+name,key,title,year_stated,textbook_depth,textbook_size,textbook_depth_numbers,textbook_uses_real,mathlib_decl,mathlib_depth,mathlib_size,mathlib_depth_numbers,mathlib_uses_real
+pythagoras,wQ11518,Pythagorean theorem,-500.0,23,200,3,True,EuclideanGeometry.dist_sq_eq_dist_sq_add_dist_sq_iff_angle_eq_pi_div_two,38,480,23,True
+pythagoras_int,wQ11518,Pythagorean theorem,-500.0,8,57,4,False,EuclideanGeometry.dist_sq_eq_dist_sq_add_dist_sq_iff_angle_eq_pi_div_two,38,480,23,True
+thales,wQ285719,Thales's theorem,-600.0,23,200,3,True,EuclideanGeometry.Sphere.thales_theorem,38,530,23,True
+heron,f57,Heron’s Formula,60.0,23,201,3,True,Theorems100.heron,38,480,23,True
+euclid_primes,wQ1506253,Euclid's theorem,-300.0,3,17,2,False,Nat.exists_infinite_primes,7,34,7,False
+sqrt_two_irrational,f1,The Irrationality of the Square Root of 2,-500.0,12,76,3,False,irrational_sqrt_two,28,275,13,True
+fermat_little,wQ188295,Fermat's little theorem,1640.0,7,51,7,False,ZMod.pow_card_sub_one_eq_one,17,164,9,False
+wilson,wQ276082,Wilson's theorem,1770.0,7,37,7,False,ZMod.wilsons_lemma,17,168,9,False
+crt,wQ193878,Chinese remainder theorem,400.0,10,45,1,False,Ideal.quotientInfRingEquivPiQuotient,11,247,11,False
+bezout,wQ513028,Bézout's identity,1624.0,10,55,3,False,Nat.gcd_eq_gcd_ab,12,64,6,False
+two_squares,wQ914517,Fermat's theorem on sums of two squares,1640.0,7,50,7,False,Nat.Prime.sq_add_sq,7,52,7,False
+geometric_sum,f66,Sum of a Geometric Series,-300.0,13,129,7,False,geom_sum_Ico,17,157,8,False
+arithmetic_sum,f68,Sum of an arithmetic series,-300.0,7,55,7,False,Finset.sum_range_id,7,72,7,False
+triangle,f91,The Triangle Inequality,-300.0,23,202,7,True,norm_add_le,29,261,12,True
+am_gm,f38,Arithmetic Mean/Geometric Mean,1821.0,23,220,4,True,Real.geom_mean_le_arith_mean_weighted,39,392,24,True
+binomial,wQ26708,Binomial theorem,1000.0,7,68,7,False,add_pow,7,69,7,False
+ivt,wQ245098,Intermediate value theorem,1817.0,23,202,7,True,intermediate_value_Icc,11,132,11,False
+fta,wQ192760,Fundamental theorem of algebra,1629.0,25,264,13,True,Complex.isAlgClosed,26,351,15,True
+area_circle,f9,The Area of a Circle,-250.0,53,983,38,True,Theorems100.area_disc,46,916,31,True
+cauchy_schwarz,f78,The Cauchy-Schwarz Inequality,1821.0,23,234,8,True,inner_mul_inner_self_le,33,361,16,True

@@ -1,0 +1,1105 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<link rel="shortcut icon" href="../pics/favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="../css/freek.css"/>
+<title>Formalizing 100 Theorems in HOL Light</title>
+</head>
+<body>
+<div class="body">
+<p>
+ 1. <a name="1">The Irrationality of the Square Root of 2</a><br/>
+    <a href="../comparison/files/hol.ml">SQRT_2_IRRATIONAL</a>
+</p>
+<pre>
+  |- ~rational(sqrt(&amp;2))
+</pre>
+<p>
+ 2. <a name="2">Fundamental Theorem of Algebra</a><br/>
+    FTA
+</p>
+<pre>
+  |- !a n. a(0) = Cx(&0) \/ ~(!k. k IN 1..n ==> a(k) = Cx(&0))
+           ==> ?z. vsum(0..n) (\i. a(i) * z pow i) = Cx(&0)
+</pre>
+<p>
+ 3. <a name="3">The Denumerability of the Rational Numbers</a><br/>
+    DENUMERABLE_RATIONALS
+</p>
+<pre>
+  |- denumerable { x:real | rational(x)}
+</pre>
+<p>
+ 4. <a name="4">Pythagorean Theorem</a><br/>
+    PYTHAGORAS
+</p>
+<pre>
+  |- !A B C:real^2.
+          orthogonal (A - B) (C - B)
+          ==&gt; norm(C - A) pow 2 = norm(B - A) pow 2 + norm(C - B) pow 2
+</pre>
+<p>
+ 5. <a name="5">Prime Number Theorem</a><br/>
+    PNT
+</p>
+<pre>
+  |- ((\n. &amp;(CARD {p | prime p /\ p &lt;= n}) / (&amp;n / log(&amp;n)))
+      ---&gt; &amp;1) sequentially
+</pre>
+<p>
+ 6. <a name="6">G&ouml;del's Incompleteness Theorem</a><br/>
+    G1_TRAD
+</p>
+<pre>
+  |- !A. consistent A /\
+         complete_for (SIGMA 1 INTER closed) A /\
+         definable_by (SIGMA 1) (IMAGE gform A)
+         ==&gt; ?G. PI 1 G /\ closed G /\ true G /\ ~(A |-- G) /\
+                 (sound_for (SIGMA 1 INTER closed) A ==&gt; ~(A |-- Not G))
+</pre>
+<p>
+ 7. <a name="7">Law of Quadratic Reciprocity</a><br/>
+    RECIPROCITY_LEGENDRE
+</p>
+<pre>
+ |- !p q. prime p /\ prime q /\ ODD p /\ ODD q /\ ~(p = q)
+          ==&gt; legendre(p,q) * legendre(q,p) =
+              --(&amp;1) pow ((p - 1) DIV 2 * (q - 1) DIV 2)
+</pre>
+<p>
+ 8. <a name="8">The Impossibility of Trisecting the Angle and Doubling the Cube</a><br/>
+    TRISECT_60_DEGREES
+</p>
+<pre>
+  |- !y. ~(constructible(vector[cos(pi / &amp;9); y]))
+</pre>
+<p>
+    DOUBLE_THE_CUBE
+</p>
+<pre>
+  |- !x. x pow 3 = &amp;2 ==&gt; ~(constructible(vector[x; &amp;0]))
+</pre>
+<p>
+ 9. <a name="9">The Area of a Circle</a><br/>
+    AREA_OF_CIRCLE
+</p>
+<pre>
+  |- !a:real^2 r.
+          measurable {z | dist(a,z) &lt;= r} /\
+          (&amp;0 &lt;= r ==&gt; measure {z | dist(a,z) &lt;= r} = pi * r pow 2)
+</pre>
+<p>
+ 10. <a name="10">Euler's Generalization of Fermat's Little Theorem</a><br/>
+     FERMAT_LITTLE
+</p>
+<pre>
+  |- !a n. coprime(a,n) ==&gt; (a EXP (phi n) == 1) (mod n)
+</pre>
+<p>
+ 11. <a name="11">The Infinitude of Primes</a><br/>
+     PRIMES_INFINITE
+</p>
+<pre>
+  |- INFINITE {p | prime p}
+</pre>
+<p>
+ 12. <a name="12">The Independence of the Parallel Postulate</a><br/>
+     AXIOM_10_EUCLIDEAN
+</p>
+<pre>
+  |- !a b c d t:real^N.
+          between d (a,t) /\ between d (b,c) /\ ~(a = d)
+          ==&gt; ?x y. between b (a,x) /\ between c (a,y) /\ between t (x,y)
+</pre>
+<p>
+     NOT_AXIOM_10_NONEUCLIDEAN
+</p>
+<pre>
+  |- ~(!a b c d t.
+        B a d t /\ B b d c /\ ~(a = d) ==&gt; ?x y. B a b x /\ B a c y /\ B x t y
+</pre>
+<p>
+ 13. <a name="13">Polyhedron Formula</a><br/>
+     EULER_RELATION
+</p>
+<pre>
+  |- !p:real^3-&gt;bool.
+         polytope p /\ aff_dim p =&amp;3
+         ==&gt;  (CARD {v | v face_of p /\ aff_dim(v) =&amp;0} +
+              CARD {f | f face_of p /\ aff_dim(f) =&amp;2}) -
+             CARD {e | e face_of p /\ aff_dim(e) =&amp;1} = 2
+</pre>
+<p>
+ 14. <a name="14">Euler's Summation of 1 + (1/2)^2 + (1/3)^2 + ....</a><br/>
+     EULER_HARMONIC_SUM
+</p>
+<pre>
+  |- (\m. inv (&amp;(m + 1) pow 2)) sums pi pow 2 / &amp;6
+</pre>
+<p>
+ 15. <a name="15">Fundamental Theorem of Integral Calculus</a><br/>
+     FTC1
+</p>
+<pre>
+  |- !f f' a b. a &lt;= b /\ (!x. a &lt;= x /\ x &lt;= b ==&gt; (f diffl f'(x))(x))
+          ==&gt; defint(a,b) f' (f(b) - f(a))
+</pre>
+<p>
+ 17. <a name="17">De Moivre's Theorem</a><br/>
+     DEMOIVRE
+</p>
+<pre>
+  |- !t n. (Cx(cos t) + ii * Cx(sin t)) pow n =
+           Cx(cos(&amp;n * t)) + ii * Cx(sin(&amp;n * t))
+</pre>
+<p>
+ 18. <a name="18">Liouville's Theorem and the Construction of Trancendental Numbers</a><br/>
+     LIOUVILLE
+</p>
+<pre>
+  |- !x. algebraic x
+         ==&gt; ?n c. c &gt; &amp;0 /\
+                   !p q. ~(q = 0) ==&gt; &amp;p / &amp;q = x \/
+                                      abs(x - &amp;p / &amp;q) &gt; c / &amp;q pow n
+</pre>
+<p>
+     TRANSCENDENTAL_LIOUVILLE
+</p>
+<pre>
+  |- transcendental(liouville)
+</pre>
+<p>
+ 19. <a name="19">Four Squares Theorem</a><br/>
+     LAGRANGE_INT
+</p>
+<pre>
+  |- !a. &amp;0 &lt;= a &lt;=&gt; ?w x y z. a = w pow 2 + x pow 2 + y pow 2 + z pow 2
+</pre>
+<p>
+ 20. <a name="20">All Primes (1 mod 4) Equal the Sum of Two Squares</a><br/>
+    SUM_OF_TWO_SQUARES
+</p>
+<pre>
+  |- !p k. prime(p) /\ (p = 4 * k + 1) ==&gt; ?x y. p = x EXP 2 + y EXP 2
+</pre>
+<p>
+ 21. <a name="21">Green's Theorem</a><br/>
+    GREEN_THEOREM_CURL
+</p>
+<pre>
+ |- !f:real^2-&gt;real^2 g u.
+         g absolutely_continuous_on interval[vec 0,vec 1] /\
+         pathfinish g = pathstart g /\
+         (!z. z IN inside(path_image g) ==&gt; winding_number(g,z) = Cx(&amp;1)) /\
+         open u /\
+         inside(path_image g) UNION path_image g SUBSET u /\
+         f differentiable_on u /\
+         (!h:real^2. (\z. frechet_derivative f (at z) h) continuous_on u)
+         ==&gt; (\z. lift(frechet_derivative f (at z) (basis 1) $1 -
+                       frechet_derivative f (at z) (basis 2) $2))
+             integrable_on inside(path_image g) /\
+             (\t. lift(f(g t)$2 * vector_derivative g (at t) $1 +
+                       f(g t)$1 * vector_derivative g (at t) $2))
+             integrable_on interval[vec 0,vec 1] /\
+             integral (interval[vec 0,vec 1])
+               (\t. lift(f(g t)$2 * vector_derivative g (at t) $1 +
+                         f(g t)$1 * vector_derivative g (at t) $2)) =
+             integral (inside(path_image g))
+               (\z. lift(frechet_derivative f (at z) (basis 1) $1 -
+                         frechet_derivative f (at z) (basis 2) $2))
+</pre>
+<p>
+ 22. <a name="22">The Non-Denumerability of the Continuum</a><br/>
+     UNCOUNTABLE_REALS
+</p>
+<pre>
+  |- ~countable(UNIV:real-&gt;bool)
+</pre>
+<p>
+ 23. <a name="23">Formula for Pythagorean Triples</a><br/>
+     PYTHAG_COCLASSIFY
+</p>
+<pre>
+  |- !u v w. ((u EXP 2) + (v EXP 2) = w EXP 2) /\ coprime(u,v) /\
+                  (EVEN(u) /\ ODD(v) /\ ODD(w)) ==&gt;
+                       ?p q. coprime(p,q) /\
+                             (u = 2 * p * q) /\
+                             (v = (p EXP 2) - (q EXP 2)) /\
+                             (w = (p EXP 2) + (q EXP 2))
+</pre>
+<p>
+ 25. <a name="25">Schroeder-Bernstein Theorem</a><br/>
+     CARD_LE_ANTISYM
+</p>
+<pre>
+  |- !s:A-&gt;bool t:B-&gt;bool. s &lt;=_c t /\ t &lt;=_c s &lt;=&gt; (s =_c t)
+</pre>
+<p>
+ 26. <a name="26">Leibniz's Series for Pi</a><br/>
+     LEIBNIZ_PI
+</p>
+<pre>
+  |- (\n. (-- &amp;1) pow n / &amp;(2 * n + 1)) sums (pi / &amp;4)
+</pre>
+<p>
+ 27. <a name="27">Sum of the Angles of a Triangle</a><br/>
+     TRIANGLE_ANGLE_SUM
+</p>
+<pre>
+  |- !A B C:real^N. ~(A = B /\ B = C /\ A = C)
+                    ==&gt; angle(B,A,C) + angle(A,B,C) + angle(B,C,A) = pi
+</pre>
+<p>
+ 28. <a name="28">Pascal's Hexagon Theorem</a><br/>
+     PASCAL_AFFINE_CIRCLE
+</p>
+<pre>
+  |- !c r x1 x2 x3 x4 x5 x6 x7 x8 x9:real^2.
+          PAIRWISE (\x y. ~(x = y)) [x1;x2;x3;x4;x5;x6] /\
+          dist(c,x1) = r /\ dist(c,x2) = r /\ dist(c,x3) = r /\
+          dist(c,x4) = r /\ dist(c,x5) = r /\ dist(c,x6) = r /\
+          collinear {x1,x9,x5} /\
+          collinear {x1,x8,x6} /\
+          collinear {x2,x9,x4} /\
+          collinear {x2,x7,x6} /\
+          collinear {x3,x8,x4} /\
+          collinear {x3,x7,x5}
+          ==&gt; collinear {x7,x8,x9}
+</pre>
+<p>
+ 29. <a name="29">Feuerbach's Theorem</a><br/>
+     FEUERBACH
+</p>
+<pre>
+  |- !a b c mbc mac mab pbc pac pab ncenter icenter nradius iradius.
+        ~(collinear {a,b,c}) /\
+        midpoint(a,b) = mab /\
+        midpoint(b,c) = mbc /\
+        midpoint(c,a) = mac /\
+        dist(ncenter,mbc) = nradius /\
+        dist(ncenter,mac) = nradius /\
+        dist(ncenter,mab) = nradius /\
+        dist(icenter,pbc) = iradius /\
+        dist(icenter,pac) = iradius /\
+        dist(icenter,pab) = iradius /\
+        collinear {a,b,pab} /\ orthogonal (a - b) (icenter - pab) /\
+        collinear {b,c,pbc} /\ orthogonal (b - c) (icenter - pbc) /\
+        collinear {a,c,pac} /\ orthogonal (a - c) (icenter - pac)
+        ==&gt; ncenter = icenter /\ nradius = iradius \/
+            ?!x:real^2. dist(ncenter,x) = nradius /\ dist(icenter,x) = iradius
+</pre>
+<p>
+ 30. <a name="30">The Ballot Problem</a><br/>
+     BALLOT
+</p>
+<pre>
+  |- all_countings a b =
+           let n = a + b in
+           CARD {f | f IN (1..n --&gt; {A,B}) /\
+                     CARD { i | i IN 1..n /\ f(i) = A} = a /\
+                     CARD { i | i IN 1..n /\ f(i) = B} = b}
+</pre>
+<pre>
+  |- valid_countings a b =
+           let n = a + b in
+           CARD {f | f IN (1..n --&gt; {A,B}) /\
+                     CARD { i | i IN 1..n /\ f(i) = A} = a /\
+                     CARD { i | i IN 1..n /\ f(i) = B} = b /\
+                     !m. 1 &lt;= m /\ m &lt;= n
+                         ==&gt; CARD { i | i IN 1..m /\ f(i) = A} &gt;
+                             CARD { i | i IN 1..m /\ f(i) = B}}
+</pre>
+<pre>
+  |- !a b. &amp;(valid_countings a b) =
+              if a &lt;= b then if b = 0 then &amp;1 else &amp;0
+              else (&amp;a - &amp;b) / (&amp;a + &amp;b) *  &amp;(all_countings a b)
+</pre>
+<p>
+ 31. <a name="31">Ramsey's Theorem</a><br/>
+     RAMSEY
+</p>
+<pre>
+  |- !M N C s.
+          INFINITE(s:A-&gt;bool) /\
+          (!t. t SUBSET s /\ t HAS_SIZE N ==&gt; C(t) &lt;= M)
+          ==&gt; ?t c. INFINITE(t) /\ t SUBSET s /\
+                    (!u. u SUBSET t /\ u HAS_SIZE N ==&gt; (C(u) = c))
+</pre>
+<p>
+ 34. <a name="34">Divergence of the Harmonic Series</a><br/>
+     HARMONIC_DIVERGES'
+</p>
+<pre>
+  |- ~(convergent (\n. sum(1..n) (\i. &amp;1 / &amp;i)))
+</pre>
+<p>
+ 35. <a name="35">Taylor's Theorem</a><br/>
+     MCLAURIN
+</p>
+<pre>
+  |- !f diff h n.
+      &amp;0 &lt; h /\
+      0 &lt; n /\
+      (diff(0) = f) /\
+      (!m t. m &lt; n /\ &amp;0 &lt;= t /\ t &lt;= h ==&gt;
+             (diff(m) diffl diff(SUC m)(t))(t)) ==&gt;
+     (?t. &amp;0 &lt; t /\ t &lt; h /\
+          (f(h) = sum(0,n)(\m. (diff(m)(&amp;0) / &amp;(FACT m)) * (h pow m)) +
+                  ((diff(n)(t) / &amp;(FACT n)) * (h pow n))))
+</pre>
+<p>
+ 36. <a name="36">Brouwer Fixed Point Theorem</a><br/>
+     BROUWER
+</p>
+<pre>
+  |- !f:real^N-&gt;real^N s.
+          compact s /\ convex s /\ ~(s = {}) /\
+          f continuous_on s /\ IMAGE f s SUBSET s
+          ==&gt; ?x. x IN s /\ f x = x
+</pre>
+<p>
+ 37. <a name="37">The Solution of a Cubic</a><br/>
+     CUBIC
+</p>
+<pre>
+  |- ~(a = Cx(&amp;0))
+     ==&gt; let p = (Cx(&amp;3) * a * c - b pow 2) / (Cx(&amp;9) * a pow 2)
+         and q = (Cx(&amp;9) * a * b * c - Cx(&amp;2) * b pow 3 - Cx(&amp;27) * a pow 2 * d) /
+                 (Cx(&amp;54) * a pow 3) in
+         let s = csqrt(q pow 2 + p pow 3) in
+         let s1 = if p = Cx(&amp;0) then ccbrt(Cx(&amp;2) * q) else ccbrt(q + s) in
+         let s2 = --s1 * (Cx(&amp;1) + ii * csqrt(Cx(&amp;3))) / Cx(&amp;2)
+         and s3 = --s1 * (Cx(&amp;1) - ii * csqrt(Cx(&amp;3))) / Cx(&amp;2) in
+         if p = Cx(&amp;0) then
+           a * x pow 3 + b * x pow 2 + c * x + d = Cx(&amp;0) &lt;=&gt;
+              x = s1 - b / (Cx(&amp;3) * a) \/
+              x = s2 - b / (Cx(&amp;3) * a) \/
+              x = s3 - b / (Cx(&amp;3) * a)
+         else
+           ~(s1 = Cx(&amp;0)) /\
+           (a * x pow 3 + b * x pow 2 + c * x + d = Cx(&amp;0) &lt;=&gt;
+               x = s1 - p / s1 - b / (Cx(&amp;3) * a) \/
+               x = s2 - p / s2 - b / (Cx(&amp;3) * a) \/
+               x = s3 - p / s3 - b / (Cx(&amp;3) * a))
+</pre>
+<p>
+ 38. <a name="38">Arithmetic Mean/Geometric Mean</a><br/>
+     AGM_ROOT
+</p>
+<pre>
+  |- !n a. 1 &lt;= n /\ (!i. 1 &lt;= i /\ i &lt;= n ==&gt; &amp;0 &lt;= a(i))
+           ==&gt; root n (product(1..n) a) &lt;= sum(1..n) a / &amp;n
+</pre>
+<p>
+ 39. <a name="39">Solutions to Pell's Equation</a><br/>
+     SOLUTIONS_ARE_XY
+</p>
+<pre>
+  |- !a x y.
+      ~(a = 0) /\
+      (x EXP 2 = (a EXP 2 - 1) * y EXP 2 + 1)
+      ==> ?n. (x = X a n) /\ (y = Y a n)
+</pre>
+<p>
+ 40. <a name="40">Minkowski's Fundamental Theorem</a><br/>
+     MINKOWSKI
+</p>
+<pre>
+  |- !s:real^N-&gt;bool.
+          convex s /\
+          bounded s /\
+          (!x. x IN s ==&gt; (--x) IN s) /\
+          &amp;2 pow dimindex(:N) &lt; measure s
+          ==&gt; ?u. ~(u = vec 0) /\
+                  (!i. 1 &lt;= i /\ i &lt;= dimindex(:N) ==&gt; integer(u$i)) /\
+                  u IN s
+</pre>
+<p>
+ 42. <a name="42">Sum of the Reciprocals of the Triangular Numbers</a><br/>
+     TRIANGLE_CONVERGES'
+</p>
+<pre>
+  |- (\n. sum(1..n) (\k. &amp;1 / &amp;(triangle k))) --&gt; &amp;2
+</pre>
+<p>
+ 43. <a name="43">The Isoperimetric Theorem</a><br/>
+     ISOPERIMETRIC_THEOREM
+</p>
+<pre>
+  |- !L g.
+        rectifiable_path g /\
+        simple_path g /\
+        pathfinish g = pathstart g /\
+        path_length g = L
+        ==> measure(inside (path_image g)) &lt;= L pow 2 / (&amp;4 * pi) /\
+            (measure(inside (path_image g)) = L pow 2 / (&amp;4 * pi)
+             ==> (?a r. path_image g = sphere (a,r)))
+</pre>
+<p>
+ 44. <a name="44">The Binomial Theorem</a><br/>
+     REAL_BINOMIAL_THEOREM
+</p>
+<pre>
+  |- !n. (x + y) pow n = sum(0..n) (\k. &amp;(binom(n,k)) * x pow k * y pow (n - k))
+</pre>
+<p>
+ 45. <a name="45">The Partition Theorem</a><br/>
+     EULER_PARTITION_THEOREM
+</p>
+<pre>
+  |- FINITE {p | p partitions n /\ !i. p(i) &lt;= 1} /\
+     FINITE {p | p partitions n /\ !i. ~(p(i) = 0) ==&gt; ODD i} /\
+     CARD {p | p partitions n /\ !i. p(i) &lt;= 1} =
+     CARD {p | p partitions n /\ !i. ~(p(i) = 0) ==&gt; ODD i}
+</pre>
+<p>
+ 46. <a name="46">The Solution of the General Quartic Equation</a><br/>
+     QUARTIC_SOLUTION
+</p>
+<pre>
+  |- y pow 3 - b * y pow 2 + (a * c - Cx(&amp;4) * d) * y -
+       a pow 2 * d + Cx(&amp;4) * b * d - c pow 2 = Cx(&amp;0)
+     ==&gt; let R = csqrt(a pow 2 / Cx(&amp;4) - b + y) in
+         let s = csqrt(y pow 2 - Cx(&amp;4) * d) in
+         let D = csqrt(if R = Cx(&amp;0)
+                       then Cx(&amp;3) * a pow 2 / Cx(&amp;4) - Cx(&amp;2) * b + Cx(&amp;2) * s
+                       else Cx(&amp;3) * a pow 2 / Cx(&amp;4) - R pow 2 - Cx(&amp;2) * b +
+                       (Cx(&amp;4) * a * b - Cx(&amp;8) * c - a pow 3) / (Cx(&amp;4) * R)) in
+         let E = csqrt(if R = Cx(&amp;0)
+                       then Cx(&amp;3) * a pow 2 / Cx(&amp;4) - Cx(&amp;2) * b - Cx(&amp;2) * s
+                       else Cx(&amp;3) * a pow 2 / Cx(&amp;4) - R pow 2 - Cx(&amp;2) * b -
+                            (Cx(&amp;4) * a * b - Cx(&amp;8) * c - a pow 3) /
+                            (Cx(&amp;4) * R)) in
+         x pow 4 + a * x pow 3 + b * x pow 2 + c * x + d = Cx(&amp;0) &lt;=&gt;
+         x = --a / Cx(&amp;4) + R / Cx(&amp;2) + D / Cx(&amp;2) \/
+         x = --a / Cx(&amp;4) + R / Cx(&amp;2) - D / Cx(&amp;2) \/
+         x = --a / Cx(&amp;4) - R / Cx(&amp;2) + E / Cx(&amp;2) \/
+         x = --a / Cx(&amp;4) - R / Cx(&amp;2) - E / Cx(&amp;2)
+</pre>
+<p>
+ 48. <a name="48">Dirichlet's Theorem</a><br/>
+     DIRICHLET
+</p>
+<pre>
+  |- !d k. 1 &lt;= d /\ coprime(k,d)
+           ==&gt; INFINITE {p | prime p /\ (p == k) (mod d)}
+</pre>
+<p>
+ 49. <a name="49">The Cayley-Hamilton Theorem</a><br/>
+     CAYLEY_HAMILTON
+</p>
+<pre>
+  |- !A. msum(0..dimindex(:N)) (\i. char_poly A i %% A mpow i) = mat 0
+</pre>
+<p>
+ 50. <a name="48">The Number of Platonic Solids</a><br/>
+     PLATONIC_SOLIDS
+</p>
+<pre>
+  |- !m n.
+     (?p:real^3-&gt;bool.
+       polytope p /\ aff_dim p =&amp;3 /\
+       (!f. f face_of p /\ aff_dim(f) =&amp;2
+            ==&gt;  CARD {e | e face_of p /\ aff_dim(e) =&amp;1 /\ e SUBSET f} =
+            m) /\
+       (!v. v face_of p /\ aff_dim(v) =&amp;0
+            ==&gt;  CARD {e | e face_of p /\ aff_dim(e) =&amp;1 /\ v SUBSET e} =
+            n))
+     &lt;=&gt;  m = 3 /\ n = 3 \/       // Tetrahedron
+         m = 4 /\ n = 3 \/       // Cube
+         m = 3 /\ n = 4 \/       // Octahedron
+         m = 5 /\ n = 3 \/       // Dodecahedron
+         m = 3 /\ n = 5          // Icosahedron
+</pre>
+<p>
+ 51. <a name="51">Wilson's Theorem</a><br/>
+     WILSON_EQ
+</p>
+<pre>
+  |- !p. ~(p = 1) ==&gt; (prime p &lt;=&gt; (FACT(p - 1) == p - 1) (mod p))
+</pre>
+<p>
+ 52. <a name="52">The Number of Subsets of a Set</a><br/>
+     HAS_SIZE_POWERSET
+</p>
+<pre>
+  |- !(s:A-&gt;bool) n. s HAS_SIZE n ==&gt; {t | t SUBSET s} HAS_SIZE (2 EXP n)
+</pre>
+<p>
+ 53. <a name="53">Pi is Transcendental</a><br/>
+     pi_is_transcendental
+</p>
+<pre>
+  |- ~algebraic_number (Cx pi)
+</pre>
+<p>
+ 54. <a name="54">Konigsberg Bridges Problem</a><br/>
+     KOENIGSBERG
+</p>
+<pre>
+  |- !G. vertices(G) = {0,1,2,3} /\
+         edges(G) = {10,20,30,40,50,60,70} /\
+         termini G (10) = {0,1} /\
+         termini G (20) = {0,2} /\
+         termini G (30) = {0,3} /\
+         termini G (40) = {1,2} /\
+         termini G (50) = {1,2} /\
+         termini G (60) = {2,3} /\
+         termini G (70) = {2,3}
+         ==&gt; ~(?es a b. eulerian G es (a,b))
+</pre>
+<p>
+ 55. <a name="55">Product of Segments of Chords</a><br/>
+     SEGMENT_CHORDS
+</p>
+<pre>
+  |- !centre radius q r s t b.
+          between b (q,r) /\ between b (s,t) /\
+          length(q,centre) = radius /\ length(r,centre) = radius /\
+          length(s,centre) = radius /\ length(t,centre) = radius
+          ==&gt; length(q,b) * length(b,r) = length(s,b) * length(b,t)
+</pre>
+<p>
+ 56. <a name="56">The Hermite-Lindemann Transcendence Theorem</a><br/>
+     transcendental_if_exp_nonzero_algebraic
+</p>
+<pre>
+  |- !a. algebraic_number a /\ algebraic_number(cexp a)
+         ==&gt; a = Cx(&amp;0)
+</pre>
+<p>
+     zero_sum_algebraic_exp_algebraic
+</p>
+<pre>
+  |- !S B. FINITE S /\
+           S SUBSET algebraic_number /\
+           (!s. s IN S ==&gt; algebraic_number (B s)) /\
+           ring_sum complex_ring S (\s. (B s) * cexp s) = Cx(&amp;0) ==&gt;
+           (!s. s IN S ==&gt; B s = Cx(&amp;0))
+</pre>
+<p>
+ 57. <a name="57">Heron's Formula</a><br/>
+     HERON
+</p>
+<pre>
+  |- !A B C:real^2.
+          let a = dist(C,B)
+          and b = dist(A,C)
+          and c = dist(B,A) in
+          let s = (a + b + c) / &amp;2 in
+          measure(convex hull {A,B,C}) =
+            sqrt(s * (s - a) * (s - b) * (s - c))
+</pre>
+<p>
+ 58. <a name="58">Formula for the Number of Combinations</a><br/>
+     NUMBER_OF_COMBINATIONS
+</p>
+<pre>
+  |- !n m s:A-&gt;bool.
+          s HAS_SIZE n
+          ==&gt; {t | t SUBSET s /\ t HAS_SIZE m} HAS_SIZE binom(n,m)
+</pre>
+<p>
+ 60. <a name="60">Bezout's Theorem</a><br/>
+     INT_GCD_EXISTS_POS
+</p>
+<pre>
+  |- !a b. ?d. &amp;0 &lt;= d /\ d divides a /\ d divides b /\
+               ?x y. d = a * x + b * y
+</pre>
+<p>
+ 61. <a name="61">Theorem of Ceva</a><br/>
+     CEVA
+</p>
+<pre>
+  |- !A B C X Y Z:real^2.
+          ~(collinear {A,B,C}) /\
+          between X (B,C) /\ between Y (C,A) /\ between Z (A,B)
+          ==&gt; (dist(B,X) * dist(C,Y) * dist(A,Z) =
+               dist(X,C) * dist(Y,A) * dist(Z,B) &lt;=&gt;
+               (?P. between P (A,X) /\ between P (B,Y) /\ between P (C,Z)))
+</pre>
+<p>
+ 63. <a name="63">Cantor's Theorem</a><br/>
+     CANTOR_THM
+</p>
+<pre>
+  |- !s:A->bool. s &lt;_c {t | t SUBSET s}
+</pre>
+<p>
+ 64. <a name="64">L'H&ocirc;pital's Rule</a><br/>
+     LHOPITAL
+</p>
+<pre>
+  |- !f g f' g' c L d.
+          &amp;0 &lt; d /\
+          (!x. &amp;0 &lt; abs(x - c) /\ abs(x - c) &lt; d
+               ==&gt; (f diffl f'(x)) x /\ (g diffl g'(x)) x /\ ~(g'(x) = &amp;0)) /\
+          (f --&gt; &amp;0) c /\ (g --&gt; &amp;0) c /\ ((\x. f'(x) / g'(x)) --&gt; L) c
+          ==&gt; ((\x. f(x) / g(x)) --&gt; L) c
+</pre>
+<p>
+ 65. <a name="65">Isosceles Triangle Theorem</a><br/>
+     ISOSCELES_TRIANGLE_THEOREM
+</p>
+<pre>
+  |- !A B C:real^N. dist(A,C) = dist(B,C) ==&gt; angle(C,A,B) = angle(A,B,C)
+</pre>
+<p>
+ 66. <a name="66">Sum of a Geometric Series</a><br/>
+     GP_FINITE
+</p>
+<pre>
+  |- !x. ~(x = &amp;1) ==&gt;
+          !n. (sum(0,n) (\n. x pow n) = ((x pow n) - &amp;1) / (x - &amp;1))
+
+</pre>
+<p>
+     GP
+</p>
+<pre>
+  |- !x. abs(x) &lt; &amp;1 ==&gt; (\n. x pow n) sums inv(&amp;1 - x)
+</pre>
+<p>
+ 67. <a name="67">e is Transcendental</a><br/>
+     transcedental_def
+</p>
+<pre>
+  |- transcedental (x:real) =
+     ~ ? c.
+           (ALL is_int c)
+        /\ ((LENGTH c) &gt; 1)
+        /\ ((poly c x) = &amp;0)
+        /\ (HD c) &gt; &amp;0
+</pre>
+<p>
+     e_DEF
+</p>
+<pre>
+  |- napier_e = exp (&amp;1)
+</pre>
+<p>
+     E_IS_TRANSCEDENTAL
+</p>
+<pre>
+  |- transcedental napier_e
+</pre>
+<p>
+ 68. <a name="68">Sum of an arithmetic series</a><br/>
+     ARITHMETIC_PROGRESSION
+</p>
+<pre>
+  |- !n. 1 &lt;= n
+         ==&gt; nsum(0..n-1) (\i. a + d * i) = (n * (2 * a + (n - 1) * d)) DIV 2
+</pre>
+<p>
+ 69. <a name="69">Greatest Common Divisor Algorithm</a><br/>
+     egcd
+</p>
+<pre>
+  |- egcd(m,n) = if m = 0 then n
+                 else if n = 0 then m
+                 else if m &lt;= n then egcd(m,n - m)
+                 else egcd(m - n,n)
+</pre>
+<p>
+     EGCD
+</p>
+<pre>
+  |- !a b. (egcd (a,b) divides a /\ egcd (a,b) divides b) /\
+           (!e. e divides a /\ e divides b ==&gt; e divides egcd (a,b))
+</pre>
+<p>
+ 70. <a name="70">The Perfect Number Theorem</a><br/>
+     PERFECT_EULER
+</p>
+<pre>
+  |- !n. EVEN(n) /\ perfect(n)
+         ==> ?k. prime(2 EXP k - 1) /\ n = 2 EXP (k - 1) * (2 EXP k - 1)
+</pre>
+<p>
+ 71. <a name="71">Order of a Subgroup</a><br/>
+     GROUP_LAGRANGE_COSETS
+</p>
+<pre>
+  |- !g h ( ** ) i e.
+          group (g,( ** ),i,e:A) /\ subgroup h (g,( ** ),i,e) /\ FINITE g
+          ==> ?q. (CARD(g) = CARD(q) * CARD(h)) /\
+                  (!b. b IN g ==> ?a x. a IN q /\ x IN h /\ (b = a ** x))
+</pre>
+<p>
+ 72. <a name="72">Sylow's Theorem</a><br/>
+     sylow1
+</p>
+<pre>
+  |- !e op i G p.
+            group (G,op,i,e)
+            ==&gt; FINITE G
+            ==&gt; prime p
+            ==&gt; (!n. p EXP n divides CARD G
+                     ==&gt; (?H. subgroup op i H G /\ CARD H = p EXP n))
+</pre>
+<p>
+     sylow2
+</p>
+<pre>
+  |- !e p G op i.
+            group (G,op,i,e)
+            ==&gt; FINITE G
+            ==&gt; prime p
+            ==&gt; (!n H K.
+                     ~(p EXP SUC n divides CARD G)
+                     ==&gt; subgroup op i H G
+                     ==&gt; subgroup op i K G
+                     ==&gt; CARD H = p EXP n
+                     ==&gt; CARD K = p EXP n
+                     ==&gt; (?g. g IN G /\ H = set_op1 (conjg (op,i) g) K)
+</pre>
+<p>
+     sylow3_1
+</p>
+<pre>
+  |- !e p op i G.
+            group (G,op,i,e)
+            ==&gt; FINITE G
+            ==&gt; prime p
+            ==&gt; (!n H.
+                     ~(p EXP SUC n divides CARD G)
+                     ==&gt; subgroup op i H G
+                     ==&gt; CARD H = p EXP n
+                     ==&gt; CARD {K | subgroup op i K G /\ CARD K = p EXP n} =
+                         CARD (cosets op G (normalizer op i G H)))
+</pre>
+<p>
+     sylow3_2
+</p>
+<pre>
+  |- !e op i G p.
+         group (G,op,i,e)
+         ==&gt; FINITE G
+         ==&gt; prime p
+         ==&gt; (!n m.
+                  CARD G = p EXP n * m
+                  ==&gt; coprime (p,m)
+                  ==&gt; CARD {K | subgroup op i K G /\ CARD K = p EXP n} divides m)
+</pre>
+<p>
+     sylow3_3
+</p>
+<pre>
+  |- !e op i G p.
+          group (G,op,i,e)
+          ==&gt; FINITE G
+          ==&gt; prime p
+          ==&gt; (!n m.
+                   CARD G = p EXP n * m
+                   ==&gt; coprime (p,m)
+                   ==&gt; CARD {K | subgroup op i K G /\ CARD K = p EXP n} MOD p = 1)
+</pre>
+<p>
+ 73. <a name="73">Ascending or Descending Sequences</a><br/>
+     ERDOS_SZEKERES
+</p>
+<pre>
+  |- !f:num-&gt;real m n.
+          (?s. s SUBSET (1..m*n+1) /\ s HAS_SIZE (m + 1) /\ mono_on f (&lt;=) s) \/
+          (?s. s SUBSET (1..m*n+1) /\ s HAS_SIZE (n + 1) /\ mono_on f (&gt;=) s)
+</pre>
+<p>
+ 74. <a name="74">The Principle of Mathematical Induction</a><br/>
+     num_INDUCTION
+</p>
+<pre>
+  |- !P. P 0 /\ (!n. P(n) ==&gt; P(SUC n)) ==&gt; (!n. P n)
+</pre>
+<p>
+ 75. <a name="75">The Mean Value Theorem</a><br/>
+     MVT
+</p>
+<pre>
+  |- !f a b. a &lt; b /\
+             (!x. a &lt;= x /\ x &lt;= b ==&gt; f contl x) /\
+             (!x. a &lt; x /\ x &lt; b ==&gt; f differentiable x)
+          ==&gt; ?l z. a &lt; z /\ z &lt; b /\ (f diffl l)(z) /\
+              (f(b) - f(a) = (b - a) * l)
+</pre>
+<p>
+ 76. <a name="76">Fourier Series</a><br/>
+     FOURIER_FEJER_CESARO_SUMMABLE
+</p>
+<pre>
+  |- !f x l r.
+          f absolutely_real_integrable_on real_interval[--pi,pi] /\
+          (!x. f(x + &amp;2 * pi) = f x) /\
+          (f ---&gt; l) (atreal x within {x' | x' &lt;= x}) /\
+          (f ---&gt; r) (atreal x within {x' | x' &gt;= x})
+          ==&gt; ((\n. sum(0..n-1) (\m. sum (0..2*m)
+                                         (\k. fourier_coefficient f k *
+                                              trigonometric_set k x)) / &amp;n)
+               ---&gt; (l + r) / &amp;2)
+              sequentially
+</pre>
+<p>
+ 77. <a name="77">Sum of kth powers</a><br/>
+     SUM_OF_POWERS
+</p>
+<pre>
+  |- !n. sum(0..n) (\k. &amp;k pow m) =
+          (bernpoly(SUC m) (&amp;n + &amp;1) - bernpoly(SUC m) (&amp;0)) / (&amp;m + &amp;1)
+</pre>
+<p>
+ 78. <a name="78">The Cauchy-Schwarz Inequality</a><br/>
+     NORM_CAUCHY_SCHWARZ_ABS
+</p>
+<pre>
+  |- !x:real^N y. abs(x dot y) &lt;= norm(x) * norm(y)
+</pre>
+<p>
+ 79. <a name="79">The Intermediate Value Theorem</a><br/>
+     IVT
+</p>
+<pre>
+  |- !f a b y. a &lt;= b /\
+               (f(a) &lt;= y /\ y &lt;= f(b)) /\
+               (!x. a &lt;= x /\ x &lt;= b ==&gt; f contl x)
+          ==&gt; (?x. a &lt;= x /\ x &lt;= b /\ (f(x) = y))
+</pre>
+<p>
+ 80. <a name="80">The Fundamental Theorem of Arithmetic</a><br/>
+     FTA
+</p>
+<pre>
+  |- !n. ~(n = 0)
+         ==&gt; ?!i. FINITE {p | ~(i p = 0)} /\
+                  (!p. ~(i p = 0) ==&gt; prime p) /\
+                  n = product {p | ~(i p = 0)} (\p. p EXP (i p))
+</pre>
+<p>
+ 81. <a name="81">Divergence of the Prime Reciprocal Series</a><br/>
+     PRIMERECIP_DIVERGES
+</p>
+<pre>
+  |- ~(convergent (\n. sum {p | prime p /\ p &lt;= n} (\p. &amp;1 / &amp;p)))
+</pre>
+<p>
+ 82. <a name="81">Dissection of Cubes (J.E. Littlewood's "elegant" proof)</a><br/>
+     ONLY_TRIVIAL_CUBE_DISSECTION
+</p>
+<pre>
+  |- !D:(real^3-&gt;bool)-&gt;bool.
+          cube_dissection D /\ cube(UNIONS D) ==&gt; D = {UNIONS D}
+</pre>
+<p>
+ 83. <a name="83">The Friendship Theorem</a><br/>
+     FRIENDSHIP
+</p>
+<pre>
+  |- !friend:person-&gt;person-&gt;bool.
+        FINITE(:person) /\
+        (!x. ~(friend x x)) /\
+        (!x y. friend x y ==&gt; friend y x) /\
+        (!x y. ~(x = y) ==&gt; ?!z. friend x z /\ friend y z)
+        ==&gt; ?u. !v. ~(v = u) ==&gt; friend u v
+</pre>
+<p>
+ 84. <a name="84">Morley's Theorem</a><br/>
+     MORLEY
+</p>
+<pre>
+  |- !A B C:real^2 P Q R.
+       ~collinear{A,B,C} /\ {P,Q,R} SUBSET convex hull {A,B,C} /\
+       angle(A,B,R) = angle(A,B,C) / &amp;3 /\
+       angle(B,A,R) = angle(B,A,C) / &amp;3 /\
+       angle(B,C,P) = angle(B,C,A) / &amp;3 /\
+       angle(C,B,P) = angle(C,B,A) / &amp;3 /\
+       angle(C,A,Q) = angle(C,A,B) / &amp;3 /\
+       angle(A,C,Q) = angle(A,C,B) / &amp;3
+       ==&gt; dist(R,P) = dist(P,Q) /\ dist(Q,R) = dist(P,Q)
+</pre>
+<p>
+ 85. <a name="85">Divisibility by 3 Rule</a><br/>
+     DIVISIBILITY_BY_3
+</p>
+<pre>
+  |- 3 divides (nsum(0..n) (\i. 10 EXP i * d(i))) &lt;=&gt;
+     3 divides (nsum(0..n) (\i. d i))
+</pre>
+<p>
+ 86. <a name="86">Lebesgue Measure and Integration</a><br/>
+     MEASURABLE_ON_PREIMAGE_OPEN_HALFSPACE_COMPONENT_GE
+</p>
+<pre>
+  |- !f:real^M-&gt;real^N.
+          f measurable_on (:real^M) &lt;=&gt;
+          !a k. 1 &lt;= k /\ k &lt;= dimindex(:N)
+                ==&gt; lebesgue_measurable {x | f(x)$k &gt;= a}
+</pre>
+<p>
+ 87. <a name="87">Desargues's Theorem</a><br/>
+     DESARGUES_DIRECT
+</p>
+<pre>
+   ~COLLINEAR {A',B,S} /\
+   ~COLLINEAR {A,P,C} /\
+   ~COLLINEAR {A,P,R} /\
+   ~COLLINEAR {A,C,B} /\
+   ~COLLINEAR {A,B,R} /\
+   ~COLLINEAR {C',P,A'} /\
+   ~COLLINEAR {C',P,B} /\
+   ~COLLINEAR {C',P,B'} /\
+   ~COLLINEAR {C',A',S} /\
+   ~COLLINEAR {C',A',B'} /\
+   ~COLLINEAR {P,C,A'} /\
+   ~COLLINEAR {P,C,B} /\
+   ~COLLINEAR {P,A',R} /\
+   ~COLLINEAR {P,B,Q} /\
+   ~COLLINEAR {P,Q,B'} /\
+   ~COLLINEAR {C,B,S} /\
+   ~COLLINEAR {A',Q,B'}
+   ==&gt; COLLINEAR {A,A',P} /\ COLLINEAR {B,B',P} /\ COLLINEAR {C,C',P} /\
+       COLLINEAR {B,C,Q} /\ COLLINEAR {B',C',Q} /\
+       COLLINEAR {A,C,R} /\ COLLINEAR {A',C',R} /\
+       COLLINEAR {A,B,S} /\ COLLINEAR {A',B',S}
+       ==&gt; COLLINEAR {Q,R,S}
+</pre>
+<p>
+ 88. <a name="88">Derangements Formula</a><br/>
+     THE_DERANGEMENTS_FORMULA
+</p>
+<pre>
+  |- !n s. s HAS_SIZE n /\ ~(n = 0)
+           ==&gt; FINITE {p | p deranges s} /\
+               let e = exp(&amp;1) in
+               &amp;(CARD {p | p deranges s}) = round(&amp;(FACT n) / e)
+</pre>
+<p>
+ 89. <a name="89">The Factor and Remainder Theorems</a><br/>
+<!--
+     DIVISION
+</p>
+<pre>
+  |- !m n. ~(n = 0) ==&gt; (m = m DIV n * n + m MOD n) /\ m MOD n &lt; n
+</pre>
+<p>
+-->
+     POLY_LINEAR_DIVIDES
+</p>
+<pre>
+  |- !a p. (poly p a = &amp;0) &lt;=&gt; (p = []) \/ ?q. p = [--a; &amp;1] ** q
+</pre>
+     POLY_LINEAR_REM
+<pre>
+  |- !t h. ?q r. CONS h t = [r] ++ [--a; &amp;1] ** q
+</pre>
+<p>
+ 90. <a name="90">Stirling's Formula</a><br/>
+     STIRLING
+</p>
+<pre>
+  |- (\n. ln(&amp;(FACT n)) - ((&amp;n + &amp;1 / &amp;2) * ln(&amp;n) - &amp;n + ln(&amp;2 * pi) / &amp;2))
+     --&gt; &amp;0
+</pre>
+<p>
+ 91. <a name="91">The Triangle Inequality</a><br/>
+     NORM_TRIANGLE
+</p>
+<pre>
+  |- !x y. norm(x + y) &lt;= norm(x) + norm(y)
+</pre>
+<p>
+ 92. <a name="92">Pick's Theorem</a><br/>
+     PICK
+</p>
+<pre>
+|- !p:(real^2)list.
+        (!x. MEM x p ==&gt; integral_vector x) /\
+        simple_path (polygonal_path p) /\
+        pathfinish (polygonal_path p) = pathstart (polygonal_path p)
+        ==&gt; measure(inside(path_image(polygonal_path p))) =
+                &amp;(CARD {x | x IN inside(path_image(polygonal_path p)) /\
+                            integral_vector x}) +
+                &amp;(CARD {x | x IN path_image(polygonal_path p) /\
+                            integral_vector x}) / &amp;2 - &amp;1
+</pre>
+<p>
+ 93. <a name="93">The Birthday Problem</a><br/>
+     BIRTHDAY_THM_EXPLICIT
+</p>
+<pre>
+  |- !s t. s HAS_SIZE 23 /\ t HAS_SIZE 365
+           ==&gt; 2 * CARD {f | f IN (s -&gt; t) /\
+                             ?x y. x IN s /\ y IN s /\ ~(x = y) /\ f(x) = f(y)}
+               &gt;= CARD (s -&gt; t)
+</pre>
+<p>
+ 94. <a name="94">The Law of Cosines</a><br/>
+     LAW_OF_COSINES
+</p>
+<pre>
+  |- !A B C:real^2.
+       length(B,C) pow 2 = length(A,B) pow 2 + length(A,C) pow 2 -
+                           &amp;2 * length(A,B) * length(A,C) * cos(angle(B,A,C))
+</pre>
+<p>
+ 95. <a name="95">Ptolemy's Theorem</a><br/>
+     PTOLEMY
+</p>
+<pre>
+  |- !A B C D:real^2 a b c d centre radius.
+          A = centre + radius % vector [cos(a);sin(a)] /\
+          B = centre + radius % vector [cos(b);sin(b)] /\
+          C = centre + radius % vector [cos(c);sin(c)] /\
+          D = centre + radius % vector [cos(d);sin(d)] /\
+          &amp;0 &lt;= radius /\
+          &amp;0 &lt;= a /\ a &lt;= b /\ b &lt;= c /\ c &lt;= d /\ d &lt;= &amp;2 * pi
+          ==&gt; dist(A,C) * dist(B,D) =
+              dist(A,B) * dist(C,D) + dist(A,D) * dist(B,C)
+</pre>
+<p>
+ 96. <a name="96">Principle of Inclusion/Exclusion</a><br/>
+     INCLUSION_EXCLUSION_USUAL
+</p>
+<pre>
+  |- !s:(A-&gt;bool)-&gt;bool.
+          FINITE s /\ (!k. k IN s ==&gt; FINITE k)
+          ==&gt; &amp;(CARD(UNIONS s)) =
+                  sum (1..CARD s) (\n. (-- &amp;1) pow (n + 1) *
+                                       sum {t | t SUBSET s /\ t HAS_SIZE n}
+                                           (\t. &amp;(CARD(INTERS t))))
+</pre>
+<p>
+ 97. <a name="97">Cramer's Rule</a><br/>
+     CRAMER
+</p>
+<pre>
+  |- !A:real^N^N x b.
+          ~(det(A) = &amp;0)
+          ==&gt; (A ** x = b &lt;=&gt;
+               x = lambda k.
+                     det((lambda i j. if j = k then b$i else A$i$j):real^N^N) /
+                     det(A))
+</pre>
+<p>
+ 98. <a name="98">Bertrand's Postulate</a><br/>
+     BERTRAND
+</p>
+<pre>
+  |- !n. ~(n = 0) ==&gt; ?p. prime p /\ n &lt;= p /\ p &lt;= 2 * n
+</pre>
+<p>
+100. <a name="100">Descartes Rule of Signs</a><br/>
+     DESCARTES_RULE_OF_SIGNS
+</p>
+<pre>
+ DESCARTES_RULE_OF_SIGNS =
+   |- !f a n. f = (\x. sum(0..n) (\i. a i * x pow i)) /\
+              (?i. i IN 0..n /\ ~(a i = &amp;0))
+              ==&gt; ?d. EVEN d /\
+                      variation(0..n) a =
+                      nsum {r | &amp;0 &lt; r /\ f(r) = &amp;0} (\r. multiplicity f r) + d
+</pre>
+
+</div>
+</body>
+</html>

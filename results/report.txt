@@ -1,0 +1,227 @@
+== Sample
+theorems linked to Lean: 250 ({'1000': 213, '100': 37}); dated: 247
+date confidence: {'high': 131, 'medium': 80, 'low': 36}
+
+== H1: statement depth rises with the year a theorem was found
+depth vs year: -0.10 [-0.22, +0.03], p = 0.129, n = 247
+size vs year:  -0.08 [-0.21, +0.05], p = 0.237, n = 247
+slope -0.11 levels per century [-0.37, +0.16], R2 0.003
+within fields: +0.12 per century [-0.05, +0.30]
+  before 1500    n= 27 median depth 29.0, size 275
+  1500 to 1799   n= 49 median depth 18.0, size 296
+  1800 to 1899   n= 61 median depth 24.0, size 338
+  1900 to 1949   n= 82 median depth 26.5, size 328
+  1950 on        n= 28 median depth 13.5, size 168
+robustness:
+  statement size                                             -0.08 [-0.21, +0.05], p = 0.237, n = 247
+  smallest of the listed declarations                        -0.08 [-0.22, +0.05], p = 0.191, n = 247
+  year first proved                                          -0.11 [-0.24, +0.01], p = 0.075, n = 247
+  concrete statements only (no type or instance arguments)   +0.06 [-0.24, +0.34], p = 0.689, n = 55
+  without geometry                                           -0.01 [-0.14, +0.12], p = 0.913, n = 232
+  high or medium confidence dates                            -0.16 [-0.29, -0.02], p = 0.021, n = 211
+  Wikipedia list only                                        -0.11 [-0.25, +0.03], p = 0.098, n = 211
+  since 1800 only                                            -0.15 [-0.30, +0.01], p = 0.049, n = 171
+
+== Fields
+  Algebra                   n= 53 median 15  rho -0.05 p=0.724
+  Analysis                  n= 54 median 34  rho -0.16 p=0.235
+  Combinatorics             n= 26 median 11  rho +0.10 p=0.639
+  Geometry                  n= 15 median 38  rho -0.11 p=0.706
+  Logic and foundations     n= 20 median 9  rho +0.56 p=0.010
+  Measure and probability   n= 35 median 38  rho -0.13 p=0.467
+  Number theory             n= 29 median 15  rho +0.33 p=0.077
+  Topology                  n= 15 median 29  rho +0.34 p=0.209
+
+== What explains depth (R2)
+  year                                     0.003
+  field                                    0.670
+  uses real numbers                        0.775
+  real, measure, inner product             0.888
+  real, measure, inner product + year      0.890
+share of famous theorems whose statement passes through R: 50%
+  no real  n=124 depth 2 to 21, median 11; trend with year -0.02 [-0.20, +0.15], p = 0.819, n = 124
+  real     n=123 depth 22 to 60, median 35; trend with year -0.11 [-0.27, +0.08], p = 0.236, n = 123
+does the year predict using R? -0.08 [-0.20, +0.05], p = 0.234, n = 247
+R sits at depth 22
+library: 300,498 named theorems; 18% pass through R; 91% of the others are shallower than R; 7.5% of all are at least as deep as R without it; median depth 11 vs 35
+
+== Proofs
+proof depth vs year proved: -0.06 [-0.18, +0.07], p = 0.352, n = 246
+proof size vs year proved:  +0.01 [-0.12, +0.13], p = 0.918, n = 246
+statement depth vs proof depth: +0.83 [+0.78, +0.88], p = 0.000, n = 246
+statement depth vs proof size:  +0.78 [+0.71, +0.83], p = 0.000, n = 246
+median proof size 7,428
+
+== Anachronism
+1481 famous-on-famous dependencies; 40% point to a younger theorem, 59% to an older one, 1.1% same year
+history-blind null: 50% [37%, 62%], share of shuffles at or below observed 0.066
+164 theorems use another famous theorem; 58% use a younger one
+  before 1500    n= 15 observed 100%, blind 100% [93%, 100%]
+  1500 to 1799   n= 34 observed 88%, blind 96% [88%, 100%]
+  1800 to 1899   n= 39 observed 74%, blind 92% [85%, 97%]
+  1900 to 1949   n= 58 observed 34%, blind 71% [60%, 81%]
+  1950 on        n= 18 observed 6%, blind 31% [17%, 50%]
+direct links after transitive reduction: 611, 36% forward
+
+== Concepts
+183 concepts; depth vs year -0.15 [-0.30, -0.01], p = 0.042, n = 183
+  no real  -0.13 [-0.30, +0.07], p = 0.154, n = 123
+  real     +0.32 [+0.07, +0.52], p = 0.012, n = 60
+  before 1500    n=  7 median depth 11.0
+  1500 to 1799   n= 21 median depth 22.0
+  1800 to 1899   n= 60 median depth 12.5
+  1900 to 1949   n= 70 median depth 13.5
+  1950 on        n= 25 median depth 9.0
+
+== Dating audit
+Wikidata P575 overlap 8: within 5 years 100%, median gap 0
+lifetime check 135: 97% inside a credited person's adult life
+
+== Examples
+  Pythagorean theorem: depth 38, statement concepts 480, proof size 8043.0
+  Euclid's theorem: depth 7, statement concepts 34, proof size 1090.0
+  Fermat's Last Theorem: depth 8, statement concepts 56, proof size none
+  Cantor's theorem: depth 2, statement concepts 6, proof size 18.0
+  Optional stopping theorem: depth 60, statement concepts 877, proof size 19079.0
+  The Area of a Circle: depth 46, statement concepts 916, proof size 23476.0
+  Hales–Jewett theorem: depth 7, statement concepts 44, proof size 1179.0
+  Bertrand's postulate: depth 7, statement concepts 37, proof size 16338.0
+  chain wQ11518 EuclideanGeometry.angle > InnerProductGeometry.angle > Real.arccos > Real.arcsin > Real.sinOrderIso > Real.pi > Real.cos > Complex.cos > Complex.exp > Complex.exp' > Real.sqrt > NNReal.sqrt > NNReal.powOrderIso > NNReal.mk > NNReal > CauSeq.Completion.ofRat > CauSeq.Completion.mk > CauSeq.Completion.Cauchy > CauSeq.LimZero > CauSeq > IsCauSeq > Field > NNRat.den > NNRat.cast > NNRatCast > NNRat > Rat.blt > Rat > Nat.Coprime > Nat.gcd > WellFounded.Nat.fix > WellFounded.Nat.eager > ite > dite > Decidable > Bool.Reflects > Not > False
+  chain wQ1506253 Nat.Prime > Irreducible > IsUnit > Units > Monoid > NPow > Nat
+  concept natural number: depth 1
+  concept integer: depth 2
+  concept rational number: depth 11
+  concept real number: depth 22
+  concept complex number: depth 23
+  concept group: depth 5
+  concept field: depth 17
+  concept topological space: depth 4
+  concept category: depth 3
+  concept metric space: depth 29
+  concept measure: depth 31
+  concept scheme: depth 26
+  concept martingale: depth 60
+
+== 1. Number systems taken as given
+depth vs year: -0.03 [-0.16, +0.09], p = 0.586, n = 247 | size vs year: -0.07 [-0.20, +0.06], p = 0.290, n = 247
+R2: {'year': 0.0, 'field': 0.482, 'uses real numbers': 0.422, 'real, measure, inner product': 0.737}
+era medians: {'before 1500': 13.0, '1500 to 1799': 15.0, '1800 to 1899': 16.0, '1900 to 1949': 14.0, '1950 on': 13.0}
+within strata: {'no real': '+0.13 [-0.05, +0.30], p = 0.144, n = 124', 'real': '-0.06 [-0.23, +0.12], p = 0.504, n = 123'}
+depths: {'Nat': 1, 'Int': 1, 'Rat': 1, 'Real': 1, 'Complex': 1, 'Field': 8, 'Group': 5, 'TopologicalSpace': 4, 'MetricSpace': 12, 'MeasureTheory.Measure': 17, 'AlgebraicGeometry.Scheme': 26, 'MeasureTheory.Martingale': 45}
+median famous depth 21 -> 14; library medians {'real': 19.0, 'nonreal': 10.0}
+concepts: -0.06 [-0.21, +0.09], p = 0.433, n = 183 | concepts on R: +0.35 [+0.09, +0.57], p = 0.007, n = 60
+
+== 2. Metamath set.mm
+47,957 theorems; 73 of Wiedijk's 100, 72 dated
+depth vs year: -0.03 [-0.29, +0.22], p = 0.805, n = 72 | numbers given: -0.16 [-0.40, +0.09], p = 0.171, n = 72
+R2: {'year': 0.001, 'passes through RR': 0.299, 'passes through CC': 0.618}
+pass through CC 94%, RR 92%; median depth 30, numbers given 17
+same theorems in both libraries (66): depth +0.54 [+0.33, +0.72], p = 0.000, n = 66; proof +0.60 [+0.38, +0.78], p = 0.000, n = 66
+famous dependencies 328, forward 54% (blind 49% [26%, 72%]); 67 users, 93% use a younger one
+  before 1500    n= 19 observed 100%, blind 99%
+  1500 to 1799   n= 30 observed 100%, blind 92%
+  1800 to 1899   n= 13 observed 100%, blind 66%
+  1900 to 1949   n=  4 observed 0%, blind 14%
+  1950 on        n=  1 observed 0%, blind 0%
+
+== 3. Textbook restatements
+  pythagoras           mathlib 38 -> textbook 23 (numbers given 23 -> 3)
+  pythagoras_int       mathlib 38 -> textbook  8 (numbers given 23 -> 4)
+  thales               mathlib 38 -> textbook 23 (numbers given 23 -> 3)
+  heron                mathlib 38 -> textbook 23 (numbers given 23 -> 3)
+  euclid_primes        mathlib  7 -> textbook  3 (numbers given 7 -> 2)
+  sqrt_two_irrational  mathlib 28 -> textbook 12 (numbers given 13 -> 3)
+  fermat_little        mathlib 17 -> textbook  7 (numbers given 9 -> 7)
+  wilson               mathlib 17 -> textbook  7 (numbers given 9 -> 7)
+  crt                  mathlib 11 -> textbook 10 (numbers given 11 -> 1)
+  bezout               mathlib 12 -> textbook 10 (numbers given 6 -> 3)
+  two_squares          mathlib  7 -> textbook  7 (numbers given 7 -> 7)
+  geometric_sum        mathlib 17 -> textbook 13 (numbers given 8 -> 7)
+  arithmetic_sum       mathlib  7 -> textbook  7 (numbers given 7 -> 7)
+  triangle             mathlib 29 -> textbook 23 (numbers given 12 -> 7)
+  am_gm                mathlib 39 -> textbook 23 (numbers given 24 -> 4)
+  binomial             mathlib  7 -> textbook  7 (numbers given 7 -> 7)
+  ivt                  mathlib 11 -> textbook 23 (numbers given 11 -> 7)
+  fta                  mathlib 26 -> textbook 25 (numbers given 15 -> 13)
+  area_circle          mathlib 46 -> textbook 53 (numbers given 31 -> 38)
+  cauchy_schwarz       mathlib 33 -> textbook 23 (numbers given 16 -> 8)
+shallower 14, deeper 2, same 3; median change -4
+main test with restatements swapped in: -0.05 [-0.17, +0.08], p = 0.459, n = 247
+
+== 4. Research projects
+  Polynomial Freiman–Ruzsa conjecture: PFR_conjecture depth 39 (calibrated 39), numbers given 24, size 477, predicted 30.2, residual +8.8, proof depth 262, proof size 28,606, sorry False; refs Nat 1 Rat 11 Real 22 Complex 23
+  Sphere packing in dimension 8: SpherePacking.MainTheorem depth 49 (calibrated 49), numbers given 34, size 903, predicted 49.5, residual -0.5, proof depth 154, proof size 16,555, sorry True; refs Nat 1 Rat 11 Real 22 Complex 23
+  Smale's sphere eversion: Smale depth 48 (calibrated 48), numbers given 33, size 1005, predicted 39.1, residual +8.9, proof depth 234, proof size 31,437, sorry False; refs Nat 1 Rat 11 Real 22 Complex 23
+  Carleson's theorem: classical_carleson depth 54 (calibrated 55), numbers given 40, size 1041, predicted 49.5, residual +5.5, proof depth 249, proof size 34,163, sorry False; refs Nat 1 Rat 10 Real 21 Complex 22
+sample misses: median 3.5, 90th percentile 7.2
+median depth of sample theorems from 1950 on: 13.5
+main test with research theorems added: -0.06 [-0.19, +0.07], p = 0.334, n = 251
+
+== 5. Direct use in proofs only
+940 dependencies; forward 36% (blind 49%, p 0.024); 136 users, 57% use a younger one
+  before 1500    n= 14 observed 100%, blind 100%
+  1500 to 1799   n= 30 observed 90%, blind 94%
+  1800 to 1899   n= 33 observed 70%, blind 89%
+  1900 to 1949   n= 44 observed 27%, blind 62%
+  1950 on        n= 15 observed 7%, blind 24%
+
+== 6. Independent dates
+  wikipedia lead, linked by Wikidata   n= 69 median gap 0, within 10y 83%, within 50y 96%, rho with hand dates 0.98
+  wikipedia lead, any                  n= 82 median gap 0, within 10y 76%, within 50y 93%, rho with hand dates 0.97
+  wikipedia body                       n= 69 median gap 20, within 10y 46%, within 50y 64%, rho with hand dates 0.75
+  mactutor                             n= 26 median gap 4, within 10y 65%, within 50y 73%, rho with hand dates 0.85
+large disagreements: {'source error': 7, 'different version': 4, 'earlier result': 2}
+main test, Wikipedia dates swapped in: -0.10 [-0.22, +0.03], p = 0.117, n = 247
+main test, Wikipedia dates only: -0.04 [-0.29, +0.20], p = 0.762, n = 69
+main test, MacTutor dates only: -0.04 [-0.46, +0.37], p = 0.864, n = 26
+
+== Round 2, P1. Where research proofs get their depth
+sample n=249: chain median 91, max 232; own folder median 4, folder above median 13, max 158; library part max 211
+  Rademacher's theorem: 220 layers, own folder 10, above 69
+  Dirichlet's theorem on arithmetic progressions: 227 layers, own folder 22, above 24
+  Dirichlet's unit theorem: 232 layers, own folder 12, above 25
+  Polynomial Freiman–Ruzsa conjecture: 263 layers, own 23, library 240
+  Smale's sphere eversion: 235 layers, own 29, library 206
+  Carleson's theorem: 250 layers, own 46, library 204
+research library parts above the sample's maximum: 1; own parts above the sample's maximum: 0
+
+== Round 2, P2. Syllabus
+undergraduate 370 median 20 vs overview only 325 median 13; p(shallower) 1.000, p(deeper) 1.4e-06; through R 48% vs 32%
+  no real: n 191 vs 220, median 11.0 vs 9.5, p(shallower) 0.999
+  real: n 179 vs 105, median 35.0 vs 40.0, p(shallower) 0.078
+  area medians: {'overview: Analysis': 35.0, 'overview: Combinatorics': 12.0, 'overview: Data structures': 4.0, 'overview: Dynamics': 18.5, 'overview: General algebra': 10.0, 'overview: Geometry': 40.0, 'overview: Linear algebra': 12.0, 'overview: Logic and computation': 11.0, 'overview: Probability Theory': 42.0, 'overview: Topology': 11.0, 'undergraduate: Affine and Euclidean Geometry': 12.0, 'undergraduate: Bilinear and Quadratic Forms Over a Vector Space': 18.0, 'undergraduate: Distribution calculus': 44.0, 'undergraduate: Group Theory': 10.0, 'undergraduate: Linear algebra': 15.5, 'undergraduate: Measures and integral calculus': 44.0, 'undergraduate: Multivariable calculus': 36.0, 'undergraduate: Numerical Analysis': 20.0, 'undergraduate: Probability Theory': 36.0, 'undergraduate: Ring Theory': 11.0, 'undergraduate: Single Variable Complex Analysis': 34.5, 'undergraduate: Single Variable Real Analysis': 30.5, 'undergraduate: Topology': 29.0}
+
+== Round 2, P3. Fresh concepts on R
+215 fresh concepts, 59 through R; Wikipedia years for 63 (19 through R)
+  wikipedia: +0.25 [-0.27, +0.73], p = 0.293, n = 19
+  hand: +0.51 [+0.31, +0.67], p = 0.000, n = 59
+  hand_high_medium: +0.55 [+0.23, +0.78], p = 0.003, n = 27
+  pooled: +0.41 [+0.26, +0.55], p = 0.000, n = 119
+
+== Round 2, P4. Library time
+counts: {'concept': {'core': 3, 'mathlib3': 155, 'mathlib4': 24, 'not found': 1}, 'theorem': {'core': 0, 'mathlib3': 141, 'mathlib4': 104, 'not found': 5}} | renames followed: 8
+R entered 2017-08-15; statements through R entered before it: 0
+  ported: +0.36 [+0.20, +0.50], p = 0.000, n = 139
+  history_ported: -0.01 [-0.18, +0.16], p = 0.912, n = 139
+  all: +0.17 [+0.04, +0.28], p = 0.010, n = 242
+  history_same: -0.10 [-0.23, +0.03], p = 0.136, n = 242
+  concepts_ported: +0.33 [+0.17, +0.47], p = 0.000, n = 155
+  concepts: +0.36 [+0.22, +0.49], p = 0.000, n = 179
+  diff_ported: +0.37 [+0.20, +0.55], n = 139
+  diff_all: +0.26 [+0.12, +0.40], n = 242
+  within all, no real: +0.26 [+0.08, +0.43], p = 0.004, n = 122
+  within all, real: +0.25 [+0.07, +0.41], p = 0.006, n = 120
+  within ported, no real: +0.20 [-0.05, +0.44], p = 0.105, n = 65
+  within ported, real: +0.29 [+0.06, +0.48], p = 0.013, n = 74
+  median depth by entry year: {'2017': 7.0, '2018': 12.0, '2019': 29.0, '2020': 23.0, '2021': 18.0, '2022': 33.0, '2023': 17.0, '2024': 17.0, '2025': 32.5, '2026': 31.0}
+  share through R by entry year: {'2017': 0.14, '2018': 0.11, '2019': 0.6, '2020': 0.52, '2021': 0.49, '2022': 0.72, '2023': 0.45, '2024': 0.32, '2025': 0.6, '2026': 0.54}
+  first in: [("Euclid's theorem", '2017-09', '7'), ("Carathéodory's theorem (measure theory)", '2017-09', '27'), ('Cantor–Bernstein–Schroeder theorem', '2017-12', '3'), ("Matiyasevich's theorem", '2017-12', '8'), ("Bézout's identity", '2017-12', '12'), ("Cantor's theorem", '2017-12', '2')]
+  audit against git log -G: {'concept': {'n': 10, 'found_by_git': 10, 'same_month': 10, 'late': 0, 'late_max': 0, 'early': 0, 'early_via_namespace_change': 0}, 'theorem': {'n': 30, 'found_by_git': 30, 'same_month': 29, 'late': 0, 'late_max': 0, 'early': 1, 'early_via_namespace_change': 1}}
+
+== Round 2, P5. HOL Light
+tower: {'type:num': 5, 'type:nadd': 11, 'type:hreal': 13, 'type:real': 15, 'type:int': 18, 'rational': 20} | as predicted: True
+84 statements, 83 dated; trend -0.10 [-0.33, +0.14], p = 0.388, n = 83
+R2: {'year': 0.028, 'passes through the reals': 0.532} | through R 95%, median depth 32
+vs mathlib: +0.68 [+0.52, +0.79], p = 0.000, n = 68 | vs Metamath: +0.47 [+0.23, +0.66], p = 0.000, n = 67
+shallowest: [("Cantor's Theorem", 4), ('Schroeder-Bernstein Theorem', 5), ('The Friendship Theorem', 6), ("Ramsey's Theorem", 9)]
+deepest: [('Isosceles Triangle Theorem', 43), ('Sum of the Angles of a Triangle', 43), ('The Law of Cosines', 43), ("Morley's Theorem", 43)]

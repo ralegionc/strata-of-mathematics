@@ -1,0 +1,184 @@
+label,decl,depth_numbers
+category,CategoryTheory.Category,3
+functor,CategoryTheory.Functor,4
+natural transformation,CategoryTheory.NatTrans,5
+Yoneda embedding,CategoryTheory.yoneda,7
+adjunction,CategoryTheory.Adjunction,7
+monad,CategoryTheory.Monad,7
+comma category,CategoryTheory.Comma,5
+limit in a category,CategoryTheory.Limits.IsLimit,9
+monoidal category,CategoryTheory.MonoidalCategory,6
+abelian category,CategoryTheory.Abelian,14
+Grothendieck topology,CategoryTheory.GrothendieckTopology,8
+sheafed space,AlgebraicGeometry.SheafedSpace,12
+natural number,Nat,1
+integer,Int,1
+rational number,Rat,1
+continued fraction,ContFract,10
+real number,Real,1
+complex number,Complex,1
+p-adic number,Padic,14
+p-adic integer,PadicInt,19
+hyperreal number,Hyperreal,10
+group,Group,5
+subgroup,Subgroup,6
+normal subgroup,Subgroup.Normal,7
+simple group,IsSimpleGroup,8
+free group,FreeGroup,4
+presented group,PresentedGroup,9
+permutation,Equiv.Perm,5
+alternating group,alternatingGroup,13
+ring,Ring,6
+localization,Localization,8
+local ring,IsLocalRing,7
+Noetherian ring,IsNoetherianRing,12
+ideal,Ideal,9
+prime ideal,Ideal.IsPrime,10
+Euler totient,Nat.totient,8
+polynomial,Polynomial,9
+separable polynomial,Polynomial.Separable,15
+associative algebra,Algebra,8
+Lie algebra,LieAlgebra,8
+exterior algebra,ExteriorAlgebra,18
+Clifford algebra,CliffordAlgebra,17
+field,Field,8
+characteristic p,CharP,5
+Frobenius morphism,frobenius,9
+algebraically closed field,IsAlgClosed,15
+algebraic closure,AlgebraicClosure,21
+adjoining a root,AdjoinRoot,12
+splitting field,Polynomial.SplittingField,20
+Bernoulli numbers,bernoulli,10
+Witt vectors,WittVector,2
+group representation,Representation,12
+character of a representation,FDRep.character,20
+module,Module,7
+linear map,LinearMap,8
+tensor product,TensorProduct,9
+basis,Module.Basis,12
+matrix,Matrix,1
+determinant,Matrix.det,15
+minimal polynomial,minpoly,17
+characteristic polynomial,Matrix.charpoly,16
+eigenvalue,Module.End.HasEigenvalue,14
+quadratic form,QuadraticForm,11
+orthonormal basis,OrthonormalBasis,29
+filter,Filter,4
+filter limit,Filter.Tendsto,6
+topological space,TopologicalSpace,4
+continuous function,Continuous,6
+Hausdorff space,T2Space,10
+sequential space,SequentialSpace,10
+compactness,IsCompact,9
+connectedness,ConnectedSpace,8
+Stone-Cech compactification,StoneCech,13
+fiber bundle,FiberBundle,15
+vector bundle,VectorBundle,19
+uniform space,UniformSpace,9
+uniform convergence,TendstoUniformly,11
+Cauchy sequence,CauchySeq,12
+complete space,CompleteSpace,12
+completion of a uniform space,UniformSpace.Completion,14
+topological group,IsTopologicalGroup,12
+Haar measure,MeasureTheory.Measure.haarMeasure,21
+metric space,MetricSpace,12
+Lipschitz continuity,LipschitzWith,16
+Holder continuity,HolderWith,27
+Hausdorff distance,Metric.hausdorffEDist,17
+Gromov-Hausdorff space,GromovHausdorff.GHSpace,28
+locally convex space,LocallyConvexSpace,9
+normed space,NormedSpace,14
+inner product space,InnerProductSpace,16
+adjoint operator,LinearPMap.adjoint,23
+Frechet derivative,HasFDerivAt,16
+analytic function,AnalyticAt,19
+convex function,ConvexOn,9
+logarithm,Real.log,18
+exponential function,Real.exp,16
+sine,Real.sin,17
+hyperbolic sine,Real.sinh,17
+sigma-algebra,MeasurableSpace,6
+Borel sigma-algebra,BorelSpace,9
+measure,MeasureTheory.Measure,17
+Lebesgue measure,MeasureTheory.MeasureSpace,18
+Stieltjes measure,StieltjesFunction.measure,18
+Hausdorff measure,MeasureTheory.Measure.hausdorffMeasure,27
+Hausdorff dimension,dimH,28
+Lebesgue integral,MeasureTheory.lintegral,19
+Bochner integrable function,MeasureTheory.Integrable,21
+Lp space,MeasureTheory.Lp,29
+Schwartz space,SchwartzMap,22
+distribution,Distribution,27
+tempered distribution,TemperedDistribution,25
+test function,TestFunction,22
+probability measure,MeasureTheory.IsProbabilityMeasure,18
+independence,ProbabilityTheory.iIndep,21
+conditional probability,ProbabilityTheory.cond,23
+conditional expectation,MeasureTheory.condExp,44
+characteristic function,MeasureTheory.charFun,38
+discrete probability law,PMF,11
+variance,ProbabilityTheory.variance,39
+moment,ProbabilityTheory.moment,38
+Bernoulli law,ProbabilityTheory.bernoulliMeasure,21
+binomial law,ProbabilityTheory.binomial,28
+Poisson law,ProbabilityTheory.poissonMeasure,21
+Gaussian law,ProbabilityTheory.gaussianReal,32
+convergence in measure,MeasureTheory.TendstoInMeasure,18
+martingale,MeasureTheory.Martingale,45
+stopping time,MeasureTheory.IsStoppingTime,9
+affine space,AddTorsor,6
+Euclidean affine space,NormedAddTorsor,13
+angle,InnerProductGeometry.angle,22
+manifold,IsManifold,25
+Lie group,LieGroup,27
+Riemannian metric,Bundle.RiemannianMetric,15
+Riemannian manifold,IsRiemannianManifold,33
+prime spectrum,PrimeSpectrum,11
+locally ringed space,AlgebraicGeometry.LocallyRingedSpace,19
+scheme,AlgebraicGeometry.Scheme,26
+Catalan numbers,catalan,9
+VC dimension,Finset.vcDim,13
+graph,SimpleGraph,4
+matching,SimpleGraph.Subgraph.IsMatching,6
+sets without arithmetic progressions,ThreeAPFree,4
+Freiman homomorphism,IsAddFreimanHom,7
+omega-limit set,omegaLimit,8
+set,Set,1
+computable function,Computable,12
+Turing machine,Turing.TM0.Machine,3
+primitive recursive function,Primrec,11
+Ackermann function,ack,6
+Turing degree,TuringDegree,13
+polynomial-time computation,Turing.TM2ComputableInPolyTime,14
+regular language,Language.IsRegular,8
+deterministic finite automaton,DFA,2
+nondeterministic finite automaton,NFA,2
+regular expression,RegularExpression,1
+context-free grammar,ContextFreeGrammar,7
+ordinal,Ordinal,6
+Cantor normal form,Ordinal.CNF,13
+epsilon numbers,Ordinal.epsilon,15
+cardinal,Cardinal,5
+aleph numbers,Cardinal.aleph,15
+cofinality,Order.cof,11
+model of ZF set theory,ZFSet,4
+first-order structure,FirstOrder.Language.Structure,3
+first-order formula,FirstOrder.Language.Formula,5
+prime number,Prime,6
+congruence,Int.ModEq,2
+cyclotomic polynomial,Polynomial.cyclotomic,19
+symmetric polynomial,MvPolynomial.IsSymmetric,16
+transcendental number,Transcendental,18
+convex set,Convex,8
+convex hull,convexHull,10
+extreme point,Set.extremePoints,8
+derivative,HasDerivAt,17
+Riemann sum,BoxIntegral.integralSum,15
+radius of convergence,FormalMultilinearSeries.radius,16
+complex exponential,Complex.exp,15
+holomorphic function,DifferentiableOn,18
+homeomorphism,Homeomorph,7
+Hilbert basis,HilbertBasis,28
+Lagrange interpolation,Lagrange.interpolate,16
+sign of a permutation,Equiv.Perm.sign,12
+cross product,crossProduct,12

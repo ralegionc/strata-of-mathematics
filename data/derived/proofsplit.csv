@@ -1,0 +1,250 @@
+key,title,year_proved,proof_depth,chain_layers,own_folder,own_parent,folder,parent
+wQ11518,Pythagorean theorem,-500.0,127.0,128,3,3,Mathlib.Geometry.Euclidean.Angle.Unoriented,Mathlib.Geometry.Euclidean.Angle
+wQ26708,Binomial theorem,1000.0,41.0,42,2,2,Mathlib.Data.Nat.Choose,Mathlib.Data.Nat
+wQ132427,Rademacher's theorem,1919.0,219.0,220,10,69,Mathlib.Analysis.Calculus,Mathlib.Analysis
+wQ137164,Besicovitch covering theorem,1945.0,117.0,118,4,31,Mathlib.MeasureTheory.Covering,Mathlib.MeasureTheory
+wQ172298,Lasker–Noether theorem,1905.0,51.0,52,11,16,Mathlib.RingTheory,Mathlib
+wQ179208,Cayley's theorem,1854.0,15.0,16,1,1,Mathlib.GroupTheory.Perm,Mathlib.GroupTheory
+wQ180345X,Integral root theorem,1637.0,72.0,73,4,4,Mathlib.RingTheory.Polynomial,Mathlib.RingTheory
+wQ180345,Rational root theorem,1637.0,71.0,72,3,3,Mathlib.RingTheory.Polynomial,Mathlib.RingTheory
+wQ182505,Bayes' theorem,1763.0,116.0,117,4,65,Mathlib.Probability,Mathlib
+wQ188295,Fermat's little theorem,1736.0,60.0,61,2,2,Mathlib.FieldTheory.Finite,Mathlib.FieldTheory
+wQ189136,Mean value theorem,1797.0,111.0,112,6,9,Mathlib.Analysis.Calculus.Deriv,Mathlib.Analysis.Calculus
+wQ190391,Central limit theorem,1901.0,205.0,206,8,154,Mathlib.Probability,Mathlib
+wQ190556,De Moivre's theorem,1748.0,91.0,92,13,21,Mathlib.Analysis.Complex,Mathlib.Analysis
+wQ191693,Lebesgue's decomposition theorem,1910.0,129.0,130,3,28,Mathlib.MeasureTheory.Measure.Decomposition,Mathlib.MeasureTheory.Measure
+wQ192760,Fundamental theorem of algebra,1799.0,206.0,207,2,15,Mathlib.Analysis.Complex.Polynomial,Mathlib.Analysis.Complex
+wQ193286,Rolle's theorem,1691.0,107.0,108,7,10,Mathlib.Analysis.Calculus.LocalExtr,Mathlib.Analysis.Calculus
+wQ193878,Chinese remainder theorem,400.0,51.0,52,2,2,Mathlib.RingTheory.Ideal.Quotient,Mathlib.RingTheory.Ideal
+wQ193910,Euler's theorem,1763.0,59.0,60,2,2,Mathlib.FieldTheory.Finite,Mathlib.FieldTheory
+wQ203565,Solutions of a general cubic equation,1545.0,134.0,135,3,3,Archive.Wiedijk100Theorems,Archive
+wQ213603,Ceva's theorem,1678.0,77.0,78,5,11,Mathlib.Analysis.Normed.Affine,Mathlib.Analysis.Normed
+wQ220680,Banach fixed-point theorem,1922.0,87.0,88,4,16,Mathlib.Topology.MetricSpace,Mathlib.Topology
+wQ226014,Poincaré recurrence theorem,1890.0,123.0,124,4,4,Mathlib.Dynamics.Ergodic,Mathlib.Dynamics
+wQ245098,Intermediate value theorem,1817.0,41.0,42,12,15,Mathlib.Topology.Order,Mathlib.Topology
+wQ253214,Heine–Borel theorem,1895.0,83.0,84,4,13,Mathlib.Topology.MetricSpace,Mathlib.Topology
+wQ258374,Carathéodory's theorem (measure theory),1914.0,77.0,78,11,11,Mathlib.MeasureTheory.OuterMeasure,Mathlib.MeasureTheory
+wQ276082,Wilson's theorem,1771.0,48.0,49,1,13,Mathlib.NumberTheory,Mathlib
+wQ282649,Pentagonal number theorem,1750.0,66.0,67,5,5,Mathlib.Combinatorics.Enumerative.Pentagonal,Mathlib.Combinatorics.Enumerative
+wQ285719,Thales's theorem,-600.0,127.0,128,3,3,Mathlib.Geometry.Euclidean.Angle,Mathlib.Geometry.Euclidean
+wQ288465,Orbit-stabilizer theorem,1887.0,26.0,27,7,9,Mathlib.GroupTheory.GroupAction,Mathlib.GroupTheory
+wQ303402,Rank–nullity theorem,1884.0,68.0,69,5,13,Mathlib.LinearAlgebra.Dimension,Mathlib.LinearAlgebra
+wQ318767,Abel's theorem,1826.0,101.0,102,3,18,Mathlib.Analysis.Complex,Mathlib.Analysis
+wQ338886,Divergence theorem,1826.0,171.0,172,20,32,Mathlib.MeasureTheory.Integral,Mathlib.MeasureTheory
+wQ420714,Akra–Bazzi theorem,1998.0,148.0,149,9,9,Mathlib.Computability.AkraBazzi,Mathlib.Computability
+wQ422187,Myhill–Nerode theorem,1958.0,48.0,49,2,13,Mathlib.Computability,Mathlib
+wQ459547,Ptolemy's theorem,150.0,131.0,132,5,7,Mathlib.Geometry.Euclidean.Sphere,Mathlib.Geometry.Euclidean
+wQ468391,Bolzano–Weierstrass theorem,1817.0,84.0,85,7,14,Mathlib.Topology.MetricSpace,Mathlib.Topology
+wQ470877,Stirling's theorem,1730.0,191.0,192,42,63,Mathlib.Analysis.SpecialFunctions,Mathlib.Analysis
+wQ472883,Quadratic reciprocity theorem,1801.0,139.0,140,5,8,Mathlib.NumberTheory.LegendreSymbol,Mathlib.NumberTheory
+wQ474881,Cantor's theorem,1891.0,4.0,5,1,1,Mathlib.Logic.Function,Mathlib.Logic
+wQ476776,Solutions of a general quartic equation,1545.0,39.0,40,2,2,Archive.Wiedijk100Theorems,Archive
+wQ505798,Lagrange's theorem (group theory),1771.0,57.0,58,2,2,Mathlib.GroupTheory.Coset,Mathlib.GroupTheory
+wQ510197,Tutte theorem,1947.0,72.0,73,4,4,Mathlib.Combinatorics.SimpleGraph,Mathlib.Combinatorics
+wQ530152,Picard–Lindelöf theorem,1890.0,190.0,191,5,66,Mathlib.Analysis.ODE,Mathlib.Analysis
+wQ536640,Hall's marriage theorem,1935.0,53.0,54,1,1,Mathlib.Combinatorics.Hall,Mathlib.Combinatorics
+wQ537618,Banach–Alaoglu theorem,1932.0,104.0,105,2,19,Mathlib.Analysis.Normed.Module,Mathlib.Analysis.Normed
+wQ550402,Dirichlet's theorem on arithmetic progressions,1837.0,226.0,227,22,24,Mathlib.NumberTheory.LSeries,Mathlib.NumberTheory
+wQ570779,Vieta's formulas,1615.0,62.0,63,1,1,Mathlib.RingTheory.Polynomial,Mathlib.RingTheory
+wQ576478,Liouville's theorem (complex analysis),1844.0,200.0,201,9,71,Mathlib.Analysis.Complex,Mathlib.Analysis
+wQ595466,Dini's theorem,1878.0,94.0,95,1,14,Mathlib.Topology.UniformSpace,Mathlib.Topology
+wQ609612,Knaster–Tarski theorem,1928.0,20.0,20,18,20,Mathlib.Order,Mathlib
+wQ619985,Multinomial theorem,1697.0,55.0,56,1,1,Mathlib.Data.Nat.Choose,Mathlib.Data.Nat
+wQ632546,Bertrand's postulate,1852.0,141.0,142,5,90,Mathlib.NumberTheory,Mathlib
+wQ642620,Krein–Milman theorem,1940.0,102.0,103,1,16,Mathlib.Analysis.Convex,Mathlib.Analysis
+wQ643826,Slutsky's theorem,1925.0,184.0,185,15,45,Mathlib.MeasureTheory.Function,Mathlib.MeasureTheory
+wQ656198,Maschke's theorem,1898.0,78.0,79,2,46,Mathlib.RepresentationTheory,Mathlib
+wQ656645,Hilbert's basis theorem,1890.0,71.0,72,2,2,Mathlib.RingTheory.Polynomial,Mathlib.RingTheory
+wQ656772,Cayley–Hamilton theorem,1878.0,82.0,83,1,1,Mathlib.LinearAlgebra.Matrix.Charpoly,Mathlib.LinearAlgebra.Matrix
+wQ657482,Abel–Ruffini theorem,1824.0,214.0,215,4,4,Archive.Wiedijk100Theorems,Archive
+wQ660799,Darboux's theorem (analysis),1875.0,108.0,109,6,25,Mathlib.Analysis.Calculus,Mathlib.Analysis
+wQ670235,Fundamental theorem of arithmetic,1801.0,45.0,46,12,12,Mathlib.Data.Nat,Mathlib.Data
+wQ716171,Erdős–Ginzburg–Ziv theorem,1961.0,100.0,101,2,2,Mathlib.Combinatorics.Additive,Mathlib.Combinatorics
+wQ718875,Erdős–Ko–Rado theorem,1961.0,56.0,57,6,9,Mathlib.Combinatorics.SetFamily,Mathlib.Combinatorics
+wQ720469,Chevalley–Warning theorem,1935.0,96.0,97,4,64,Mathlib.FieldTheory,Mathlib
+wQ727102,Fermat's theorem (stationary points),1636.0,106.0,107,6,9,Mathlib.Analysis.Calculus.LocalExtr,Mathlib.Analysis.Calculus
+wQ739403,Stewart's theorem,1746.0,128.0,129,4,4,Mathlib.Geometry.Euclidean,Mathlib.Geometry
+wQ752375,Extreme value theorem,1860.0,35.0,36,2,7,Mathlib.Topology.Order,Mathlib.Topology
+wQ756946,Lagrange's four-square theorem,1770.0,94.0,95,3,62,Mathlib.NumberTheory,Mathlib
+wQ764287,Van der Waerden's theorem,1927.0,38.0,39,2,14,Mathlib.Combinatorics,Mathlib
+wQ765987,Heine–Cantor theorem,1872.0,46.0,47,5,5,Mathlib.Topology.UniformSpace,Mathlib.Topology
+wQ776578,Wedderburn–Artin theorem,1907.0,71.0,72,7,13,Mathlib.RingTheory.SimpleModule,Mathlib.RingTheory
+wQ791663,Beatty's theorem,1894.0,68.0,69,7,17,Mathlib.NumberTheory,Mathlib
+wQ810431,Basel problem,1735.0,193.0,194,9,142,Mathlib.NumberTheory,Mathlib
+wQ842953,Lebesgue's density theorem,1904.0,137.0,138,16,51,Mathlib.MeasureTheory.Covering,Mathlib.MeasureTheory
+wQ848375,Implicit function theorem,1831.0,107.0,108,9,24,Mathlib.Analysis.Calculus,Mathlib.Analysis
+wQ853067,Solutions to Pell's equation,1768.0,37.0,38,12,12,Mathlib.NumberTheory,Mathlib
+wQ859122,Cauchy–Hadamard theorem,1888.0,129.0,130,2,46,Mathlib.Analysis.Analytic,Mathlib.Analysis
+wQ866116,Hahn–Banach theorem,1927.0,98.0,99,1,10,Mathlib.Analysis.Normed.Module,Mathlib.Analysis.Normed
+wQ869647,Szpilrajn extension theorem,1930.0,29.0,30,1,28,Mathlib.Order.Extension,Mathlib.Order
+wQ872088,Boolean prime ideal theorem,1936.0,30.0,31,29,29,Mathlib.Order,Mathlib
+wQ877489,Apollonius's theorem,-200.0,129.0,130,5,5,Mathlib.Geometry.Euclidean,Mathlib.Geometry
+wQ914517,Fermat's theorem on sums of two squares,1749.0,102.0,103,10,70,Mathlib.NumberTheory,Mathlib
+wQ931001,Inverse function theorem,1878.0,109.0,110,11,11,Mathlib.Analysis.Calculus.InverseFunctionTheorem,Mathlib.Analysis.Calculus
+wQ939927,Stone–Weierstrass theorem,1937.0,105.0,106,8,21,Mathlib.Topology.ContinuousMap,Mathlib.Topology
+wQ943246,Wedderburn's little theorem,1905.0,139.0,139,17,87,Mathlib.RingTheory,Mathlib
+wQ944297,Open mapping theorem (functional analysis),1929.0,99.0,100,2,16,Mathlib.Analysis.Normed.Operator,Mathlib.Analysis.Normed
+wQ967972,Open mapping theorem (complex analysis),1880.0,208.0,209,17,79,Mathlib.Analysis.Complex,Mathlib.Analysis
+wQ976607,Erdős–Szekeres theorem,1935.0,47.0,48,1,1,Archive.Wiedijk100Theorems,Archive
+wQ978688,Gershgorin circle theorem,1931.0,71.0,72,1,1,Mathlib.LinearAlgebra.Matrix,Mathlib.LinearAlgebra
+wQ1008566,Gauss–Lucas theorem,1874.0,209.0,210,5,18,Mathlib.Analysis.Complex.Polynomial,Mathlib.Analysis.Complex
+wQ1032886,Hales–Jewett theorem,1963.0,37.0,38,1,13,Mathlib.Combinatorics,Mathlib
+wQ1033910,Cantor–Bernstein–Schroeder theorem,1897.0,22.0,23,2,2,Mathlib.SetTheory.Cardinal,Mathlib.SetTheory
+wQ1038716,Identity theorem,1850.0,121.0,122,10,38,Mathlib.Analysis.Analytic,Mathlib.Analysis
+wQ1047749,Turán's theorem,1941.0,57.0,58,3,3,Mathlib.Combinatorics.SimpleGraph.Extremal,Mathlib.Combinatorics.SimpleGraph
+wQ1050203,Cantor's intersection theorem,1880.0,35.0,36,7,7,Mathlib.Topology.Compactness,Mathlib.Topology
+wQ1052678,Baire category theorem,1899.0,88.0,89,1,16,Mathlib.Topology.Baire,Mathlib.Topology
+wQ1057919,Sylow theorems,1872.0,75.0,76,36,40,Mathlib.GroupTheory,Mathlib
+wQ1065257,Squeeze theorem,1821.0,43.0,44,2,2,Mathlib.Topology.Order,Mathlib.Topology
+wQ1065966,Isomorphism theorem,1927.0,33.0,34,9,16,Mathlib.GroupTheory.QuotientGroup,Mathlib.GroupTheory
+wQ1067156,Dominated convergence theorem,1908.0,163.0,164,12,24,Mathlib.MeasureTheory.Integral,Mathlib.MeasureTheory
+wQ1067156X,Bounded convergence theorem,1902.0,135.0,136,26,49,Mathlib.MeasureTheory.Measure,Mathlib.MeasureTheory
+wQ1068085,Closed graph theorem,1932.0,102.0,103,5,19,Mathlib.Analysis.Normed.Operator,Mathlib.Analysis.Normed
+wQ1068283,Löwenheim–Skolem theorem,1915.0,73.0,74,8,48,Mathlib.ModelTheory,Mathlib
+wQ1068976,Hilbert's Nullstellensatz,1893.0,102.0,103,31,70,Mathlib.RingTheory,Mathlib
+wQ1077462,König's theorem (set theory),1905.0,31.0,32,3,3,Mathlib.SetTheory.Cardinal,Mathlib.SetTheory
+wQ1082910,Euler's partition theorem,1748.0,70.0,71,5,5,Mathlib.Combinatorics.Enumerative.Partition,Mathlib.Combinatorics.Enumerative
+wQ1097021,Minkowski's theorem,1889.0,169.0,170,1,17,Mathlib.MeasureTheory.Group,Mathlib.MeasureTheory
+wQ1137014,Tychonoff's theorem,1930.0,37.0,38,2,2,Mathlib.Topology.Compactness,Mathlib.Topology
+wQ1137206,Taylor's theorem,1797.0,116.0,117,15,33,Mathlib.Analysis.Calculus,Mathlib.Analysis
+wQ1139041,Cauchy's theorem (group theory),1845.0,66.0,67,22,22,Mathlib.GroupTheory.Perm.Cycle,Mathlib.GroupTheory.Perm
+wQ1140119,Morera's theorem,1886.0,201.0,202,10,72,Mathlib.Analysis.Complex,Mathlib.Analysis
+wQ1148215,Mitchell's embedding theorem,1964.0,86.0,87,32,37,Mathlib.CategoryTheory.Abelian,Mathlib.CategoryTheory
+wQ1149022,Fubini's theorem,1907.0,174.0,175,23,35,Mathlib.MeasureTheory.Integral,Mathlib.MeasureTheory
+wQ1149458,Compactness theorem,1930.0,51.0,52,5,16,Mathlib.ModelTheory,Mathlib
+wQ1153584,Monotone convergence theorem,1906.0,169.0,170,15,18,Mathlib.MeasureTheory.Integral.Bochner,Mathlib.MeasureTheory.Integral
+wQ1186808,Lucas's theorem,1878.0,70.0,71,4,4,Mathlib.Data.Nat.Choose,Mathlib.Data.Nat
+wQ1188392,Zeckendorf's theorem,1952.0,45.0,46,7,10,Mathlib.Data.Nat.Fib,Mathlib.Data.Nat
+wQ1191319,Radon–Nikodym theorem,1930.0,130.0,131,11,26,Mathlib.MeasureTheory.Measure.Decomposition,Mathlib.MeasureTheory.Measure
+wQ1191709,Egorov's theorem,1911.0,128.0,129,7,42,Mathlib.MeasureTheory.Function,Mathlib.MeasureTheory
+wQ1194053,Metrization theorems,1925.0,95.0,96,3,25,Mathlib.Topology.Metrizable,Mathlib.Topology
+wQ1217677,Fundamental theorem of calculus,1823.0,176.0,177,9,25,Mathlib.MeasureTheory.Integral.IntervalIntegral,Mathlib.MeasureTheory.Integral
+wQ1227702,Dirichlet's unit theorem,1846.0,231.0,232,12,25,Mathlib.NumberTheory.NumberField.Units,Mathlib.NumberTheory.NumberField
+wQ1227703,Dirichlet's approximation theorem,1842.0,157.0,158,1,106,Mathlib.NumberTheory,Mathlib
+wQ1243340,Birkhoff–Von Neumann theorem,1946.0,56.0,57,5,5,Mathlib.Analysis.Convex,Mathlib.Analysis
+wQ1259814,Nielsen–Schreier theorem,1927.0,27.0,28,1,9,Mathlib.GroupTheory.FreeGroup,Mathlib.GroupTheory
+wQ1306095,Whitney embedding theorem,1936.0,204.0,205,12,12,Mathlib.Geometry.Manifold,Mathlib.Geometry
+wQ1346677,Tietze extension theorem,1915.0,98.0,99,19,47,Mathlib.Topology,Mathlib
+wQ1357684,Riesz representation theorem,1907.0,107.0,108,17,25,Mathlib.Analysis.InnerProductSpace,Mathlib.Analysis
+wQ1426292,Banach–Steinhaus theorem,1927.0,99.0,100,2,14,Mathlib.Analysis.Normed.Operator,Mathlib.Analysis.Normed
+wQ1443036,Parseval's theorem,1799.0,182.0,183,6,62,Mathlib.Analysis.Fourier,Mathlib.Analysis
+wQ1457052,Well-ordering theorem,1904.0,41.0,42,8,8,Mathlib.SetTheory.Cardinal,Mathlib.SetTheory
+wQ1471282,Radon's theorem,1921.0,45.0,46,1,1,Mathlib.Analysis.Convex,Mathlib.Analysis
+wQ1472120,Hellinger&ndash;Toeplitz theorem,1910.0,104.0,105,1,21,Mathlib.Analysis.InnerProductSpace,Mathlib.Analysis
+wQ1477053,Arzelà–Ascoli theorem,1895.0,86.0,87,3,3,Mathlib.Topology.ContinuousMap.Bounded,Mathlib.Topology.ContinuousMap
+wQ1506253,Euclid's theorem,-300.0,40.0,41,6,7,Mathlib.Data.Nat.Prime,Mathlib.Data.Nat
+wQ1535225,Łoś' theorem,1955.0,50.0,51,4,15,Mathlib.ModelTheory,Mathlib
+wQ1551745,Binomial inverse theorem,1950.0,57.0,58,6,6,Mathlib.LinearAlgebra.Matrix,Mathlib.LinearAlgebra
+wQ1566341,Hindman's theorem,1974.0,57.0,58,2,22,Mathlib.Combinatorics,Mathlib
+wQ1568811,Hahn decomposition theorem,1921.0,86.0,87,3,3,Mathlib.MeasureTheory.VectorMeasure.Decomposition,Mathlib.MeasureTheory.VectorMeasure
+wQ1632433,Helly's theorem,1913.0,85.0,86,2,2,Mathlib.Analysis.Convex,Mathlib.Analysis
+wQ1752621,Sylvester's law of inertia,1852.0,86.0,87,4,31,Mathlib.LinearAlgebra.QuadraticForm,Mathlib.LinearAlgebra
+wQ1766814,Smn theorem,1938.0,55.0,56,18,22,Mathlib.Computability,Mathlib
+wQ1816952,Schur's lemma,1905.0,94.0,95,2,2,Mathlib.CategoryTheory.Preadditive,Mathlib.CategoryTheory
+wQ1893717,Rice's theorem,1953.0,64.0,65,27,31,Mathlib.Computability,Mathlib
+wQ1933521,Kleene's recursion theorem,1938.0,63.0,64,26,30,Mathlib.Computability,Mathlib
+wQ1966978,Lévy continuity theorem,1925.0,199.0,200,4,45,Mathlib.MeasureTheory.Measure,Mathlib.MeasureTheory
+wQ2027347,Optional stopping theorem,1953.0,207.0,208,4,4,Mathlib.Probability.Martingale,Mathlib.Probability
+wQ2093886,Primitive element theorem,1831.0,100.0,101,5,68,Mathlib.FieldTheory,Mathlib
+wQ2096184,Plancherel theorem,1910.0,212.0,213,3,3,Mathlib.Analysis.Distribution.SchwartzSpace,Mathlib.Analysis.Distribution
+wQ2226625,Commandino's theorem,1565.0,50.0,51,6,6,Mathlib.LinearAlgebra.AffineSpace.Simplex,Mathlib.LinearAlgebra.AffineSpace
+wQ2226677,Gelfand–Mazur theorem,1938.0,211.0,212,2,14,Mathlib.Analysis.Normed.Algebra,Mathlib.Analysis.Normed
+wQ2226786,Sperner's theorem,1928.0,60.0,61,1,1,Mathlib.Combinatorics.SetFamily,Mathlib.Combinatorics
+wQ2226800,Schur–Zassenhaus theorem,1937.0,86.0,87,47,51,Mathlib.GroupTheory,Mathlib
+wQ2226868,Geometric mean theorem,-300.0,128.0,129,4,4,Mathlib.Geometry.Euclidean.Angle.Unoriented,Mathlib.Geometry.Euclidean.Angle
+wQ2253746,Bertrand's ballot theorem,1887.0,124.0,125,4,4,Archive.Wiedijk100Theorems,Archive
+wQ2267175,Tangent-secant theorem,-300.0,131.0,132,5,7,Mathlib.Geometry.Euclidean.Sphere,Mathlib.Geometry.Euclidean
+wQ2275191,Lebesgue differentiation theorem,1910.0,136.0,137,15,50,Mathlib.MeasureTheory.Covering,Mathlib.MeasureTheory
+wQ2379132,Going-up and going-down theorems,1946.0,74.0,75,2,4,Mathlib.RingTheory.Ideal,Mathlib.RingTheory
+wQ2471737,Carathéodory's theorem (convex hull),1907.0,55.0,56,5,5,Mathlib.Analysis.Convex,Mathlib.Analysis
+wQ2525646,Jordan–Hölder theorem,1889.0,49.0,50,4,14,Mathlib.Order,Mathlib
+wQ2631152,Carathéodory's extension theorem,1918.0,111.0,112,9,25,Mathlib.MeasureTheory.OuterMeasure,Mathlib.MeasureTheory
+wQ2919401,Ostrowski's theorem,1916.0,135.0,136,3,84,Mathlib.NumberTheory,Mathlib
+wQ3229335,Borel–Carathéodory theorem,1897.0,206.0,207,15,77,Mathlib.Analysis.Complex,Mathlib.Analysis
+wQ3229352,Vitali covering theorem,1908.0,107.0,108,1,21,Mathlib.MeasureTheory.Covering,Mathlib.MeasureTheory
+wQ3527102,Kruskal–Katona theorem,1963.0,53.0,54,3,6,Mathlib.Combinatorics.SetFamily,Mathlib.Combinatorics
+wQ3527118,Mahler's theorem,1958.0,118.0,119,36,36,Mathlib.NumberTheory.Padics,Mathlib.NumberTheory
+wQ3527166,Steinhaus theorem,1920.0,121.0,122,1,26,Mathlib.MeasureTheory.Measure.Haar,Mathlib.MeasureTheory.Measure
+wQ3527189,Lattice theorem,1927.0,35.0,36,11,18,Mathlib.GroupTheory.QuotientGroup,Mathlib.GroupTheory
+wQ3527205,Dimension theorem for vector spaces,1888.0,70.0,71,1,2,Mathlib.LinearAlgebra.Dimension,Mathlib.LinearAlgebra
+wQ3527215,Hilbert projection theorem,1934.0,94.0,95,1,11,Mathlib.Analysis.InnerProductSpace.Projection,Mathlib.Analysis.InnerProductSpace
+wQ3527217,M. Riesz extension theorem,1923.0,67.0,68,3,3,Mathlib.Analysis.Convex.Cone,Mathlib.Analysis.Convex
+wQ3527219,Weierstrass preparation theorem,1886.0,76.0,77,12,16,Mathlib.RingTheory.PowerSeries,Mathlib.RingTheory
+wQ3527230,Von Staudt–Clausen theorem,1840.0,94.0,95,1,62,Mathlib.NumberTheory,Mathlib
+wQ3527241,Krull's principal ideal theorem,1928.0,94.0,95,3,23,Mathlib.RingTheory.Ideal,Mathlib.RingTheory
+wQ3527250,Hadamard three-lines theorem,1896.0,210.0,211,19,81,Mathlib.Analysis.Complex,Mathlib.Analysis
+wQ3527263,Kleene fixed-point theorem,1952.0,25.0,26,18,18,Mathlib.Order,Mathlib
+wQ3984053,Fourier inversion theorem,1822.0,209.0,210,3,88,Mathlib.Analysis.Fourier,Mathlib.Analysis
+wQ4116459,Niven's theorem,1956.0,112.0,113,6,61,Mathlib.NumberTheory,Mathlib
+wQ4378868,Phragmén–Lindelöf theorem,1908.0,203.0,204,12,74,Mathlib.Analysis.Complex,Mathlib.Analysis
+wQ4695203,Four functions theorem,1978.0,51.0,52,3,3,Mathlib.Combinatorics.SetFamily,Mathlib.Combinatorics
+wQ4830725,Ax–Grothendieck theorem,1966.0,114.0,115,17,82,Mathlib.FieldTheory,Mathlib
+wQ4878586,Beck's monadicity theorem,1967.0,31.0,32,9,21,Mathlib.CategoryTheory.Monad,Mathlib.CategoryTheory
+wQ4950096,Bourbaki–Witt theorem,1949.0,26.0,27,24,25,Mathlib.Order,Mathlib
+wQ4971339,British flag theorem,,127.0,128,3,3,Mathlib.Geometry.Euclidean,Mathlib.Geometry
+wQ513028,Bézout's identity,1624.0,25.0,26,1,1,Mathlib.Data.Int,Mathlib.Data
+wQ5165492,Continuous mapping theorem,1943.0,132.0,133,5,46,Mathlib.MeasureTheory.Function,Mathlib.MeasureTheory
+wQ5171652,Corners theorem,1974.0,130.0,131,2,2,Mathlib.Combinatorics.Additive.Corner,Mathlib.Combinatorics.Additive
+wQ5421989,Exterior angle theorem,-300.0,129.0,130,5,5,Mathlib.Geometry.Euclidean,Mathlib.Geometry
+wQ5437947,Fatou–Lebesgue theorem,1906.0,122.0,123,4,4,Mathlib.MeasureTheory.Integral.Lebesgue,Mathlib.MeasureTheory.Integral
+wQ5445112,Fernique's theorem,1970.0,217.0,218,17,17,Mathlib.Probability.Distributions.Gaussian,Mathlib.Probability.Distributions
+wQ5463860,Focal subgroup theorem,1953.0,83.0,84,44,48,Mathlib.GroupTheory,Mathlib
+wQ5504427,Friendship theorem,1966.0,86.0,87,2,2,Archive.Wiedijk100Theorems,Archive
+wQ5566491,Glaisher's theorem,1883.0,69.0,70,4,4,Mathlib.Combinatorics.Enumerative.Partition,Mathlib.Combinatorics.Enumerative
+wQ5638886,Hahn embedding theorem,1907.0,93.0,94,21,21,Mathlib.RingTheory.HahnSeries,Mathlib.RingTheory
+wQ6783821,Mason–Stothers theorem,1981.0,79.0,80,1,1,Mathlib.NumberTheory.FLT,Mathlib.NumberTheory
+wQ6813106,Mellin inversion theorem,1896.0,209.0,210,88,158,Mathlib.Analysis,Mathlib
+wQ7208500,Poisson limit theorem,1837.0,192.0,193,1,1,Mathlib.Probability.Distributions.Poisson,Mathlib.Probability.Distributions
+wQ7249519,Prokhorov's theorem,1956.0,175.0,176,3,36,Mathlib.MeasureTheory.Measure,Mathlib.MeasureTheory
+wQ7432915,Schroeder–Bernstein theorem for measurable spaces,,28.0,29,10,10,Mathlib.MeasureTheory.MeasurableSpace,Mathlib.MeasureTheory
+wQ7433182,Schwartz–Zippel theorem,1979.0,86.0,87,1,45,Mathlib.Algebra.MvPolynomial,Mathlib.Algebra
+wQ7660749,Sylvester's determinant theorem,1851.0,63.0,64,10,11,Mathlib.LinearAlgebra.Matrix,Mathlib.LinearAlgebra
+wQ7888360,Structure theorem for finitely generated modules over a principal ideal domain,1930.0,111.0,112,6,32,Mathlib.Algebra.Module,Mathlib.Algebra
+wQ9993851,Lax–Milgram theorem,1954.0,115.0,116,25,33,Mathlib.Analysis.InnerProductSpace,Mathlib.Analysis
+wQ11352023,Vitali convergence theorem,1907.0,149.0,150,8,10,Mathlib.MeasureTheory.Function,Mathlib.MeasureTheory
+wQ16251580,Matiyasevich's theorem,1970.0,46.0,47,4,13,Mathlib.NumberTheory,Mathlib
+wQ17005116,Birkhoff's representation theorem,1937.0,39.0,40,3,14,Mathlib.Order,Mathlib
+wQ17098298,Jacobson density theorem,1945.0,58.0,59,4,4,Mathlib.RingTheory.SimpleModule,Mathlib.RingTheory
+wQ18206266,Euclid–Euler theorem,1747.0,50.0,51,2,2,Archive.Wiedijk100Theorems,Archive
+wQ20971632,Lie's theorem,1876.0,86.0,87,3,3,Mathlib.Algebra.Lie,Mathlib.Algebra
+wQ22952648,Uncountability of the continuum,1874.0,90.0,91,7,7,Mathlib.Analysis.Real,Mathlib.Analysis
+wQ25378679,Euler's theorem on homogeneous functions,1755.0,109.0,110,1,7,Mathlib.Analysis.Calculus.LineDeriv,Mathlib.Analysis.Calculus
+wQ25378690,Ionescu-Tulcea theorem,1949.0,182.0,183,7,7,Mathlib.Probability.Kernel.IonescuTulcea,Mathlib.Probability.Kernel
+wQ107710112,Cantor's isomorphism theorem,1895.0,48.0,49,4,13,Mathlib.Order,Mathlib
+f1,The Irrationality of the Square Root of 2,-500.0,80.0,81,4,4,Mathlib.NumberTheory.Real,Mathlib.NumberTheory
+f3,The Denumerability of the Rational Numbers,1874.0,52.0,52,0,0,Mathlib.Data.Rat,Mathlib.Data
+f9,The Area of a Circle,-250.0,180.0,181,1,1,Archive.Wiedijk100Theorems,Archive
+f18,Liouville’s Theorem and the Construction of Transcendental Numbers,1844.0,118.0,119,2,2,Mathlib.NumberTheory.Transcendental.Liouville,Mathlib.NumberTheory.Transcendental
+f23,Formula for Pythagorean Triples,-300.0,59.0,60,6,14,Mathlib.NumberTheory,Mathlib
+f26,Leibniz’s Series for Pi,1674.0,190.0,191,1,1,Mathlib.Analysis.Real.Pi,Mathlib.Analysis.Real
+f27,Sum of the Angles of a Triangle,-300.0,128.0,129,4,4,Mathlib.Geometry.Euclidean,Mathlib.Geometry
+f34,Divergence of the Harmonic Series,1350.0,130.0,131,47,79,Mathlib.Analysis,Mathlib
+f38,Arithmetic Mean/Geometric Mean,1821.0,122.0,123,39,71,Mathlib.Analysis,Mathlib
+f42,Sum of the Reciprocals of the Triangular Numbers,1672.0,54.0,55,1,1,Archive.Wiedijk100Theorems,Archive
+f52,The Number of Subsets of a Set,-200.0,40.0,41,2,10,Mathlib.Data.Finset,Mathlib.Data
+f54,Königsberg Bridges Problem,1736.0,42.0,43,1,1,Archive.Wiedijk100Theorems,Archive
+f55,Product of Segments of Chords,-300.0,130.0,131,4,6,Mathlib.Geometry.Euclidean.Sphere,Mathlib.Geometry.Euclidean
+f57,Heron’s Formula,60.0,122.0,123,1,1,Archive.Wiedijk100Theorems,Archive
+f58,Formula for the Number of Combinations,850.0,40.0,41,2,10,Mathlib.Data.Finset,Mathlib.Data
+f59,The Laws of Large Numbers,1933.0,191.0,192,16,140,Mathlib.Probability,Mathlib
+f64,L’Hopital’s Rule,1696.0,118.0,119,16,35,Mathlib.Analysis.Calculus,Mathlib.Analysis
+f65,Isosceles Triangle Theorem,-300.0,120.0,121,3,3,Mathlib.Geometry.Euclidean,Mathlib.Geometry
+f66,Sum of a Geometric Series,-300.0,48.0,49,1,7,Mathlib.Algebra.Field,Mathlib.Algebra
+f68,Sum of an arithmetic series,-300.0,49.0,50,5,5,Mathlib.Algebra.BigOperators,Mathlib.Algebra
+f69,Greatest Common Divisor Algorithm,-300.0,17.0,18,6,17,Mathlib.Algebra.EuclideanDomain,Mathlib.Algebra
+f76,Fourier Series,1829.0,181.0,182,5,61,Mathlib.Analysis.Fourier,Mathlib.Analysis
+f77,Sum of kth powers,1713.0,88.0,89,6,37,Mathlib.NumberTheory,Mathlib
+f78,The Cauchy-Schwarz Inequality,1821.0,93.0,94,3,11,Mathlib.Analysis.InnerProductSpace,Mathlib.Analysis
+f81,Divergence of the Prime Reciprocal Series,1737.0,85.0,86,2,2,Archive.Wiedijk100Theorems,Archive
+f82,Dissection of Cubes (J.E. Littlewood’s ‘elegant’ proof),1940.0,80.0,81,23,23,Archive.Wiedijk100Theorems,Archive
+f85,Divisibility by 3 Rule,,25.0,26,5,5,Mathlib.Data.Nat.Digits,Mathlib.Data.Nat
+f86,Lebesgue Measure and Integration,1902.0,93.0,94,1,1,Mathlib.MeasureTheory.Integral.Lebesgue,Mathlib.MeasureTheory.Integral
+f88,Derangements Formula,1708.0,42.0,43,3,3,Mathlib.Combinatorics.Derangements,Mathlib.Combinatorics
+f89,The Factor and Remainder Theorems,1637.0,77.0,78,23,36,Mathlib.Algebra.Polynomial,Mathlib.Algebra
+f91,The Triangle Inequality,-300.0,65.0,66,4,4,Mathlib.Analysis.Normed.Group,Mathlib.Analysis.Normed
+f93,The Birthday Problem,1939.0,45.0,46,1,1,Archive.Wiedijk100Theorems,Archive
+f94,The Law of Cosines,-300.0,121.0,122,4,4,Mathlib.Geometry.Euclidean,Mathlib.Geometry
+f96,Principle of Inclusion/Exclusion,1718.0,52.0,53,1,1,Mathlib.Combinatorics.Enumerative,Mathlib.Combinatorics
+f97,Cramer’s Rule,1750.0,68.0,69,15,16,Mathlib.LinearAlgebra.Matrix,Mathlib.LinearAlgebra
+f99,Buffon Needle Problem,1777.0,184.0,185,1,1,Archive.Wiedijk100Theorems,Archive
+f100,Descartes Rule of Signs,1828.0,87.0,88,33,46,Mathlib.Algebra.Polynomial,Mathlib.Algebra

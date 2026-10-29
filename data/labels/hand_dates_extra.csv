@@ -1,0 +1,17 @@
+key,year_stated,year_proved,confidence,note
+f5,1798,1896,high,Legendre conjecture (Gauss 1792 unpublished); Hadamard and de la Vallee Poussin
+f8,1837,1837,high,Wantzel
+f31,1930,1930,high,Frank Ramsey
+f67,1873,1873,high,Hermite
+f87,1639,1648,medium,Desargues; published by Bosse
+f6,1931,1931,high,Godel
+f12,1829,1868,medium,Lobachevsky and Bolyai; Beltrami model proves independence
+f13,1752,1794,medium,Euler; Legendre proof
+f21,1828,1828,high,Green
+f28,1640,1640,high,Pascal
+f29,1822,1822,high,Feuerbach
+f36,1912,1912,medium,Brouwer; Bohl 1904 special case
+f43,-200,1879,medium,Zenodorus; Weierstrass rigorous proof
+f50,-300,-300,high,Euclid Elements XIII
+f84,1899,1899,high,Morley
+f92,1899,1899,high,Pick

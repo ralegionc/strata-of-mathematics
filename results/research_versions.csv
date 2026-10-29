@@ -1,0 +1,5 @@
+name,repo,commit,toolchain,mathlib_rev
+pfr,teorth/pfr,4c56de547b2f33b0bc47b92f3bfbcebc6457a776,leanprover/lean4:v4.35.0-rc4,a37dcbd570ffe4283df24efc20b144a09cc3661e
+sphere-packing,thefundamentaltheor3m/Sphere-Packing-Lean,de0ce2b6d5a6622ddae2c409987cb45f678b8cf9,leanprover/lean4:v4.35.0-rc4,1f414401f69059aa7eead47b53ee40bd38455eeb
+sphere-eversion,leanprover-community/sphere-eversion,df3e74a3fbe1ae42c2cd9b075d77ff3863c1b795,leanprover/lean4:v4.35.0-rc3,5e0c4e5239cb0a2d86d68a884bf52cfd963fce22
+carleson,fpvandoorn/carleson,12fb202e6dba84aa57a9d39c7d019dc344902912,leanprover/lean4:v4.34.0-rc2,b63493a4746b4651fceb3bcf3a4651cc36a4b8de

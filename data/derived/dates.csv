@@ -1,0 +1,251 @@
+key,title,wikidata,year_stated,year_proved,confidence,note
+wQ11518,Pythagorean theorem,Q11518,-500.0,-500.0,medium,Pythagorean school; proof in Euclid I.47
+wQ26708,Binomial theorem,Q26708,1000.0,1000.0,low,al-Karaji for natural exponents; Pascal 1654; Newton general 1665
+wQ132427,Rademacher's theorem,Q132427,1919.0,1919.0,high,Rademacher
+wQ132469,Fermat's Last Theorem,Q132469,1637.0,1995.0,high,Fermat margin note; Wiles and Taylor-Wiles published 1995
+wQ137164,Besicovitch covering theorem,Q137164,1945.0,1945.0,medium,Besicovitch
+wQ172298,Lasker–Noether theorem,Q172298,1905.0,1905.0,medium,Lasker for polynomial rings; Noether general 1921
+wQ179208,Cayley's theorem,Q179208,1854.0,1854.0,high,Cayley
+wQ180345X,Integral root theorem,Q180345,1637.0,1637.0,low,rational root test known to Descartes
+wQ180345,Rational root theorem,Q180345,1637.0,1637.0,low,rational root test known to Descartes
+wQ182505,Bayes' theorem,Q182505,1763.0,1763.0,high,Bayes essay published posthumously
+wQ188295,Fermat's little theorem,Q188295,1640.0,1736.0,high,Fermat letter; Euler first published proof
+wQ189136,Mean value theorem,Q189136,1797.0,1797.0,medium,Lagrange; Cauchy modern form 1823
+wQ190391,Central limit theorem,Q190391,1733.0,1901.0,medium,de Moivre binomial case; Lyapunov general proof
+wQ190556,De Moivre's theorem,Q190556,1722.0,1748.0,medium,de Moivre; Euler proof via exponential
+wQ191693,Lebesgue's decomposition theorem,Q191693,1910.0,1910.0,low,Lebesgue; general measures later
+wQ192760,Fundamental theorem of algebra,Q192760,1629.0,1799.0,high,Girard statement; Gauss dissertation
+wQ193286,Rolle's theorem,Q193286,1691.0,1691.0,high,Rolle
+wQ193878,Chinese remainder theorem,Q193878,400.0,400.0,low,Sunzi Suanjing 3rd to 5th century
+wQ193910,Euler's theorem,Q193910,1763.0,1763.0,high,Euler totient theorem
+wQ203565,Solutions of a general cubic equation,Q203565,1545.0,1545.0,medium,Cardano Ars Magna (del Ferro and Tartaglia earlier)
+wQ213603,Ceva's theorem,Q213603,1678.0,1678.0,high,Giovanni Ceva
+wQ220680,Banach fixed-point theorem,Q220680,1922.0,1922.0,high,Banach
+wQ226014,Poincaré recurrence theorem,Q226014,1890.0,1890.0,high,Poincare
+wQ245098,Intermediate value theorem,Q245098,1817.0,1817.0,high,Bolzano
+wQ253214,Heine–Borel theorem,Q253214,1895.0,1895.0,medium,Borel countable covers; Heine 1872
+wQ258374,Carathéodory's theorem (measure theory),Q258374,1914.0,1914.0,medium,Caratheodory criterion
+wQ276082,Wilson's theorem,Q276082,1770.0,1771.0,medium,Waring states it for Wilson; Lagrange proof
+wQ282649,Pentagonal number theorem,Q282649,1741.0,1750.0,medium,Euler
+wQ285719,Thales's theorem,Q285719,-600.0,-600.0,medium,Thales by tradition; Euclid III.31
+wQ288465,Orbit-stabilizer theorem,Q288465,1887.0,1887.0,low,folklore of permutation groups; Frobenius era
+wQ303402,Rank–nullity theorem,Q303402,1884.0,1884.0,low,Sylvester law of nullity
+wQ318767,Abel's theorem,Q318767,1826.0,1826.0,high,Abel
+wQ338886,Divergence theorem,Q338886,1762.0,1826.0,medium,Lagrange; Ostrogradsky general proof
+wQ420714,Akra–Bazzi theorem,Q420714,1998.0,1998.0,high,Akra and Bazzi
+wQ422187,Myhill–Nerode theorem,Q422187,1958.0,1958.0,medium,Nerode 1958; Myhill 1957
+wQ459547,Ptolemy's theorem,Q459547,150.0,150.0,high,Almagest
+wQ468391,Bolzano–Weierstrass theorem,Q468391,1817.0,1817.0,medium,Bolzano; Weierstrass 1860s
+wQ470877,Stirling's theorem,Q470877,1730.0,1730.0,high,de Moivre and Stirling
+wQ472883,Quadratic reciprocity theorem,Q472883,1783.0,1801.0,medium,Euler and Legendre statements; Gauss Disquisitiones
+wQ474881,Cantor's theorem,Q474881,1891.0,1891.0,high,Cantor diagonal paper
+wQ476776,Solutions of a general quartic equation,Q476776,1545.0,1545.0,medium,Ferrari published in Ars Magna
+wQ505798,Lagrange's theorem (group theory),Q505798,1771.0,1771.0,medium,Lagrange on permutations
+wQ510197,Tutte theorem,Q510197,1947.0,1947.0,high,Tutte
+wQ530152,Picard–Lindelöf theorem,Q530152,1890.0,1890.0,medium,Picard; Lindelof 1894
+wQ536640,Hall's marriage theorem,Q536640,1935.0,1935.0,high,Philip Hall
+wQ537618,Banach–Alaoglu theorem,Q537618,1932.0,1932.0,medium,Banach sequential form; Alaoglu general 1940
+wQ550402,Dirichlet's theorem on arithmetic progressions,Q550402,1798.0,1837.0,medium,Legendre conjecture; Dirichlet proof
+wQ570779,Vieta's formulas,Q570779,1615.0,1615.0,low,Viete; Girard 1629 general
+wQ576478,Liouville's theorem (complex analysis),Q576478,1844.0,1844.0,high,Cauchy 1844; Liouville 1847
+wQ595466,Dini's theorem,Q595466,1878.0,1878.0,high,Dini
+wQ609612,Knaster–Tarski theorem,Q609612,1928.0,1928.0,medium,Knaster and Tarski for power sets; Tarski general 1955
+wQ619985,Multinomial theorem,Q619985,1697.0,1697.0,low,de Moivre; Leibniz correspondence earlier
+wQ632546,Bertrand's postulate,Q632546,1845.0,1852.0,high,Bertrand; Chebyshev
+wQ642620,Krein–Milman theorem,Q642620,1940.0,1940.0,high,Krein and Milman
+wQ643826,Slutsky's theorem,Q643826,1925.0,1925.0,high,Slutsky
+wQ656198,Maschke's theorem,Q656198,1898.0,1898.0,medium,Maschke
+wQ656645,Hilbert's basis theorem,Q656645,1890.0,1890.0,high,Hilbert
+wQ656772,Cayley–Hamilton theorem,Q656772,1858.0,1878.0,high,Cayley memoir; Frobenius general proof
+wQ657482,Abel–Ruffini theorem,Q657482,1799.0,1824.0,high,Ruffini; Abel
+wQ660799,Darboux's theorem (analysis),Q660799,1875.0,1875.0,high,Darboux
+wQ670235,Fundamental theorem of arithmetic,Q670235,-300.0,1801.0,medium,Euclid VII.30 to 32; Gauss Disquisitiones
+wQ716171,Erdős–Ginzburg–Ziv theorem,Q716171,1961.0,1961.0,high,Erdos Ginzburg Ziv
+wQ718875,Erdős–Ko–Rado theorem,Q718875,1961.0,1961.0,high,proved 1938 published 1961
+wQ720469,Chevalley–Warning theorem,Q720469,1935.0,1935.0,high,Chevalley 1935; Warning 1936
+wQ727102,Fermat's theorem (stationary points),Q727102,1636.0,1636.0,low,Fermat method of maxima and minima
+wQ739403,Stewart's theorem,Q739403,1746.0,1746.0,high,Matthew Stewart
+wQ752375,Extreme value theorem,Q752375,1860.0,1860.0,medium,Weierstrass; Bolzano 1830s unpublished
+wQ756946,Lagrange's four-square theorem,Q756946,1621.0,1770.0,high,Bachet edition of Diophantus; Lagrange
+wQ764287,Van der Waerden's theorem,Q764287,1927.0,1927.0,high,van der Waerden (Baudet conjecture)
+wQ765987,Heine–Cantor theorem,Q765987,1872.0,1872.0,medium,Heine; Dirichlet lectures 1854
+wQ776578,Wedderburn–Artin theorem,Q776578,1907.0,1907.0,medium,Wedderburn; Artin 1927
+wQ791663,Beatty's theorem,Q791663,1894.0,1894.0,low,Rayleigh; Beatty problem 1926
+wQ810431,Basel problem,Q810431,1650.0,1735.0,high,Mengoli; Euler
+wQ842953,Lebesgue's density theorem,Q842953,1904.0,1904.0,low,Lebesgue
+wQ848375,Implicit function theorem,Q848375,1831.0,1831.0,medium,Cauchy analytic case; Dini real case 1878
+wQ853067,Solutions to Pell's equation,Q853067,1657.0,1768.0,medium,Fermat challenge; Lagrange existence proof
+wQ859122,Cauchy–Hadamard theorem,Q859122,1821.0,1888.0,medium,Cauchy; Hadamard rediscovery and proof
+wQ866116,Hahn–Banach theorem,Q866116,1927.0,1927.0,high,Hahn; Banach 1929
+wQ869647,Szpilrajn extension theorem,Q869647,1930.0,1930.0,high,Szpilrajn
+wQ872088,Boolean prime ideal theorem,Q872088,1936.0,1936.0,low,Stone representation era
+wQ877489,Apollonius's theorem,Q877489,-200.0,-200.0,medium,Apollonius of Perga
+wQ914517,Fermat's theorem on sums of two squares,Q914517,1640.0,1749.0,high,Fermat letter to Mersenne; Euler
+wQ931001,Inverse function theorem,Q931001,1878.0,1878.0,low,Dini era
+wQ939927,Stone–Weierstrass theorem,Q939927,1937.0,1937.0,medium,Stone generalisation of Weierstrass 1885
+wQ943246,Wedderburn's little theorem,Q943246,1905.0,1905.0,high,Wedderburn
+wQ944297,Open mapping theorem (functional analysis),Q944297,1929.0,1929.0,medium,Banach and Schauder
+wQ967972,Open mapping theorem (complex analysis),Q967972,1880.0,1880.0,low,19th century complex analysis
+wQ976607,Erdős–Szekeres theorem,Q976607,1935.0,1935.0,high,Erdos and Szekeres
+wQ978688,Gershgorin circle theorem,Q978688,1931.0,1931.0,high,Gershgorin
+wQ1008566,Gauss–Lucas theorem,Q1008566,1836.0,1874.0,medium,Gauss note; Lucas proof
+wQ1032886,Hales–Jewett theorem,Q1032886,1963.0,1963.0,high,Hales and Jewett
+wQ1033910,Cantor–Bernstein–Schroeder theorem,Q1033910,1887.0,1897.0,medium,Cantor statement; Bernstein proof
+wQ1038716,Identity theorem,Q1038716,1850.0,1850.0,low,19th century complex analysis
+wQ1047749,Turán's theorem,Q1047749,1941.0,1941.0,high,Turan
+wQ1050203,Cantor's intersection theorem,Q1050203,1880.0,1880.0,low,Cantor nested sets
+wQ1052678,Baire category theorem,Q1052678,1899.0,1899.0,high,Baire thesis
+wQ1057919,Sylow theorems,Q1057919,1872.0,1872.0,high,Sylow
+wQ1065257,Squeeze theorem,Q1065257,1821.0,1821.0,low,ancient method of exhaustion; Cauchy era formal limit
+wQ1065966,Isomorphism theorem,Q1065966,1927.0,1927.0,low,Noether general form; Holder 1889 for groups
+wQ1067156,Dominated convergence theorem,Q1067156,1908.0,1908.0,low,Lebesgue
+wQ1067156X,Bounded convergence theorem,Q1067156,1902.0,1902.0,low,Lebesgue thesis; Arzela 1885 Riemann case
+wQ1068085,Closed graph theorem,Q1068085,1932.0,1932.0,medium,Banach
+wQ1068283,Löwenheim–Skolem theorem,Q1068283,1915.0,1915.0,high,Lowenheim; Skolem 1920
+wQ1068976,Hilbert's Nullstellensatz,Q1068976,1893.0,1893.0,high,Hilbert
+wQ1077462,König's theorem (set theory),Q1077462,1905.0,1905.0,high,Julius Konig
+wQ1082910,Euler's partition theorem,Q1082910,1748.0,1748.0,high,Euler
+wQ1097021,Minkowski's theorem,Q1097021,1889.0,1889.0,medium,Minkowski
+wQ1137014,Tychonoff's theorem,Q1137014,1930.0,1930.0,medium,Tychonoff; general 1935
+wQ1137206,Taylor's theorem,Q1137206,1715.0,1797.0,medium,Taylor; Lagrange remainder
+wQ1139041,Cauchy's theorem (group theory),Q1139041,1845.0,1845.0,high,Cauchy
+wQ1140119,Morera's theorem,Q1140119,1886.0,1886.0,high,Morera
+wQ1148215,Mitchell's embedding theorem,Q1148215,1964.0,1964.0,high,Mitchell
+wQ1149022,Fubini's theorem,Q1149022,1907.0,1907.0,high,Fubini
+wQ1149458,Compactness theorem,Q1149458,1930.0,1930.0,high,Godel countable case; Malcev general 1936
+wQ1153584,Monotone convergence theorem,Q1153584,1906.0,1906.0,medium,Beppo Levi
+wQ1186808,Lucas's theorem,Q1186808,1878.0,1878.0,high,Lucas
+wQ1188392,Zeckendorf's theorem,Q1188392,1952.0,1952.0,medium,Lekkerkerker; Zeckendorf published 1972
+wQ1191319,Radon–Nikodym theorem,Q1191319,1930.0,1930.0,medium,Nikodym general; Radon 1913 for Rn
+wQ1191709,Egorov's theorem,Q1191709,1911.0,1911.0,high,Egorov; Severini 1910
+wQ1194053,Metrization theorems,Q1194053,1925.0,1925.0,high,Urysohn
+wQ1217677,Fundamental theorem of calculus,Q1217677,1670.0,1823.0,medium,Barrow Newton Leibniz; Cauchy rigorous proof
+wQ1227702,Dirichlet's unit theorem,Q1227702,1846.0,1846.0,high,Dirichlet
+wQ1227703,Dirichlet's approximation theorem,Q1227703,1842.0,1842.0,high,Dirichlet
+wQ1243340,Birkhoff–Von Neumann theorem,Q1243340,1946.0,1946.0,high,Birkhoff
+wQ1259814,Nielsen–Schreier theorem,Q1259814,1921.0,1927.0,medium,Nielsen finite case; Schreier general
+wQ1306095,Whitney embedding theorem,Q1306095,1936.0,1936.0,medium,Whitney weak form
+wQ1346677,Tietze extension theorem,Q1346677,1915.0,1915.0,high,Tietze
+wQ1357684,Riesz representation theorem,Q1357684,1907.0,1907.0,medium,Riesz and Frechet
+wQ1426292,Banach–Steinhaus theorem,Q1426292,1927.0,1927.0,high,Banach and Steinhaus
+wQ1443036,Parseval's theorem,Q1443036,1799.0,1799.0,high,Parseval
+wQ1457052,Well-ordering theorem,Q1457052,1904.0,1904.0,high,Zermelo
+wQ1471282,Radon's theorem,Q1471282,1921.0,1921.0,high,Radon
+wQ1472120,Hellinger&ndash;Toeplitz theorem,Q1472120,1910.0,1910.0,high,Hellinger and Toeplitz
+wQ1477053,Arzelà–Ascoli theorem,Q1477053,1883.0,1895.0,medium,Ascoli; Arzela
+wQ1506253,Euclid's theorem,Q1506253,-300.0,-300.0,high,Euclid IX.20
+wQ1535225,Łoś' theorem,Q1535225,1955.0,1955.0,high,Los
+wQ1551745,Binomial inverse theorem,Q1551745,1950.0,1950.0,medium,Woodbury
+wQ1566341,Hindman's theorem,Q1566341,1974.0,1974.0,high,Hindman
+wQ1568811,Hahn decomposition theorem,Q1568811,1921.0,1921.0,high,Hahn
+wQ1632433,Helly's theorem,Q1632433,1913.0,1913.0,medium,Helly proved 1913 published 1923
+wQ1752621,Sylvester's law of inertia,Q1752621,1852.0,1852.0,high,Sylvester
+wQ1766814,Smn theorem,Q1766814,1938.0,1938.0,medium,Kleene
+wQ1816952,Schur's lemma,Q1816952,1905.0,1905.0,high,Schur
+wQ1893717,Rice's theorem,Q1893717,1953.0,1953.0,high,Rice
+wQ1933521,Kleene's recursion theorem,Q1933521,1938.0,1938.0,high,Kleene
+wQ1966978,Lévy continuity theorem,Q1966978,1925.0,1925.0,medium,Paul Levy
+wQ2027347,Optional stopping theorem,Q2027347,1953.0,1953.0,low,Doob
+wQ2093886,Primitive element theorem,Q2093886,1831.0,1831.0,low,Galois; Steinitz general 1910
+wQ2096184,Plancherel theorem,Q2096184,1910.0,1910.0,high,Plancherel
+wQ2226625,Commandino's theorem,Q2226625,1565.0,1565.0,high,Commandino
+wQ2226677,Gelfand–Mazur theorem,Q2226677,1938.0,1938.0,high,Mazur; Gelfand 1941
+wQ2226786,Sperner's theorem,Q2226786,1928.0,1928.0,high,Sperner
+wQ2226800,Schur–Zassenhaus theorem,Q2226800,1904.0,1937.0,medium,Schur special case; Zassenhaus general
+wQ2226868,Geometric mean theorem,Q2226868,-300.0,-300.0,medium,Euclid VI.8
+wQ2253746,Bertrand's ballot theorem,Q2253746,1887.0,1887.0,high,Bertrand
+wQ2267175,Tangent-secant theorem,Q2267175,-300.0,-300.0,medium,Euclid III.36
+wQ2275191,Lebesgue differentiation theorem,Q2275191,1910.0,1910.0,medium,Lebesgue
+wQ2379132,Going-up and going-down theorems,Q2379132,1946.0,1946.0,high,Cohen and Seidenberg
+wQ2471737,Carathéodory's theorem (convex hull),Q2471737,1907.0,1907.0,high,Caratheodory
+wQ2525646,Jordan–Hölder theorem,Q2525646,1869.0,1889.0,high,Jordan; Holder
+wQ2631152,Carathéodory's extension theorem,Q2631152,1918.0,1918.0,low,Caratheodory
+wQ2919401,Ostrowski's theorem,Q2919401,1916.0,1916.0,high,Ostrowski
+wQ3229335,Borel–Carathéodory theorem,Q3229335,1897.0,1897.0,low,Borel
+wQ3229352,Vitali covering theorem,Q3229352,1908.0,1908.0,high,Vitali
+wQ3527102,Kruskal–Katona theorem,Q3527102,1963.0,1963.0,high,Kruskal; Katona 1968
+wQ3527118,Mahler's theorem,Q3527118,1958.0,1958.0,high,Mahler
+wQ3527166,Steinhaus theorem,Q3527166,1920.0,1920.0,high,Steinhaus
+wQ3527189,Lattice theorem,Q3527189,1927.0,1927.0,low,correspondence theorem; Noether era
+wQ3527205,Dimension theorem for vector spaces,Q3527205,1888.0,1888.0,low,Peano era for finite dimension; Steinitz 1913 exchange
+wQ3527215,Hilbert projection theorem,Q3527215,1934.0,1934.0,low,Riesz era; Levi 1906
+wQ3527217,M. Riesz extension theorem,Q3527217,1923.0,1923.0,high,Marcel Riesz
+wQ3527219,Weierstrass preparation theorem,Q3527219,1886.0,1886.0,medium,Weierstrass
+wQ3527230,Von Staudt–Clausen theorem,Q3527230,1840.0,1840.0,high,von Staudt and Clausen
+wQ3527241,Krull's principal ideal theorem,Q3527241,1928.0,1928.0,high,Krull
+wQ3527250,Hadamard three-lines theorem,Q3527250,1896.0,1896.0,low,Hadamard three-circle era
+wQ3527263,Kleene fixed-point theorem,Q3527263,1952.0,1952.0,low,Kleene metamathematics
+wQ3984053,Fourier inversion theorem,Q3984053,1822.0,1822.0,low,Fourier
+wQ4116459,Niven's theorem,Q4116459,1956.0,1956.0,high,Niven
+wQ4378868,Phragmén–Lindelöf theorem,Q4378868,1908.0,1908.0,high,Phragmen and Lindelof
+wQ4695203,Four functions theorem,Q4695203,1978.0,1978.0,high,Ahlswede and Daykin
+wQ4830725,Ax–Grothendieck theorem,Q4830725,1966.0,1966.0,medium,Grothendieck EGA IV; Ax 1968
+wQ4878586,Beck's monadicity theorem,Q4878586,1967.0,1967.0,high,Beck thesis
+wQ4950096,Bourbaki–Witt theorem,Q4950096,1949.0,1949.0,high,Bourbaki; Witt 1951
+wQ4971339,British flag theorem,Q4971339,,,unknown,no reliable date known
+wQ513028,Bézout's identity,Q513028,1624.0,1624.0,medium,Bachet for integers; Bezout polynomials 1779
+wQ5165492,Continuous mapping theorem,Q5165492,1943.0,1943.0,high,Mann and Wald
+wQ5171652,Corners theorem,Q5171652,1974.0,1974.0,high,Ajtai and Szemeredi
+wQ5421989,Exterior angle theorem,Q5421989,-300.0,-300.0,medium,Euclid I.16
+wQ5437947,Fatou–Lebesgue theorem,Q5437947,1906.0,1906.0,medium,Fatou
+wQ5445112,Fernique's theorem,Q5445112,1970.0,1970.0,high,Fernique
+wQ5463860,Focal subgroup theorem,Q5463860,1953.0,1953.0,high,D. G. Higman
+wQ5504427,Friendship theorem,Q5504427,1966.0,1966.0,high,Erdos Renyi Sos
+wQ5566491,Glaisher's theorem,Q5566491,1883.0,1883.0,high,Glaisher
+wQ5638886,Hahn embedding theorem,Q5638886,1907.0,1907.0,high,Hans Hahn
+wQ6783821,Mason–Stothers theorem,Q6783821,1981.0,1981.0,high,Stothers; Mason 1983
+wQ6813106,Mellin inversion theorem,Q6813106,1896.0,1896.0,medium,Mellin
+wQ7208500,Poisson limit theorem,Q7208500,1837.0,1837.0,high,Poisson
+wQ7249519,Prokhorov's theorem,Q7249519,1956.0,1956.0,high,Prokhorov
+wQ7432915,Schroeder–Bernstein theorem for measurable spaces,Q7432915,,,unknown,no reliable date known
+wQ7433182,Schwartz–Zippel theorem,Q7433182,1979.0,1979.0,medium,Zippel; Schwartz 1980; DeMillo and Lipton 1978
+wQ7660749,Sylvester's determinant theorem,Q7660749,1851.0,1851.0,high,Sylvester
+wQ7888360,Structure theorem for finitely generated modules over a principal ideal domain,Q7888360,1930.0,1930.0,low,van der Waerden Moderne Algebra from Noether; Kronecker 1870 for abelian groups
+wQ9993851,Lax–Milgram theorem,Q9993851,1954.0,1954.0,high,Lax and Milgram
+wQ11352023,Vitali convergence theorem,Q11352023,1907.0,1907.0,high,Vitali
+wQ16251580,Matiyasevich's theorem,Q16251580,1953.0,1970.0,medium,Davis conjecture; Matiyasevich
+wQ17005116,Birkhoff's representation theorem,Q17005116,1937.0,1937.0,high,Garrett Birkhoff
+wQ17098298,Jacobson density theorem,Q17098298,1945.0,1945.0,high,Jacobson
+wQ18206266,Euclid–Euler theorem,Q18206266,-300.0,1747.0,medium,Euclid IX.36; Euler converse published 1849
+wQ20971632,Lie's theorem,Q20971632,1876.0,1876.0,medium,Sophus Lie
+wQ22952648,Uncountability of the continuum,Q22952648,1874.0,1874.0,high,Cantor
+wQ25378679,Euler's theorem on homogeneous functions,Q25378679,1755.0,1755.0,medium,Euler Institutiones calculi differentialis
+wQ25378690,Ionescu-Tulcea theorem,Q25378690,1949.0,1949.0,high,Ionescu Tulcea
+wQ107710112,Cantor's isomorphism theorem,Q107710112,1895.0,1895.0,high,Cantor
+f1,The Irrationality of the Square Root of 2,,-500.0,-500.0,low,Pythagorean school (Hippasus by tradition)
+f3,The Denumerability of the Rational Numbers,,1874.0,1874.0,high,Cantor
+f9,The Area of a Circle,,-250.0,-250.0,high,Archimedes Measurement of a Circle
+f18,Liouville’s Theorem and the Construction of Transcendental Numbers,,1844.0,1844.0,high,Liouville
+f23,Formula for Pythagorean Triples,,-300.0,-300.0,medium,Euclid X.29 lemma
+f26,Leibniz’s Series for Pi,,1674.0,1674.0,medium,Leibniz; Madhava earlier; Gregory 1671
+f27,Sum of the Angles of a Triangle,,-300.0,-300.0,high,Euclid I.32
+f34,Divergence of the Harmonic Series,,1350.0,1350.0,high,Oresme
+f38,Arithmetic Mean/Geometric Mean,,1821.0,1821.0,medium,Cauchy general n
+f42,Sum of the Reciprocals of the Triangular Numbers,,1672.0,1672.0,high,Leibniz for Huygens
+f52,The Number of Subsets of a Set,,-200.0,-200.0,low,Pingala combinatorics
+f54,Königsberg Bridges Problem,,1736.0,1736.0,high,Euler
+f55,Product of Segments of Chords,,-300.0,-300.0,high,Euclid III.35
+f57,Heron’s Formula,,60.0,60.0,high,Heron of Alexandria
+f58,Formula for the Number of Combinations,,850.0,850.0,low,Mahavira
+f59,The Laws of Large Numbers,,1909.0,1933.0,medium,Borel strong law; Kolmogorov iid
+f64,L’Hopital’s Rule,,1696.0,1696.0,high,L'Hopital textbook (Bernoulli 1694)
+f65,Isosceles Triangle Theorem,,-300.0,-300.0,medium,Euclid I.5
+f66,Sum of a Geometric Series,,-300.0,-300.0,medium,Euclid IX.35
+f68,Sum of an arithmetic series,,-300.0,-300.0,low,ancient
+f69,Greatest Common Divisor Algorithm,,-300.0,-300.0,high,Euclid VII.2
+f76,Fourier Series,,1807.0,1829.0,medium,Fourier; Dirichlet
+f77,Sum of kth powers,,1713.0,1713.0,medium,Jacob Bernoulli Ars Conjectandi
+f78,The Cauchy-Schwarz Inequality,,1821.0,1821.0,medium,Cauchy; Schwarz 1888 integrals
+f81,Divergence of the Prime Reciprocal Series,,1737.0,1737.0,high,Euler
+f82,Dissection of Cubes (J.E. Littlewood’s ‘elegant’ proof),,1940.0,1940.0,high,Brooks Smith Stone Tutte
+f85,Divisibility by 3 Rule,,,,unknown,no reliable date known
+f86,Lebesgue Measure and Integration,,1902.0,1902.0,high,Lebesgue thesis
+f88,Derangements Formula,,1708.0,1708.0,high,Montmort
+f89,The Factor and Remainder Theorems,,1637.0,1637.0,medium,Descartes
+f91,The Triangle Inequality,,-300.0,-300.0,high,Euclid I.20
+f93,The Birthday Problem,,1939.0,1939.0,medium,von Mises
+f94,The Law of Cosines,,-300.0,-300.0,medium,Euclid II.12 and II.13
+f96,Principle of Inclusion/Exclusion,,1718.0,1718.0,medium,de Moivre
+f97,Cramer’s Rule,,1750.0,1750.0,high,Cramer
+f99,Buffon Needle Problem,,1733.0,1777.0,high,Buffon
+f100,Descartes Rule of Signs,,1637.0,1828.0,medium,Descartes; Gauss proof

@@ -1,0 +1,906 @@
+list,area,section,label,decl,kind,depth,uses_real,overview_only
+undergraduate,Linear algebra,Linear algebra / Fundamentals,vector space,Module,definition,7,False,False
+undergraduate,Linear algebra,Linear algebra / Fundamentals,product of vector spaces,Prod.instModule,definition,7,False,False
+undergraduate,Linear algebra,Linear algebra / Fundamentals,vector subspace,Subspace,definition,18,False,False
+undergraduate,Linear algebra,Linear algebra / Fundamentals,quotient space,Submodule.hasQuotient,definition,10,False,False
+undergraduate,Linear algebra,Linear algebra / Fundamentals,sum of subspaces,Submodule.completeLattice,definition,8,False,False
+undergraduate,Linear algebra,Linear algebra / Fundamentals,direct sum,DirectSum.IsInternal,definition,16,False,False
+undergraduate,Linear algebra,Linear algebra / Fundamentals,complementary subspaces,Submodule.exists_isCompl,theorem,17,False,False
+undergraduate,Linear algebra,Linear algebra / Fundamentals,linear independence,LinearIndependent,definition,15,False,False
+undergraduate,Linear algebra,Linear algebra / Fundamentals,generating sets,Submodule.span,definition,9,False,False
+undergraduate,Linear algebra,Linear algebra / Fundamentals,bases,Module.Basis,definition,12,False,False
+undergraduate,Linear algebra,Linear algebra / Fundamentals,existence of bases,Module.Basis.ofVectorSpace,definition,20,False,False
+undergraduate,Linear algebra,Linear algebra / Fundamentals,linear map,LinearMap,definition,8,False,False
+undergraduate,Linear algebra,Linear algebra / Fundamentals,range of a linear map,LinearMap.range,definition,10,False,False
+undergraduate,Linear algebra,Linear algebra / Fundamentals,kernel of a linear map,LinearMap.ker,definition,10,False,False
+undergraduate,Linear algebra,Linear algebra / Fundamentals,algebra of endomorphisms of a vector space,Module.End.instAlgebra,definition,11,False,False
+undergraduate,Linear algebra,Linear algebra / Fundamentals,general linear group,LinearMap.GeneralLinearGroup,definition,12,False,False
+undergraduate,Linear algebra,Linear algebra / Duality,dual vector space,Module.Dual,definition,9,False,False
+undergraduate,Linear algebra,Linear algebra / Duality,dual basis,Module.Basis.dualBasis,definition,18,False,False
+undergraduate,Linear algebra,Linear algebra / Duality,transpose of a linear map,Module.Dual.transpose,definition,14,False,False
+undergraduate,Linear algebra,Linear algebra / Duality,orthogonality,Submodule.dualAnnihilator,definition,15,False,False
+undergraduate,Linear algebra,Linear algebra / Finite-dimensional vector spaces,finite-dimensionality,FiniteDimensional,definition,18,False,False
+undergraduate,Linear algebra,Linear algebra / Finite-dimensional vector spaces,isomorphism with $K^n$,Module.Basis.equivFun,definition,15,False,False
+undergraduate,Linear algebra,Linear algebra / Finite-dimensional vector spaces,rank of a linear map,LinearMap.rank,definition,18,False,False
+undergraduate,Linear algebra,Linear algebra / Finite-dimensional vector spaces,rank of a set of vectors,Set.finrank,definition,19,False,False
+undergraduate,Linear algebra,Linear algebra / Finite-dimensional vector spaces,isomorphism with bidual,Module.evalEquiv,definition,16,False,False
+undergraduate,Linear algebra,Linear algebra / Multilinearity,multilinear map,MultilinearMap,definition,8,False,False
+undergraduate,Linear algebra,Linear algebra / Multilinearity,determinant of vectors,Module.Basis.det,definition,16,False,False
+undergraduate,Linear algebra,Linear algebra / Multilinearity,determinant of endomorphisms,LinearMap.det,definition,20,False,False
+undergraduate,Linear algebra,Linear algebra / Multilinearity,special linear group,Matrix.SpecialLinearGroup,definition,16,False,False
+undergraduate,Linear algebra,Linear algebra / Multilinearity,orientation of a $\R$-vector space,Orientation,definition,10,False,False
+undergraduate,Linear algebra,Linear algebra / Matrices,commutative-ring-valued matrices,Matrix,definition,1,False,False
+undergraduate,Linear algebra,Linear algebra / Matrices,field-valued matrices,Matrix,definition,1,False,False
+undergraduate,Linear algebra,Linear algebra / Matrices,matrix representation of a linear map,LinearMap.toMatrix,definition,17,False,False
+undergraduate,Linear algebra,Linear algebra / Matrices,change of basis,basis_toMatrix_mul_linearMap_toMatrix_mul_basis_toMatrix,theorem,17,False,False
+undergraduate,Linear algebra,Linear algebra / Matrices,rank of a matrix,Matrix.rank,definition,19,False,False
+undergraduate,Linear algebra,Linear algebra / Matrices,determinant,Matrix.det,definition,15,False,False
+undergraduate,Linear algebra,Linear algebra / Matrices,invertibility,Matrix.inv,definition,18,False,False
+undergraduate,Linear algebra,Linear algebra / Matrices,Gaussian elimination,Matrix.Pivot.exists_list_transvec_mul_mul_list_transvec_eq_diagonal,theorem,17,False,False
+undergraduate,Linear algebra,Linear algebra / Endomorphism polynomials,annihilating polynomials,Polynomial.annIdeal,definition,17,False,False
+undergraduate,Linear algebra,Linear algebra / Endomorphism polynomials,minimal polynomial,minpoly,definition,17,False,False
+undergraduate,Linear algebra,Linear algebra / Endomorphism polynomials,characteristic polynomial,Matrix.charpoly,definition,16,False,False
+undergraduate,Linear algebra,Linear algebra / Endomorphism polynomials,Cayley-Hamilton theorem,Matrix.aeval_self_charpoly,theorem,16,False,False
+undergraduate,Linear algebra,Linear algebra / Structure theory of endomorphisms,eigenvalue,Module.End.HasEigenvalue,definition,14,False,False
+undergraduate,Linear algebra,Linear algebra / Structure theory of endomorphisms,eigenvector,Module.End.HasEigenvector,definition,14,False,False
+undergraduate,Linear algebra,Linear algebra / Structure theory of endomorphisms,invariant subspaces of an endomorphism,Module.End.invtSubmodule,definition,10,False,False
+undergraduate,Linear algebra,Linear algebra / Structure theory of endomorphisms,generalized eigenspaces,Module.End.genEigenspace,definition,12,False,False
+undergraduate,Linear algebra,Linear algebra / Structure theory of endomorphisms,Jordan-Chevalley-Dunford decomposition,Module.End.exists_isNilpotent_isSemisimple,theorem,18,False,False
+undergraduate,Linear algebra,Linear algebra / Linear representations,irreducible representation,Representation.IsIrreducible,definition,18,False,False
+undergraduate,Linear algebra,Linear algebra / Linear representations,Schur's lemma,FDRep.finrank_hom_simple_simple,theorem,18,False,False
+undergraduate,Linear algebra,Linear algebra / Exponential,matrix exponential,NormedSpace.exp,definition,19,False,False
+undergraduate,Group Theory,Group Theory / Basic definitions,group,Group,definition,5,False,False
+undergraduate,Group Theory,Group Theory / Basic definitions,group morphism,MonoidHom,definition,4,False,False
+undergraduate,Group Theory,Group Theory / Basic definitions,direct product of groups,Prod.instGroup,definition,5,False,False
+undergraduate,Group Theory,Group Theory / Basic definitions,subgroup,Subgroup,definition,6,False,False
+undergraduate,Group Theory,Group Theory / Basic definitions,subgroup generated by a subset,Subgroup.closure,definition,7,False,False
+undergraduate,Group Theory,Group Theory / Basic definitions,order of an element,orderOf,definition,9,False,False
+undergraduate,Group Theory,Group Theory / Basic definitions,normal subgroup,Subgroup.Normal,definition,7,False,False
+undergraduate,Group Theory,Group Theory / Basic definitions,quotient group,QuotientGroup.Quotient.group,definition,8,False,False
+undergraduate,Group Theory,Group Theory / Basic definitions,group action,MulAction,definition,4,False,False
+undergraduate,Group Theory,Group Theory / Basic definitions,stabilizer of a point,MulAction.stabilizer,definition,7,False,False
+undergraduate,Group Theory,Group Theory / Basic definitions,orbit,MulAction.orbit,definition,4,False,False
+undergraduate,Group Theory,Group Theory / Basic definitions,quotient space,MulAction.orbitEquivQuotientStabilizer,definition,10,False,False
+undergraduate,Group Theory,Group Theory / Basic definitions,class formula,MulAction.selfEquivSigmaOrbitsQuotientStabilizer,definition,12,False,False
+undergraduate,Group Theory,Group Theory / Basic definitions,conjugacy classes,ConjClasses,definition,7,False,False
+undergraduate,Group Theory,Group Theory / Abelian group,cyclic group,IsCyclic,definition,3,False,False
+undergraduate,Group Theory,Group Theory / Abelian group,finite type abelian groups,AddCommGroup.equiv_free_prod_directSum_zmod,theorem,11,False,False
+undergraduate,Group Theory,Group Theory / Abelian group,complex roots of unity,Complex.mem_rootsOfUnity,theorem,33,True,False
+undergraduate,Group Theory,Group Theory / Abelian group,primitive complex roots of unity,Complex.isPrimitiveRoot_iff,theorem,33,True,False
+undergraduate,Group Theory,Group Theory / Permutation group,permutation group of a type,Equiv.Perm,definition,5,False,False
+undergraduate,Group Theory,Group Theory / Permutation group,decomposition into transpositions,Equiv.Perm.truncSwapFactors,definition,11,False,False
+undergraduate,Group Theory,Group Theory / Permutation group,decomposition into cycles with disjoint support,Equiv.Perm.truncCycleFactors,definition,14,False,False
+undergraduate,Group Theory,Group Theory / Permutation group,signature,Equiv.Perm.sign,definition,12,False,False
+undergraduate,Group Theory,Group Theory / Permutation group,alternating group,alternatingGroup,definition,13,False,False
+undergraduate,Group Theory,Group Theory / Classical automorphism groups,general linear group,Matrix.GeneralLinearGroup,definition,10,False,False
+undergraduate,Group Theory,Group Theory / Classical automorphism groups,special linear group,Matrix.SpecialLinearGroup,definition,16,False,False
+undergraduate,Group Theory,Group Theory / Classical automorphism groups,orthogonal group,Matrix.orthogonalGroup,definition,11,False,False
+undergraduate,Group Theory,Group Theory / Classical automorphism groups,special orthogonal group,Matrix.specialOrthogonalGroup,definition,18,False,False
+undergraduate,Group Theory,Group Theory / Classical automorphism groups,unitary group,Matrix.unitaryGroup,definition,10,False,False
+undergraduate,Group Theory,Group Theory / Classical automorphism groups,special unitary group,Matrix.specialUnitaryGroup,definition,17,False,False
+undergraduate,Group Theory,Group Theory / Representation theory of finite groups,Maschke theorem,MonoidAlgebra.Submodule.exists_isCompl,theorem,17,False,False
+undergraduate,Group Theory,Group Theory / Representation theory of finite groups,orthogonality of irreducible characters,FDRep.char_orthonormal,theorem,20,False,False
+undergraduate,Group Theory,Group Theory / Representation theory of finite groups,characters of a finite-dimensional representation,FDRep.character,definition,20,False,False
+undergraduate,Ring Theory,Ring Theory / Fundamentals,ring,Ring,definition,6,False,False
+undergraduate,Ring Theory,Ring Theory / Fundamentals,subrings,Subring,definition,9,False,False
+undergraduate,Ring Theory,Ring Theory / Fundamentals,ring morphisms,RingHom,definition,7,False,False
+undergraduate,Ring Theory,Ring Theory / Fundamentals,ring structure $\Z$,Int.instCommRing,definition,8,False,False
+undergraduate,Ring Theory,Ring Theory / Fundamentals,product of rings,Pi.ring,definition,6,False,False
+undergraduate,Ring Theory,Ring Theory / Ideals and Quotients,ideal of a commutative ring,Ideal,definition,9,False,False
+undergraduate,Ring Theory,Ring Theory / Ideals and Quotients,quotient rings,Ideal.Quotient.ring,definition,11,False,False
+undergraduate,Ring Theory,Ring Theory / Ideals and Quotients,prime ideals,Ideal.IsPrime,definition,10,False,False
+undergraduate,Ring Theory,Ring Theory / Ideals and Quotients,maximal ideals,Ideal.IsMaximal,definition,10,False,False
+undergraduate,Ring Theory,Ring Theory / Ideals and Quotients,Chinese remainder theorem,Ideal.quotientInfRingEquivPiQuotient,definition,14,False,False
+undergraduate,Ring Theory,Ring Theory / Algebra,associative algebra over a commutative ring,Algebra,definition,8,False,False
+undergraduate,Ring Theory,Ring Theory / Divisibility in integral domains,irreducible elements,Irreducible,definition,6,False,False
+undergraduate,Ring Theory,Ring Theory / Divisibility in integral domains,invertible elements,Invertible,definition,3,False,False
+undergraduate,Ring Theory,Ring Theory / Divisibility in integral domains,coprime elements,IsCoprime,definition,7,False,False
+undergraduate,Ring Theory,Ring Theory / Divisibility in integral domains,unique factorisation domain (UFD),UniqueFactorizationMonoid,definition,7,False,False
+undergraduate,Ring Theory,Ring Theory / Divisibility in integral domains,greatest common divisor,GCDMonoid.gcd,definition,6,False,False
+undergraduate,Ring Theory,Ring Theory / Divisibility in integral domains,least common multiple,GCDMonoid.lcm,definition,6,False,False
+undergraduate,Ring Theory,Ring Theory / Divisibility in integral domains,$A[{X_i}]$ is a UFD when $A$ is a UFD,MvPolynomial.uniqueFactorizationMonoid,theorem,11,False,False
+undergraduate,Ring Theory,Ring Theory / Divisibility in integral domains,principal ideal domain,Submodule.IsPrincipal,definition,10,False,False
+undergraduate,Ring Theory,Ring Theory / Divisibility in integral domains,Euclidean rings,EuclideanDomain,definition,8,False,False
+undergraduate,Ring Theory,Ring Theory / Divisibility in integral domains,Euclid's' algorithm,Nat.xgcd,definition,11,False,False
+undergraduate,Ring Theory,Ring Theory / Divisibility in integral domains,$\Z$ is a Euclidean ring,Int.euclideanDomain,definition,8,False,False
+undergraduate,Ring Theory,Ring Theory / Divisibility in integral domains,congruence in $\Z$,Int.ModEq,definition,9,False,False
+undergraduate,Ring Theory,Ring Theory / Divisibility in integral domains,prime numbers,Prime,definition,6,False,False
+undergraduate,Ring Theory,Ring Theory / Divisibility in integral domains,Bézout's identity,exists_gcd_eq_mul_add_mul,theorem,12,False,False
+undergraduate,Ring Theory,Ring Theory / Divisibility in integral domains,$\Z/n\Z$ and its invertible elements,ZMod.unitOfCoprime,definition,14,False,False
+undergraduate,Ring Theory,Ring Theory / Divisibility in integral domains,Euler's totient function ($\varphi$),Nat.totient,definition,11,False,False
+undergraduate,Ring Theory,Ring Theory / Polynomial rings,$K[X]$ is a Euclidean ring when $K$ is a field,Polynomial.instEuclideanDomain,definition,18,False,False
+undergraduate,Ring Theory,Ring Theory / Polynomial rings,irreducible polynomial,Irreducible,definition,6,False,False
+undergraduate,Ring Theory,Ring Theory / Polynomial rings,cyclotomic polynomials in $\Q[X]$,Polynomial.cyclotomic,definition,26,True,False
+undergraduate,Ring Theory,Ring Theory / Polynomial rings,Eisenstein's criterion,Polynomial.irreducible_of_eisenstein_criterion,theorem,14,False,False
+undergraduate,Ring Theory,Ring Theory / Polynomial rings,polynomial algebra in one or several indeterminates over a commutative ring,MvPolynomial,definition,9,False,False
+undergraduate,Ring Theory,Ring Theory / Polynomial rings,roots of a polynomial,Polynomial.roots,definition,15,False,False
+undergraduate,Ring Theory,Ring Theory / Polynomial rings,multiplicity,Polynomial.rootMultiplicity,definition,14,False,False
+undergraduate,Ring Theory,Ring Theory / Polynomial rings,relationship between the coefficients and the roots of a split polynomial,Polynomial.coeff_eq_esymm_roots_of_card,theorem,15,False,False
+undergraduate,Ring Theory,Ring Theory / Polynomial rings,Newton's identities,MvPolynomial.mul_esymm_eq_sum,theorem,18,False,False
+undergraduate,Ring Theory,Ring Theory / Polynomial rings,polynomial derivative,Polynomial.derivative,definition,14,False,False
+undergraduate,Ring Theory,Ring Theory / Polynomial rings,decomposition into sums of homogeneous polynomials,MvPolynomial.sum_homogeneousComponent,theorem,17,False,False
+undergraduate,Ring Theory,Ring Theory / Polynomial rings,symmetric polynomials,MvPolynomial.IsSymmetric,definition,16,False,False
+undergraduate,Ring Theory,Ring Theory / Field Theory,fields,Field,definition,17,False,False
+undergraduate,Ring Theory,Ring Theory / Field Theory,characteristic of a ring,ringChar,definition,7,False,False
+undergraduate,Ring Theory,Ring Theory / Field Theory,characteristic zero,CharZero,definition,5,False,False
+undergraduate,Ring Theory,Ring Theory / Field Theory,characteristic p,CharP,definition,5,False,False
+undergraduate,Ring Theory,Ring Theory / Field Theory,Subfields,Subfield,definition,18,False,False
+undergraduate,Ring Theory,Ring Theory / Field Theory,Frobenius morphisms,frobenius,definition,9,False,False
+undergraduate,Ring Theory,Ring Theory / Field Theory,field $\Q$ of rational numbers,Rat.instField,definition,17,False,False
+undergraduate,Ring Theory,Ring Theory / Field Theory,field $\R$ of real numbers,Real.instField,definition,23,True,False
+undergraduate,Ring Theory,Ring Theory / Field Theory,field $\C$ of complex numbers,Complex.instField,definition,26,True,False
+undergraduate,Ring Theory,Ring Theory / Field Theory,$\C$ is algebraically closed,Complex.exists_root,theorem,25,True,False
+undergraduate,Ring Theory,Ring Theory / Field Theory,field of fractions of an integral domain,IsFractionRing,definition,11,False,False
+undergraduate,Ring Theory,Ring Theory / Field Theory,algebraic elements,IsAlgebraic,definition,17,False,False
+undergraduate,Ring Theory,Ring Theory / Field Theory,transcendental elements,Transcendental,definition,18,False,False
+undergraduate,Ring Theory,Ring Theory / Field Theory,algebraic extensions,Algebra.IsAlgebraic,definition,18,False,False
+undergraduate,Ring Theory,Ring Theory / Field Theory,algebraically closed fields,IsAlgClosed,definition,18,False,False
+undergraduate,Ring Theory,Ring Theory / Field Theory,rupture fields,AdjoinRoot,definition,12,False,False
+undergraduate,Ring Theory,Ring Theory / Field Theory,splitting fields,Polynomial.SplittingField,definition,22,False,False
+undergraduate,Ring Theory,Ring Theory / Field Theory,rational fraction fields with one indeterminate over a field,RatFunc,definition,12,False,False
+undergraduate,Bilinear and Quadratic Forms Over a Vector Space,Bilinear and Quadratic Forms Over a Vector Space / Bilinear forms,bilinear forms,LinearMap.BilinForm,definition,10,False,False
+undergraduate,Bilinear and Quadratic Forms Over a Vector Space,Bilinear and Quadratic Forms Over a Vector Space / Bilinear forms,alternating bilinear forms,LinearMap.BilinForm.IsAlt,definition,11,False,False
+undergraduate,Bilinear and Quadratic Forms Over a Vector Space,Bilinear and Quadratic Forms Over a Vector Space / Bilinear forms,symmetric bilinear forms,LinearMap.BilinForm.IsSymm,definition,11,False,False
+undergraduate,Bilinear and Quadratic Forms Over a Vector Space,Bilinear and Quadratic Forms Over a Vector Space / Bilinear forms,nondegenerate forms,LinearMap.BilinForm.Nondegenerate,definition,11,False,False
+undergraduate,Bilinear and Quadratic Forms Over a Vector Space,Bilinear and Quadratic Forms Over a Vector Space / Bilinear forms,matrix representation,LinearMap.BilinForm.toMatrix,definition,18,False,False
+undergraduate,Bilinear and Quadratic Forms Over a Vector Space,Bilinear and Quadratic Forms Over a Vector Space / Bilinear forms,change of coordinates,LinearMap.BilinForm.toMatrix_comp,theorem,18,False,False
+undergraduate,Bilinear and Quadratic Forms Over a Vector Space,Bilinear and Quadratic Forms Over a Vector Space / Quadratic forms,quadratic form,QuadraticForm,definition,11,False,False
+undergraduate,Bilinear and Quadratic Forms Over a Vector Space,Bilinear and Quadratic Forms Over a Vector Space / Quadratic forms,polar form of a quadratic,QuadraticMap.polar,definition,7,False,False
+undergraduate,Bilinear and Quadratic Forms Over a Vector Space,Bilinear and Quadratic Forms Over a Vector Space / Orthogonality,orthogonal elements,LinearMap.BilinForm.iIsOrtho,definition,11,False,False
+undergraduate,Bilinear and Quadratic Forms Over a Vector Space,Bilinear and Quadratic Forms Over a Vector Space / Orthogonality,adjoint endomorphism,LinearMap.BilinForm.leftAdjointOfNondegenerate,definition,22,False,False
+undergraduate,Bilinear and Quadratic Forms Over a Vector Space,Bilinear and Quadratic Forms Over a Vector Space / Orthogonality,Sylvester's law of inertia (existence),QuadraticForm.equivalent_one_zero_neg_one_weighted_sum_squared,theorem,23,True,False
+undergraduate,Bilinear and Quadratic Forms Over a Vector Space,Bilinear and Quadratic Forms Over a Vector Space / Orthogonality,Sylvester's law of inertia (uniqueness),QuadraticForm.sigPos_of_equiv_weightedSumSquares,theorem,19,False,False
+undergraduate,Bilinear and Quadratic Forms Over a Vector Space,Bilinear and Quadratic Forms Over a Vector Space / Orthogonality,real classification,QuadraticForm.equivalent_one_zero_neg_one_weighted_sum_squared,theorem,23,True,False
+undergraduate,Bilinear and Quadratic Forms Over a Vector Space,Bilinear and Quadratic Forms Over a Vector Space / Orthogonality,complex classification,QuadraticForm.equivalent_weightedSumSquares_of_isAlgClosed,theorem,18,False,False
+undergraduate,Bilinear and Quadratic Forms Over a Vector Space,Bilinear and Quadratic Forms Over a Vector Space / Orthogonality,Gram-Schmidt orthogonalisation,InnerProductSpace.gramSchmidt_orthogonal,theorem,38,True,False
+undergraduate,Bilinear and Quadratic Forms Over a Vector Space,Bilinear and Quadratic Forms Over a Vector Space / Euclidean and Hermitian spaces,Euclidean vector spaces,InnerProductSpace,definition,33,True,False
+undergraduate,Bilinear and Quadratic Forms Over a Vector Space,Bilinear and Quadratic Forms Over a Vector Space / Euclidean and Hermitian spaces,Hermitian vector spaces,InnerProductSpace,definition,33,True,False
+undergraduate,Bilinear and Quadratic Forms Over a Vector Space,Bilinear and Quadratic Forms Over a Vector Space / Euclidean and Hermitian spaces,dual isomorphism in the Euclidean case,InnerProductSpace.toDual,definition,38,True,False
+undergraduate,Bilinear and Quadratic Forms Over a Vector Space,Bilinear and Quadratic Forms Over a Vector Space / Euclidean and Hermitian spaces,orthogonal complement,Submodule.orthogonal,definition,34,True,False
+undergraduate,Bilinear and Quadratic Forms Over a Vector Space,Bilinear and Quadratic Forms Over a Vector Space / Euclidean and Hermitian spaces,Cauchy-Schwarz inequality,inner_mul_inner_self_le,theorem,33,True,False
+undergraduate,Bilinear and Quadratic Forms Over a Vector Space,Bilinear and Quadratic Forms Over a Vector Space / Euclidean and Hermitian spaces,norm,InnerProductSpace.Core.toNorm,definition,35,True,False
+undergraduate,Bilinear and Quadratic Forms Over a Vector Space,Bilinear and Quadratic Forms Over a Vector Space / Euclidean and Hermitian spaces,orthonormal bases,maximal_orthonormal_iff_basis_of_finiteDimensional,theorem,34,True,False
+undergraduate,Bilinear and Quadratic Forms Over a Vector Space,Bilinear and Quadratic Forms Over a Vector Space / Endomorphisms,orthogonal group,Matrix.orthogonalGroup,definition,11,False,False
+undergraduate,Bilinear and Quadratic Forms Over a Vector Space,Bilinear and Quadratic Forms Over a Vector Space / Endomorphisms,unitary group,Matrix.unitaryGroup,definition,10,False,False
+undergraduate,Bilinear and Quadratic Forms Over a Vector Space,Bilinear and Quadratic Forms Over a Vector Space / Endomorphisms,special orthogonal group,Matrix.specialOrthogonalGroup,definition,18,False,False
+undergraduate,Bilinear and Quadratic Forms Over a Vector Space,Bilinear and Quadratic Forms Over a Vector Space / Endomorphisms,special unitary group,Matrix.specialUnitaryGroup,definition,17,False,False
+undergraduate,Bilinear and Quadratic Forms Over a Vector Space,Bilinear and Quadratic Forms Over a Vector Space / Endomorphisms,self-adjoint endomorphism,IsSelfAdjoint,definition,2,False,False
+undergraduate,Bilinear and Quadratic Forms Over a Vector Space,Bilinear and Quadratic Forms Over a Vector Space / Endomorphisms,normal endomorphism,IsStarNormal,definition,4,False,False
+undergraduate,Bilinear and Quadratic Forms Over a Vector Space,Bilinear and Quadratic Forms Over a Vector Space / Endomorphisms,diagonalization of a self-adjoint endomorphism,LinearMap.IsSymmetric.eigenvectorBasis_apply_self_apply,theorem,49,True,False
+undergraduate,Bilinear and Quadratic Forms Over a Vector Space,Bilinear and Quadratic Forms Over a Vector Space / Endomorphisms,decomposition of an orthogonal transformation as a product of reflections,LinearIsometryEquiv.reflections_generate,theorem,39,True,False
+undergraduate,Bilinear and Quadratic Forms Over a Vector Space,Bilinear and Quadratic Forms Over a Vector Space / Low dimensions,cross product,crossProduct,definition,13,False,False
+undergraduate,Bilinear and Quadratic Forms Over a Vector Space,Bilinear and Quadratic Forms Over a Vector Space / Low dimensions,triple product,triple_product_eq_det,theorem,15,False,False
+undergraduate,Affine and Euclidean Geometry,Affine and Euclidean Geometry / General definitions,affine space,AddTorsor,definition,6,False,False
+undergraduate,Affine and Euclidean Geometry,Affine and Euclidean Geometry / General definitions,affine function,AffineMap,definition,9,False,False
+undergraduate,Affine and Euclidean Geometry,Affine and Euclidean Geometry / General definitions,affine subspace,AffineSubspace,definition,8,False,False
+undergraduate,Affine and Euclidean Geometry,Affine and Euclidean Geometry / General definitions,barycenter,Finset.affineCombination,definition,12,False,False
+undergraduate,Affine and Euclidean Geometry,Affine and Euclidean Geometry / General definitions,affine span,affineSpan,definition,12,False,False
+undergraduate,Affine and Euclidean Geometry,Affine and Euclidean Geometry / General definitions,affine groups,AffineEquiv.group,definition,15,False,False
+undergraduate,Affine and Euclidean Geometry,Affine and Euclidean Geometry / Convexity,convex subsets,Convex,definition,8,False,False
+undergraduate,Affine and Euclidean Geometry,Affine and Euclidean Geometry / Convexity,convex hull of a subset of an affine real space,convexHull,definition,10,False,False
+undergraduate,Affine and Euclidean Geometry,Affine and Euclidean Geometry / Convexity,extreme point,Set.extremePoints,definition,8,False,False
+undergraduate,Affine and Euclidean Geometry,Affine and Euclidean Geometry / Euclidean affine spaces,isometries of a Euclidean affine space,AffineIsometryEquiv,definition,32,True,False
+undergraduate,Affine and Euclidean Geometry,Affine and Euclidean Geometry / Euclidean affine spaces,group of isometries of a Euclidean affine space,AffineIsometryEquiv.instGroup,definition,33,True,False
+undergraduate,Affine and Euclidean Geometry,Affine and Euclidean Geometry / Euclidean affine spaces,angles between vectors,InnerProductGeometry.angle,definition,37,True,False
+undergraduate,Affine and Euclidean Geometry,Affine and Euclidean Geometry / Euclidean affine spaces,inscribed angle theorem,Orientation.two_zsmul_oangle_sub_eq_two_zsmul_oangle_sub_of_norm_eq,theorem,51,True,False
+undergraduate,Affine and Euclidean Geometry,Affine and Euclidean Geometry / Euclidean affine spaces,cocyclicity,EuclideanGeometry.Concyclic,definition,32,True,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Real numbers,definition of $\R$,Real,definition,22,True,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Real numbers,field structure,Real.instField,definition,23,True,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Real numbers,order,Real.linearOrder,definition,22,True,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Sequences of real numbers,convergence,Filter.Tendsto,definition,6,False,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Sequences of real numbers,limit point,MapClusterPt,definition,9,False,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Sequences of real numbers,recurrent sequences,Nat,definition,1,False,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Sequences of real numbers,Cauchy sequences,CauchySeq,definition,12,False,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Topology of R,metric structure,Real.metricSpace,definition,30,True,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Topology of R,completeness of R,Real.instCompleteSpace,theorem,28,True,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Topology of R,Bolzano-Weierstrass theorem,tendsto_subseq_of_bounded,theorem,30,True,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Topology of R,compact subsets of $\R$,Metric.isCompact_iff_isClosed_bounded,theorem,30,True,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Topology of R,connected subsets of $\R$,setOfPred_isPreconnected_eq_of_ordered,theorem,8,False,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Topology of R,additive subgroups of $\R$,AddSubgroup.dense_or_isCyclic,theorem,8,False,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Numerical series,Geometric series,tsum_geometric_of_norm_lt_one,theorem,30,True,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Numerical series,convergence of $p$-series for $p>1$,Real.summable_one_div_nat_rpow,theorem,39,True,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Numerical series,comparison of a series and an integral,AntitoneOn.tsum_le_integral,theorem,52,True,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Numerical series,alternating series,Antitone.tendsto_alternating_series_of_tendsto_zero,theorem,28,True,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Real-valued functions defined on a subset of $\R$,continuity,Continuous,definition,6,False,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Real-valued functions defined on a subset of $\R$,limits,Filter.Tendsto,definition,6,False,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Real-valued functions defined on a subset of $\R$,intermediate value theorem,intermediate_value_Icc,theorem,11,False,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Real-valued functions defined on a subset of $\R$,image of a segment,ContinuousOn.image_Icc,theorem,10,False,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Real-valued functions defined on a subset of $\R$,continuity of monotone functions,OrderIso.continuous,theorem,7,False,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Real-valued functions defined on a subset of $\R$,continuity of inverse functions,OrderIso.toHomeomorph,definition,9,False,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Differentiability,derivative at a point,HasDerivAt,definition,34,True,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Differentiability,differentiable functions,HasDerivAt,definition,34,True,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Differentiability,derivative of a composition of functions,deriv_comp,theorem,37,True,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Differentiability,derivative of the inverse of a function,HasStrictDerivAt.of_local_left_inverse,theorem,34,True,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Differentiability,Rolle's theorem,exists_deriv_eq_zero,theorem,37,True,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Differentiability,mean value theorem,exists_ratio_deriv_eq_ratio_slope,theorem,37,True,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Differentiability,higher-order derivatives of functions,iteratedDeriv,definition,38,True,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Differentiability,$C^k$ functions,ContDiff,definition,38,True,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Differentiability,Leibniz formula,deriv_mul,theorem,37,True,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Taylor-like theorems,Taylor's theorem with integral form for remainder,taylor_integral_remainder_of_absolutelyContinuous,theorem,53,True,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Taylor-like theorems,Taylor's theorem with Lagrange form for remainder,taylor_mean_remainder_lagrange,theorem,40,True,False
+undergraduate,Single Variable Real Analysis,"Single Variable Real Analysis / Elementary functions (trigonometric, rational, $\exp$, $\log$, etc)",polynomial functions,Polynomial.eval,definition,13,False,False
+undergraduate,Single Variable Real Analysis,"Single Variable Real Analysis / Elementary functions (trigonometric, rational, $\exp$, $\log$, etc)",rational functions,RatFunc.eval,definition,21,False,False
+undergraduate,Single Variable Real Analysis,"Single Variable Real Analysis / Elementary functions (trigonometric, rational, $\exp$, $\log$, etc)",logarithms,Real.log,definition,33,True,False
+undergraduate,Single Variable Real Analysis,"Single Variable Real Analysis / Elementary functions (trigonometric, rational, $\exp$, $\log$, etc)",exponential,Real.exp,definition,31,True,False
+undergraduate,Single Variable Real Analysis,"Single Variable Real Analysis / Elementary functions (trigonometric, rational, $\exp$, $\log$, etc)",power functions,Real.rpow,definition,39,True,False
+undergraduate,Single Variable Real Analysis,"Single Variable Real Analysis / Elementary functions (trigonometric, rational, $\exp$, $\log$, etc)",trigonometric functions,Real.sin,definition,32,True,False
+undergraduate,Single Variable Real Analysis,"Single Variable Real Analysis / Elementary functions (trigonometric, rational, $\exp$, $\log$, etc)",hyperbolic trigonometric functions,Real.sinh,definition,32,True,False
+undergraduate,Single Variable Real Analysis,"Single Variable Real Analysis / Elementary functions (trigonometric, rational, $\exp$, $\log$, etc)",inverse trigonometric functions,Real.arcsin,definition,35,True,False
+undergraduate,Single Variable Real Analysis,"Single Variable Real Analysis / Elementary functions (trigonometric, rational, $\exp$, $\log$, etc)",inverse hyperbolic trigonometric functions,Real.arsinh,definition,34,True,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Integration,Riemann sums,BoxIntegral.integralSum,definition,32,True,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Integration,antiderivative of a continuous function,Continuous.deriv_integral,theorem,53,True,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Integration,change of variable,intervalIntegral.integral_deriv_smul_comp,theorem,53,True,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Integration,integration by parts,intervalIntegral.integral_mul_deriv_eq_deriv_mul,theorem,53,True,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Sequences and series of functions,pointwise convergence,tendsto_pi_nhds,theorem,10,False,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Sequences and series of functions,uniform convergence,TendstoUniformly,definition,11,False,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Sequences and series of functions,continuity of the limit of a sequence of functions,continuous_of_uniform_approx_of_continuous,theorem,10,False,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Sequences and series of functions,continuity of the sum of a series of functions,continuous_tsum,theorem,30,True,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Sequences and series of functions,differentiability of the limit of a sequence of functions,hasFDerivAt_of_tendstoUniformly,theorem,33,True,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Sequences and series of functions,differentiability of the sum of a series of functions,differentiable_tsum,theorem,35,True,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Sequences and series of functions,Weierstrass polynomial approximation theorem,polynomialFunctions_closure_eq_top,theorem,29,True,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Sequences and series of functions,Weierstrass trigonometric approximation theorem,span_fourier_closure_eq_top,theorem,36,True,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Convexity,convex functions of a real variable,ConvexOn,definition,9,False,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Convexity / continuity and differentiability of convex functions,continuity,ConvexOn.continuousOn,theorem,31,True,False
+undergraduate,Single Variable Real Analysis,Single Variable Real Analysis / Convexity,characterizations of convexity,convexOn_of_deriv2_nonneg,theorem,37,True,False
+undergraduate,Single Variable Complex Analysis,Single Variable Complex Analysis / Complex-valued series,radius of convergence,FormalMultilinearSeries.radius,definition,33,True,False
+undergraduate,Single Variable Complex Analysis,Single Variable Complex Analysis / Complex-valued series,continuity,HasFPowerSeriesOnBall.continuousOn,theorem,34,True,False
+undergraduate,Single Variable Complex Analysis,Single Variable Complex Analysis / Complex-valued series,differentiability with respect to the complex variable,HasFPowerSeriesOnBall.differentiableOn,theorem,35,True,False
+undergraduate,Single Variable Complex Analysis,Single Variable Complex Analysis / Complex-valued series,complex exponential,Complex.exp,definition,30,True,False
+undergraduate,Single Variable Complex Analysis,Single Variable Complex Analysis / Complex-valued series / extension of trigonometric functions to the complex plane,cos,Complex.cos,definition,31,True,False
+undergraduate,Single Variable Complex Analysis,Single Variable Complex Analysis / Complex-valued series / extension of trigonometric functions to the complex plane,sin,Complex.sin,definition,31,True,False
+undergraduate,Single Variable Complex Analysis,Single Variable Complex Analysis / Complex-valued series / power series expansion of elementary functions,cos,Complex.hasSum_cos,theorem,32,True,False
+undergraduate,Single Variable Complex Analysis,Single Variable Complex Analysis / Complex-valued series / power series expansion of elementary functions,sin,Complex.hasSum_sin,theorem,32,True,False
+undergraduate,Single Variable Complex Analysis,Single Variable Complex Analysis / Complex-valued series / power series expansion of elementary functions,log,Complex.hasSum_taylorSeries_log,theorem,37,True,False
+undergraduate,Single Variable Complex Analysis,Single Variable Complex Analysis / Functions on one complex variable,holomorphic functions,DifferentiableOn,definition,35,True,False
+undergraduate,Single Variable Complex Analysis,Single Variable Complex Analysis / Functions on one complex variable,Cauchy formulas,Complex.two_pi_I_inv_smul_circleIntegral_sub_inv_smul_of_differentiable_on_off_countable,theorem,54,True,False
+undergraduate,Single Variable Complex Analysis,Single Variable Complex Analysis / Functions on one complex variable,analyticity of a holomorphic function,DifferentiableOn.analyticAt,theorem,36,True,False
+undergraduate,Single Variable Complex Analysis,Single Variable Complex Analysis / Functions on one complex variable,principle of isolated zeros,AnalyticAt.eventually_eq_zero_or_eventually_ne_zero,theorem,36,True,False
+undergraduate,Single Variable Complex Analysis,Single Variable Complex Analysis / Functions on one complex variable,principle of analytic continuation,AnalyticOnNhd.eqOn_of_preconnected_of_frequently_eq,theorem,37,True,False
+undergraduate,Single Variable Complex Analysis,Single Variable Complex Analysis / Functions on one complex variable,maximum principle,Complex.eventually_eq_of_isLocalMax_norm,theorem,34,True,False
+undergraduate,Single Variable Complex Analysis,Single Variable Complex Analysis / Functions on one complex variable,holomorphic stability under uniform convergence,TendstoLocallyUniformlyOn.differentiableOn,theorem,35,True,False
+undergraduate,Topology,Topology / Topology and Metric Spaces,topology of a metric space,Metric.isOpen_iff,theorem,29,True,False
+undergraduate,Topology,Topology / Topology and Metric Spaces,induced topology,TopologicalSpace.induced,definition,6,False,False
+undergraduate,Topology,Topology / Topology and Metric Spaces,finite product of metric spaces,metricSpacePi,definition,30,True,False
+undergraduate,Topology,Topology / Topology and Metric Spaces,limits of sequences,Metric.tendsto_atTop,theorem,28,True,False
+undergraduate,Topology,Topology / Topology and Metric Spaces,cluster points,ClusterPt,definition,8,False,False
+undergraduate,Topology,Topology / Topology and Metric Spaces,continuous functions,Continuous,definition,6,False,False
+undergraduate,Topology,Topology / Topology and Metric Spaces,homeomorphisms,Homeomorph,definition,7,False,False
+undergraduate,Topology,Topology / Topology and Metric Spaces,compactness in terms of open covers (Borel-Lebesgue),isCompact_iff_finite_subcover,theorem,9,False,False
+undergraduate,Topology,Topology / Topology and Metric Spaces,sequential compactness is equivalent to compactness (Bolzano-Weierstrass),isCompact_iff_isSeqCompact,theorem,11,False,False
+undergraduate,Topology,Topology / Topology and Metric Spaces,connectedness,ConnectedSpace,definition,8,False,False
+undergraduate,Topology,Topology / Topology and Metric Spaces,connected components,connectedComponent,definition,7,False,False
+undergraduate,Topology,Topology / Topology and Metric Spaces,path connectedness,IsPathConnected,definition,31,True,False
+undergraduate,Topology,Topology / Topology and Metric Spaces,Lipschitz functions,LipschitzWith,definition,29,True,False
+undergraduate,Topology,Topology / Topology and Metric Spaces,uniformly continuous functions,Metric.uniformContinuous_iff,theorem,28,True,False
+undergraduate,Topology,Topology / Topology and Metric Spaces,Heine-Cantor theorem,CompactSpace.uniformContinuous_of_continuous,theorem,11,False,False
+undergraduate,Topology,Topology / Topology and Metric Spaces,complete metric spaces,Metric.complete_of_cauchySeq_tendsto,theorem,28,True,False
+undergraduate,Topology,Topology / Topology and Metric Spaces,contraction mapping theorem,ContractingWith.exists_fixedPoint,theorem,30,True,False
+undergraduate,Topology,Topology / Normed vector spaces on $\R$ and $\C$,topology on a normed vector space,NormSMulClass.toIsBoundedSMul,theorem,29,True,False
+undergraduate,Topology,Topology / Normed vector spaces on $\R$ and $\C$,Banach open mapping theorem,ContinuousLinearMap.isOpenMap,theorem,31,True,False
+undergraduate,Topology,Topology / Normed vector spaces on $\R$ and $\C$,equivalence of norms in finite dimension,LinearEquiv.toContinuousLinearEquiv,definition,32,True,False
+undergraduate,Topology,Topology / Normed vector spaces on $\R$ and $\C$,norms $\lVert\cdot\rVert_p$ on $\R^n$ and $\C^n$,PiLp.normedSpace,definition,43,True,False
+undergraduate,Topology,Topology / Normed vector spaces on $\R$ and $\C$,absolutely convergent series in Banach spaces,Summable.of_norm,theorem,29,True,False
+undergraduate,Topology,Topology / Normed vector spaces on $\R$ and $\C$,continuous linear maps,ContinuousLinearMap,definition,9,False,False
+undergraduate,Topology,Topology / Normed vector spaces on $\R$ and $\C$,norm of a continuous linear map,LinearMap.mkContinuous,definition,30,True,False
+undergraduate,Topology,Topology / Normed vector spaces on $\R$ and $\C$,uniform convergence norm (sup-norm),EMetric.tendstoUniformlyOn_iff,theorem,28,True,False
+undergraduate,Topology,Topology / Normed vector spaces on $\R$ and $\C$,normed space of bounded continuous functions,BoundedContinuousFunction.instNormedSpace,definition,31,True,False
+undergraduate,Topology,Topology / Normed vector spaces on $\R$ and $\C$,completeness of the space of bounded continuous functions,BoundedContinuousFunction.instCompleteSpace,theorem,29,True,False
+undergraduate,Topology,Topology / Normed vector spaces on $\R$ and $\C$,Heine-Borel theorem (closed bounded subsets are compact in finite dimension),FiniteDimensional.proper,theorem,31,True,False
+undergraduate,Topology,Topology / Normed vector spaces on $\R$ and $\C$,Riesz' lemma (unit-ball characterization of finite dimension),FiniteDimensional.of_isCompact_closedBall,theorem,31,True,False
+undergraduate,Topology,Topology / Normed vector spaces on $\R$ and $\C$,Arzela-Ascoli theorem,BoundedContinuousFunction.arzela_ascoli,theorem,29,True,False
+undergraduate,Topology,Topology / Hilbert spaces,Hilbert projection theorem,exists_norm_eq_iInf_of_complete_convex,theorem,33,True,False
+undergraduate,Topology,Topology / Hilbert spaces,orthogonal projection onto closed vector subspaces,Submodule.orthogonalProjectionOnto,definition,36,True,False
+undergraduate,Topology,Topology / Hilbert spaces,dual space,StrongDual,definition,10,False,False
+undergraduate,Topology,Topology / Hilbert spaces,Riesz representation theorem,InnerProductSpace.toDual,definition,38,True,False
+undergraduate,Topology,Topology / Hilbert spaces,inner product space $l^2$,lp.instInnerProductSpace,definition,42,True,False
+undergraduate,Topology,Topology / Hilbert spaces,completeness of $l^2$,lp.completeSpace,theorem,41,True,False
+undergraduate,Topology,Topology / Hilbert spaces,inner product space $L^2$,MeasureTheory.L2.innerProductSpace,definition,52,True,False
+undergraduate,Topology,Topology / Hilbert spaces,completeness of $L^2$,MeasureTheory.Lp.instCompleteSpace,theorem,44,True,False
+undergraduate,Topology,Topology / Hilbert spaces,Hilbert bases,HilbertBasis,definition,43,True,False
+undergraduate,Topology,Topology / Hilbert spaces,"example, the Hilbert basis of trigonometric polynomials",fourierBasis,definition,53,True,False
+undergraduate,Topology,Topology / Hilbert spaces,Lax-Milgram theorem,IsCoercive.continuousLinearEquivOfBilin,definition,40,True,False
+undergraduate,Multivariable calculus,Multivariable calculus / Differential calculus,differentiable functions on an open subset of $\R^n$,DifferentiableOn,definition,35,True,False
+undergraduate,Multivariable calculus,Multivariable calculus / Differential calculus,differentials (linear tangent functions),fderiv,definition,36,True,False
+undergraduate,Multivariable calculus,Multivariable calculus / Differential calculus,directional derivative,lineDeriv,definition,38,True,False
+undergraduate,Multivariable calculus,Multivariable calculus / Differential calculus,gradient vector,gradient,definition,39,True,False
+undergraduate,Multivariable calculus,Multivariable calculus / Differential calculus,chain rule,fderiv_comp,theorem,36,True,False
+undergraduate,Multivariable calculus,Multivariable calculus / Differential calculus,mean value theorem,exists_ratio_deriv_eq_ratio_slope,theorem,37,True,False
+undergraduate,Multivariable calculus,Multivariable calculus / Differential calculus,differentiable functions,Differentiable,definition,35,True,False
+undergraduate,Multivariable calculus,Multivariable calculus / Differential calculus,$k$-times continuously differentiable functions,ContDiff,definition,38,True,False
+undergraduate,Multivariable calculus,Multivariable calculus / Differential calculus,partial derivatives commute,second_derivative_symmetric,theorem,33,True,False
+undergraduate,Multivariable calculus,Multivariable calculus / Differential calculus,Taylor's theorem with integral form for remainder,map_add_eq_sum_add_integral_iteratedFDeriv,theorem,53,True,False
+undergraduate,Multivariable calculus,Multivariable calculus / Differential calculus,local extrema,IsLocalMin.fderiv_eq_zero,theorem,36,True,False
+undergraduate,Multivariable calculus,Multivariable calculus / Differential calculus,convexity of functions on an open convex subset of $\R^n$,ConvexOn,definition,9,False,False
+undergraduate,Multivariable calculus,Multivariable calculus / Differential calculus,diffeomorphisms,Structomorph,definition,19,False,False
+undergraduate,Multivariable calculus,Multivariable calculus / Differential calculus,inverse function theorem,HasStrictDerivAt.to_localInverse,theorem,38,True,False
+undergraduate,Multivariable calculus,Multivariable calculus / Differential calculus,implicit function theorem,ImplicitFunctionData.implicitFunction,definition,38,True,False
+undergraduate,Multivariable calculus,Multivariable calculus / Differential equations,Cauchy-Lipschitz Theorem,IsPicardLindelof.exists_eq_forall_mem_Icc_hasDerivWithinAt,theorem,34,True,False
+undergraduate,Multivariable calculus,Multivariable calculus / Differential equations,Grönwall lemma,norm_le_gronwallBound_of_norm_deriv_right_le,theorem,34,True,False
+undergraduate,Measures and integral calculus,Measures and integral calculus / Measure theory,measurable spaces,MeasurableSpace,definition,6,False,False
+undergraduate,Measures and integral calculus,Measures and integral calculus / Measure theory,sigma-algebras,MeasurableSpace,definition,6,False,False
+undergraduate,Measures and integral calculus,Measures and integral calculus / Measure theory,product of sigma-algebras,MeasurableSpace.pi,definition,10,False,False
+undergraduate,Measures and integral calculus,Measures and integral calculus / Measure theory,Borel sigma-algebras,BorelSpace,definition,9,False,False
+undergraduate,Measures and integral calculus,Measures and integral calculus / Measure theory,positive measure,MeasureTheory.Measure,definition,31,True,False
+undergraduate,Measures and integral calculus,Measures and integral calculus / Measure theory,counting measure,MeasureTheory.Measure.count,definition,35,True,False
+undergraduate,Measures and integral calculus,Measures and integral calculus / Measure theory,Lebesgue measure,MeasureTheory.MeasureSpace,definition,32,True,False
+undergraduate,Measures and integral calculus,Measures and integral calculus / Measure theory,product measure,MeasurableSpace.pi,definition,10,False,False
+undergraduate,Measures and integral calculus,Measures and integral calculus / Measure theory,measurable functions,Measurable,definition,8,False,False
+undergraduate,Measures and integral calculus,Measures and integral calculus / Measure theory,approximation by step functions,MeasureTheory.SimpleFunc.tendsto_approxOn,theorem,31,True,False
+undergraduate,Measures and integral calculus,Measures and integral calculus / Integration,integral of positive measurable functions,MeasureTheory.lintegral,definition,33,True,False
+undergraduate,Measures and integral calculus,Measures and integral calculus / Integration,monotone convergence theorem,MeasureTheory.lintegral_iInf_ae,theorem,33,True,False
+undergraduate,Measures and integral calculus,Measures and integral calculus / Integration,Fatou's lemma,MeasureTheory.lintegral_liminf_le,theorem,33,True,False
+undergraduate,Measures and integral calculus,Measures and integral calculus / Integration,integrable functions,MeasureTheory.Integrable,definition,35,True,False
+undergraduate,Measures and integral calculus,Measures and integral calculus / Integration,dominated convergence theorem,MeasureTheory.tendsto_integral_of_dominated_convergence,theorem,52,True,False
+undergraduate,Measures and integral calculus,Measures and integral calculus / Integration,finite-dimensional vector-valued integrable functions,MeasureTheory.Integrable,definition,35,True,False
+undergraduate,Measures and integral calculus,Measures and integral calculus / Integration,continuity of integrals with respect to parameters,intervalIntegral.continuous_of_dominated_interval,theorem,53,True,False
+undergraduate,Measures and integral calculus,Measures and integral calculus / Integration,differentiability of integrals with respect to parameters,IntervalIntegrable.ae_hasDerivAt_integral,theorem,53,True,False
+undergraduate,Measures and integral calculus,Measures and integral calculus / Integration,$\mathrm{L}^p$ spaces where $1 ≤ p ≤ ∞$,MeasureTheory.Lp,definition,44,True,False
+undergraduate,Measures and integral calculus,Measures and integral calculus / Integration,Completeness of $\mathrm{L}^p$ spaces,MeasureTheory.Lp.instCompleteSpace,theorem,44,True,False
+undergraduate,Measures and integral calculus,Measures and integral calculus / Integration,Hölder's inequality,NNReal.lintegral_mul_le_Lp_mul_Lq,theorem,41,True,False
+undergraduate,Measures and integral calculus,Measures and integral calculus / Integration,Fubini's theorem,MeasureTheory.integral_prod,theorem,52,True,False
+undergraduate,Measures and integral calculus,Measures and integral calculus / Integration,change of variables for multiple integrals,MeasureTheory.integral_image_eq_integral_abs_det_fderiv_smul,theorem,52,True,False
+undergraduate,Measures and integral calculus,Measures and integral calculus / Integration,change of variables to polar co-ordinates,integral_comp_polarCoord_symm,theorem,52,True,False
+undergraduate,Measures and integral calculus,Measures and integral calculus / Integration,convolution,MeasureTheory.convolution,definition,53,True,False
+undergraduate,Measures and integral calculus,Measures and integral calculus / Integration,approximation by convolution,ContDiffBump.convolution_tendsto_right,theorem,53,True,False
+undergraduate,Measures and integral calculus,Measures and integral calculus / Integration,regularization by convolution,HasCompactSupport.contDiff_convolution_left,theorem,53,True,False
+undergraduate,Measures and integral calculus,Measures and integral calculus / Fourier analysis,Fourier series of locally integrable periodic real-valued functions,fourierBasis,definition,53,True,False
+undergraduate,Measures and integral calculus,Measures and integral calculus / Fourier analysis,Riemann-Lebesgue lemma,tendsto_integral_exp_smul_cocompact,theorem,52,True,False
+undergraduate,Measures and integral calculus,Measures and integral calculus / Fourier analysis,Parseval theorem,tsum_sq_fourierCoeff,theorem,53,True,False
+undergraduate,Measures and integral calculus,Measures and integral calculus / Fourier analysis,Fourier transform on $\mathrm{L}^1(\R^d)$,Real.fourier_eq,theorem,53,True,False
+undergraduate,Measures and integral calculus,Measures and integral calculus / Fourier analysis,Fourier transform on $\mathrm{L}^2(\R^d)$,MeasureTheory.Lp.fourierTransformₗᵢ,definition,55,True,False
+undergraduate,Measures and integral calculus,Measures and integral calculus / Fourier analysis,Plancherel’s theorem,SchwartzMap.integral_inner_fourier_fourier,theorem,54,True,False
+undergraduate,Measures and integral calculus,Measures and integral calculus / Fourier analysis,Fourier inversion formula,Continuous.fourierInv_fourier_eq,theorem,53,True,False
+undergraduate,Probability Theory,Probability Theory / Definitions of a probability space,probability measure,MeasureTheory.IsProbabilityMeasure,definition,32,True,False
+undergraduate,Probability Theory,Probability Theory / Definitions of a probability space,events,MeasurableSet,definition,7,False,False
+undergraduate,Probability Theory,Probability Theory / Definitions of a probability space,independent events,ProbabilityTheory.iIndepSet,definition,36,True,False
+undergraduate,Probability Theory,Probability Theory / Definitions of a probability space,sigma-algebra,MeasurableSpace,definition,6,False,False
+undergraduate,Probability Theory,Probability Theory / Definitions of a probability space,independent sigma-algebra,ProbabilityTheory.iIndep,definition,35,True,False
+undergraduate,Probability Theory,Probability Theory / Definitions of a probability space,$0$-$1$ law,ProbabilityTheory.measure_zero_or_one_of_measurableSet_limsup_atTop,theorem,35,True,False
+undergraduate,Probability Theory,Probability Theory / Definitions of a probability space,Borel-Cantelli lemma (easy direction),MeasureTheory.measure_limsup_atTop_eq_zero,theorem,27,True,False
+undergraduate,Probability Theory,Probability Theory / Definitions of a probability space,Borel-Cantelli lemma (difficult direction),ProbabilityTheory.measure_limsup_eq_one,theorem,36,True,False
+undergraduate,Probability Theory,Probability Theory / Definitions of a probability space,conditional probability,ProbabilityTheory.cond,definition,37,True,False
+undergraduate,Probability Theory,Probability Theory / Random variables and their laws,discrete law,PMF,definition,27,True,False
+undergraduate,Probability Theory,Probability Theory / Random variables and their laws,probability density function,MeasureTheory.HasPDF,definition,39,True,False
+undergraduate,Probability Theory,Probability Theory / Random variables and their laws,independence of random variables,ProbabilityTheory.iIndepFun,definition,36,True,False
+undergraduate,Probability Theory,Probability Theory / Random variables and their laws,mean of a random variable,MeasureTheory.integral,definition,52,True,False
+undergraduate,Probability Theory,Probability Theory / Random variables and their laws,variance of a real-valued random variable,ProbabilityTheory.variance,definition,54,True,False
+undergraduate,Probability Theory,Probability Theory / Random variables and their laws,moments,ProbabilityTheory.moment,definition,53,True,False
+undergraduate,Probability Theory,Probability Theory / Random variables and their laws,Bernoulli law,ProbabilityTheory.bernoulliMeasure,definition,35,True,False
+undergraduate,Probability Theory,Probability Theory / Random variables and their laws,binomial law,ProbabilityTheory.binomial,definition,42,True,False
+undergraduate,Probability Theory,Probability Theory / Random variables and their laws,geometric law,ProbabilityTheory.geometricMeasure,definition,35,True,False
+undergraduate,Probability Theory,Probability Theory / Random variables and their laws,Poisson law,ProbabilityTheory.poissonMeasure,definition,35,True,False
+undergraduate,Probability Theory,Probability Theory / Random variables and their laws,exponential law,ProbabilityTheory.expMeasure,definition,59,True,False
+undergraduate,Probability Theory,Probability Theory / Random variables and their laws,Gaussian law,ProbabilityTheory.gaussianReal,definition,47,True,False
+undergraduate,Probability Theory,Probability Theory / Random variables and their laws,characteristic function,MeasureTheory.charFun,definition,53,True,False
+undergraduate,Probability Theory,Probability Theory / Convergence of a sequence of random variables,convergence in probability,MeasureTheory.TendstoInMeasure,definition,32,True,False
+undergraduate,Probability Theory,Probability Theory / Convergence of a sequence of random variables,$\mathrm{L}^p$ convergence,MeasureTheory.Lp,definition,44,True,False
+undergraduate,Probability Theory,Probability Theory / Convergence of a sequence of random variables,almost surely convergence,MeasureTheory.ae,definition,28,True,False
+undergraduate,Probability Theory,Probability Theory / Convergence of a sequence of random variables,Markov inequality,MeasureTheory.mul_meas_ge_le_lintegral,theorem,33,True,False
+undergraduate,Probability Theory,Probability Theory / Convergence of a sequence of random variables,Chebyshev inequality,ProbabilityTheory.meas_ge_le_variance_div_sq,theorem,54,True,False
+undergraduate,Probability Theory,Probability Theory / Convergence of a sequence of random variables,strong law of large numbers,ProbabilityTheory.strong_law_ae,theorem,52,True,False
+undergraduate,Probability Theory,Probability Theory / Convergence of a sequence of random variables,central limit theorem,ProbabilityTheory.tendstoInDistribution_inv_sqrt_mul_sum_sub,theorem,54,True,False
+undergraduate,Distribution calculus,Distribution calculus / Spaces $\mathcal{D}(\R^d)$,smooth functions with compact support on $\R^d$,TestFunction,definition,39,True,False
+undergraduate,Distribution calculus,Distribution calculus / Distributions on $\R^d$,definition of distributions,Distribution,definition,44,True,False
+undergraduate,Distribution calculus,Distribution calculus / Spaces $\mathcal{S}(\R^d)$,Schwartz space of rapidly decreasing functions,SchwartzMap,definition,39,True,False
+undergraduate,Distribution calculus,Distribution calculus / Spaces $\mathcal{S}(\R^d)$,stability by derivation,SchwartzMap.fderivCLM,definition,44,True,False
+undergraduate,Distribution calculus,Distribution calculus / Spaces $\mathcal{S}(\R^d)$,stability by multiplication by a slowly growing smooth function,SchwartzMap.bilinLeftCLM,definition,44,True,False
+undergraduate,Distribution calculus,Distribution calculus / Spaces $\mathcal{S}(\R^d)$,Fourier transforms on $\mathcal{S}(\R^d)$,SchwartzMap.fourierTransformCLM,definition,54,True,False
+undergraduate,Distribution calculus,Distribution calculus / Spaces $\mathcal{S}(\R^d)$,convolution of two functions of $\mathcal{S}(\R^d)$,SchwartzMap.convolution,definition,55,True,False
+undergraduate,Distribution calculus,Distribution calculus / Tempered distributions,definition,TemperedDistribution,definition,42,True,False
+undergraduate,Distribution calculus,Distribution calculus / Tempered distributions,derivation of tempered distributions,TemperedDistribution.instLineDeriv,definition,44,True,False
+undergraduate,Distribution calculus,Distribution calculus / Tempered distributions,multiplication by a function $C^\infty$ of slow growth,TemperedDistribution.smulLeftCLM,definition,46,True,False
+undergraduate,Distribution calculus,Distribution calculus / Tempered distributions,$L^p$ functions,MeasureTheory.Lp.toTemperedDistributionCLM,definition,52,True,False
+undergraduate,Distribution calculus,Distribution calculus / Tempered distributions,Fourier transforms,FourierTransform.fourierCLM,definition,10,False,False
+undergraduate,Distribution calculus,Distribution calculus / Tempered distributions,inverse Fourier transform,FourierTransform.fourierInvCLM,definition,10,False,False
+undergraduate,Distribution calculus,Distribution calculus / Applications,Poisson’s formula,SchwartzMap.tsum_eq_tsum_fourier,theorem,54,True,False
+undergraduate,Numerical Analysis,Numerical Analysis / Approximation of numerical functions,Lagrange interpolation,Lagrange.interpolate,definition,20,False,False
+undergraduate,Numerical Analysis,Numerical Analysis / Approximation of numerical functions,Lagrange polynomial of a function at (n + 1) points,Lagrange.interpolate,definition,20,False,False
+overview,General algebra,General algebra / Category theory,category,CategoryTheory.Category,definition,3,False,True
+overview,General algebra,General algebra / Category theory,small category,CategoryTheory.SmallCategory,definition,4,False,True
+overview,General algebra,General algebra / Category theory,functor,CategoryTheory.Functor,definition,4,False,True
+overview,General algebra,General algebra / Category theory,natural transformation,CategoryTheory.NatTrans,definition,5,False,True
+overview,General algebra,General algebra / Category theory,Yoneda embedding,CategoryTheory.yoneda,definition,7,False,True
+overview,General algebra,General algebra / Category theory,isomorphism,CategoryTheory.Iso,definition,4,False,True
+overview,General algebra,General algebra / Category theory,adjunction,CategoryTheory.Adjunction,definition,7,False,True
+overview,General algebra,General algebra / Category theory,monad,CategoryTheory.Monad,definition,7,False,True
+overview,General algebra,General algebra / Category theory,comma category,CategoryTheory.Comma,definition,5,False,True
+overview,General algebra,General algebra / Category theory,limits,CategoryTheory.Limits.IsLimit,definition,9,False,True
+overview,General algebra,General algebra / Category theory,presheafed space,AlgebraicGeometry.PresheafedSpace,definition,8,False,True
+overview,General algebra,General algebra / Category theory,sheafed space,AlgebraicGeometry.SheafedSpace,definition,12,False,True
+overview,General algebra,General algebra / Category theory,monoidal category,CategoryTheory.MonoidalCategory,definition,6,False,True
+overview,General algebra,General algebra / Category theory,Cartesian closed,CategoryTheory.MonoidalClosed,definition,10,False,True
+overview,General algebra,General algebra / Category theory,abelian category,CategoryTheory.Abelian,definition,14,False,True
+overview,General algebra,General algebra / Category theory,Grothendieck topology,CategoryTheory.GrothendieckTopology,definition,8,False,True
+overview,General algebra,General algebra / Numbers,natural number,Nat,definition,1,False,False
+overview,General algebra,General algebra / Numbers,integer,Int,definition,2,False,True
+overview,General algebra,General algebra / Numbers,rational number,Rat,definition,11,False,True
+overview,General algebra,General algebra / Numbers,continued fraction,ContFract,definition,10,False,True
+overview,General algebra,General algebra / Numbers,real number,Real,definition,22,True,False
+overview,General algebra,General algebra / Numbers,extended real number,EReal,definition,23,True,True
+overview,General algebra,General algebra / Numbers,complex number,Complex,definition,23,True,True
+overview,General algebra,General algebra / Numbers,$p$-adic number,Padic,definition,22,False,True
+overview,General algebra,General algebra / Numbers,$p$-adic integer,PadicInt,definition,26,True,True
+overview,General algebra,General algebra / Numbers,hyper-real number,Hyperreal,definition,23,True,True
+overview,General algebra,General algebra / Group theory,group,Group,definition,5,False,False
+overview,General algebra,General algebra / Group theory,group morphism,MonoidHom,definition,4,False,False
+overview,General algebra,General algebra / Group theory,group action,MulAction,definition,4,False,False
+overview,General algebra,General algebra / Group theory,class formula,MulAction.selfEquivSigmaOrbitsQuotientStabilizer,definition,12,False,False
+overview,General algebra,General algebra / Group theory,Burnside lemma,MulAction.sum_card_fixedBy_eq_card_orbits_mul_card_group,theorem,9,False,True
+overview,General algebra,General algebra / Group theory,subgroup,Subgroup,definition,6,False,False
+overview,General algebra,General algebra / Group theory,index of a subgroup,Subgroup.index,definition,12,False,True
+overview,General algebra,General algebra / Group theory,normal subgroup,Subgroup.Normal,definition,7,False,False
+overview,General algebra,General algebra / Group theory,simple group,IsSimpleGroup,definition,8,False,True
+overview,General algebra,General algebra / Group theory,subgroup generated by a subset,Subgroup.closure,definition,7,False,False
+overview,General algebra,General algebra / Group theory,quotient group,QuotientGroup.Quotient.group,definition,8,False,False
+overview,General algebra,General algebra / Group theory,first isomorphism theorem,QuotientGroup.quotientKerEquivRange,definition,12,False,True
+overview,General algebra,General algebra / Group theory,second isomorphism theorem,QuotientGroup.quotientInfEquivProdNormalQuotient,definition,15,False,True
+overview,General algebra,General algebra / Group theory,third isomorphism theorem,QuotientGroup.quotientQuotientEquivQuotient,definition,13,False,True
+overview,General algebra,General algebra / Group theory,abelianization,Abelianization,definition,9,False,True
+overview,General algebra,General algebra / Group theory,free group,FreeGroup,definition,4,False,True
+overview,General algebra,General algebra / Group theory,presented group,PresentedGroup,definition,9,False,True
+overview,General algebra,General algebra / Group theory,Schreier's lemma,Subgroup.closure_mul_image_eq,theorem,9,False,True
+overview,General algebra,General algebra / Group theory,cyclic group,IsCyclic,definition,3,False,False
+overview,General algebra,General algebra / Group theory,nilpotent group,Group.IsNilpotent,definition,12,False,True
+overview,General algebra,General algebra / Group theory,permutation group of a type,Equiv.Perm,definition,5,False,False
+overview,General algebra,General algebra / Group theory,Cayley's theorem,Equiv.Perm.subgroupOfMulAction,definition,11,False,True
+overview,General algebra,General algebra / Group theory,alternating group,alternatingGroup,definition,13,False,False
+overview,General algebra,General algebra / Group theory,alternating groups on 5 letters or more are simple,alternatingGroup.isSimpleGroup,theorem,13,False,True
+overview,General algebra,General algebra / Group theory,classification of abelian simple groups,CommGroup.is_simple_iff_prime_card,theorem,11,False,True
+overview,General algebra,General algebra / Group theory,structure of finitely generated abelian groups,AddCommGroup.equiv_free_prod_directSum_zmod,theorem,11,False,False
+overview,General algebra,General algebra / Group theory,Lagrange's theorem,Subgroup.card_subgroup_dvd_card,theorem,11,False,True
+overview,General algebra,General algebra / Group theory,first Sylow theorem,Sylow.exists_subgroup_card_pow_prime,theorem,11,False,True
+overview,General algebra,General algebra / Group theory,second Sylow theorem,Sylow.isPretransitive_of_finite,theorem,9,False,True
+overview,General algebra,General algebra / Group theory,third Sylow theorem,card_sylow_modEq_one,theorem,11,False,True
+overview,General algebra,General algebra / Rings,ring,Ring,definition,6,False,False
+overview,General algebra,General algebra / Rings,ring morphism,RingHom,definition,7,False,False
+overview,General algebra,General algebra / Rings,the category of rings,RingCat,definition,7,False,True
+overview,General algebra,General algebra / Rings,subring,Subring,definition,9,False,False
+overview,General algebra,General algebra / Rings,localization,Localization,definition,8,False,True
+overview,General algebra,General algebra / Rings,local ring,IsLocalRing,definition,7,False,True
+overview,General algebra,General algebra / Rings,Noetherian ring,IsNoetherianRing,definition,12,False,True
+overview,General algebra,General algebra / Rings,ordered ring,IsOrderedRing,definition,7,False,True
+overview,General algebra,General algebra / Ideals and quotients,ideal of a commutative ring,Ideal,definition,9,False,False
+overview,General algebra,General algebra / Ideals and quotients,quotient ring,Ideal.Quotient.ring,definition,11,False,False
+overview,General algebra,General algebra / Ideals and quotients,prime ideal,Ideal.IsPrime,definition,10,False,False
+overview,General algebra,General algebra / Ideals and quotients,maximal ideal,Ideal.IsMaximal,definition,10,False,False
+overview,General algebra,General algebra / Ideals and quotients,Chinese remainder theorem,Ideal.quotientInfRingEquivPiQuotient,definition,14,False,False
+overview,General algebra,General algebra / Ideals and quotients,fractional ideal,FractionalIdeal,definition,13,False,True
+overview,General algebra,General algebra / Ideals and quotients,first isomorphism theorem for commutative rings,RingHom.quotientKerEquivOfSurjective,definition,15,False,True
+overview,General algebra,General algebra / Divisibility in integral domains,irreducible element,Irreducible,definition,6,False,False
+overview,General algebra,General algebra / Divisibility in integral domains,coprime element,IsCoprime,definition,7,False,False
+overview,General algebra,General algebra / Divisibility in integral domains,unique factorisation domain,UniqueFactorizationMonoid,definition,7,False,False
+overview,General algebra,General algebra / Divisibility in integral domains,greatest common divisor,GCDMonoid.gcd,definition,6,False,False
+overview,General algebra,General algebra / Divisibility in integral domains,least common multiple,GCDMonoid.lcm,definition,6,False,False
+overview,General algebra,General algebra / Divisibility in integral domains,principal ideal domain,Submodule.IsPrincipal,definition,10,False,False
+overview,General algebra,General algebra / Divisibility in integral domains,Euclidean domain,EuclideanDomain,definition,8,False,False
+overview,General algebra,General algebra / Divisibility in integral domains,Euclid's' algorithm,Nat.xgcd,definition,11,False,False
+overview,General algebra,General algebra / Divisibility in integral domains,Euler's totient function ($\varphi$),Nat.totient,definition,11,False,False
+overview,General algebra,General algebra / Divisibility in integral domains,Lucas-Lehmer primality test,lucas_lehmer_sufficiency,theorem,14,False,True
+overview,General algebra,General algebra / Polynomials and power series,polynomial in one indeterminate,Polynomial,definition,9,False,True
+overview,General algebra,General algebra / Polynomials and power series,roots of a polynomial,Polynomial.roots,definition,15,False,False
+overview,General algebra,General algebra / Polynomials and power series,multiplicity,Polynomial.rootMultiplicity,definition,14,False,False
+overview,General algebra,General algebra / Polynomials and power series,separable polynomial,Polynomial.Separable,definition,15,False,True
+overview,General algebra,General algebra / Polynomials and power series,$K[X]$ is Euclidean,Polynomial.instEuclideanDomain,definition,18,False,False
+overview,General algebra,General algebra / Polynomials and power series,Hilbert basis theorem,Polynomial.isNoetherianRing,theorem,12,False,True
+overview,General algebra,General algebra / Polynomials and power series,$A[X]$ has gcd and lcm if $A$ does,Polynomial.normalizedGcdMonoid,definition,13,False,True
+overview,General algebra,General algebra / Polynomials and power series,$A[{X_i}]$ is a UFD when $A$ is a UFD,MvPolynomial.uniqueFactorizationMonoid,theorem,11,False,False
+overview,General algebra,General algebra / Polynomials and power series,irreducible polynomial,Irreducible,definition,6,False,False
+overview,General algebra,General algebra / Polynomials and power series,Eisenstein's criterion,Polynomial.irreducible_of_eisenstein_criterion,theorem,14,False,False
+overview,General algebra,General algebra / Polynomials and power series,polynomial in several indeterminates,MvPolynomial,definition,9,False,False
+overview,General algebra,General algebra / Polynomials and power series,power series,PowerSeries,definition,9,False,True
+overview,General algebra,General algebra / Algebras over a ring,associative algebra over a commutative ring,Algebra,definition,8,False,False
+overview,General algebra,General algebra / Algebras over a ring,the category of algebras over a ring,AlgCat,definition,9,False,True
+overview,General algebra,General algebra / Algebras over a ring,free algebra of a commutative ring,FreeAlgebra,definition,9,False,True
+overview,General algebra,General algebra / Algebras over a ring,tensor product of algebras,Algebra.TensorProduct.instAlgebra,definition,19,False,True
+overview,General algebra,General algebra / Algebras over a ring,tensor algebra of a commutative ring,TensorAlgebra,definition,13,False,True
+overview,General algebra,General algebra / Algebras over a ring,Lie algebra,LieAlgebra,definition,8,False,True
+overview,General algebra,General algebra / Algebras over a ring,exterior algebra,ExteriorAlgebra,definition,18,False,True
+overview,General algebra,General algebra / Algebras over a ring,Clifford algebra,CliffordAlgebra,definition,17,False,True
+overview,General algebra,General algebra / Field theory,field,Field,definition,17,False,False
+overview,General algebra,General algebra / Field theory,subfield,Subfield,definition,18,False,False
+overview,General algebra,General algebra / Field theory,characteristic of a ring,ringChar,definition,7,False,False
+overview,General algebra,General algebra / Field theory,characteristic zero,CharZero,definition,5,False,False
+overview,General algebra,General algebra / Field theory,characteristic p,CharP,definition,5,False,False
+overview,General algebra,General algebra / Field theory,Frobenius morphism,frobenius,definition,9,False,False
+overview,General algebra,General algebra / Field theory,algebraically closed field,IsAlgClosed,definition,18,False,False
+overview,General algebra,General algebra / Field theory,existence of algebraic closure of a field,AlgebraicClosure,definition,23,False,True
+overview,General algebra,General algebra / Field theory,$\C$ is algebraically closed,Complex.exists_root,theorem,25,True,False
+overview,General algebra,General algebra / Field theory,field of fractions of an integral domain,IsFractionRing,definition,11,False,False
+overview,General algebra,General algebra / Field theory,algebraic extension,Algebra.IsAlgebraic,definition,18,False,False
+overview,General algebra,General algebra / Field theory,rupture field,AdjoinRoot,definition,12,False,False
+overview,General algebra,General algebra / Field theory,splitting field,Polynomial.SplittingField,definition,22,False,False
+overview,General algebra,General algebra / Field theory,perfect closure,PerfectClosure,definition,11,False,True
+overview,General algebra,General algebra / Field theory,Galois correspondence,IsGalois.intermediateFieldEquivSubgroup,definition,23,False,True
+overview,General algebra,General algebra / Field theory,Abel-Ruffini theorem (one direction),isSolvable_gal_minpoly,theorem,24,False,True
+overview,General algebra,General algebra / Homological algebra,chain complex,ChainComplex,definition,7,False,True
+overview,General algebra,General algebra / Homological algebra,functorial homology,HomologicalComplex.homology,definition,17,False,True
+overview,General algebra,General algebra / Number theory,sum of two squares,Nat.Prime.sq_add_sq,theorem,7,False,True
+overview,General algebra,General algebra / Number theory,sum of four squares,Nat.sum_four_squares,theorem,4,False,True
+overview,General algebra,General algebra / Number theory,quadratic reciprocity,legendreSym.quadratic_reciprocity,theorem,19,False,True
+overview,General algebra,General algebra / Number theory,solutions to Pell's equation,Pell.pell,definition,6,False,True
+overview,General algebra,General algebra / Number theory,Matiyasevič's theorem,Pell.matiyasevic,theorem,8,False,True
+overview,General algebra,General algebra / Number theory,arithmetic functions,ArithmeticFunction,definition,6,False,True
+overview,General algebra,General algebra / Number theory,Bernoulli numbers,bernoulli,definition,15,False,True
+overview,General algebra,General algebra / Number theory,Chevalley-Warning theorem,char_dvd_card_solutions,theorem,17,False,True
+overview,General algebra,General algebra / Number theory,Hensel's lemma (for $\mathbb{Z}_p$),hensels_lemma,theorem,26,True,True
+overview,General algebra,General algebra / Number theory,ring of Witt vectors,WittVector,definition,2,False,True
+overview,General algebra,General algebra / Number theory,perfection of a ring,Perfection,definition,3,False,True
+overview,General algebra,General algebra / Transcendental numbers,Liouville's theorem on existence of transcendental numbers,transcendental_liouvilleNumber,theorem,29,True,True
+overview,General algebra,General algebra / Algebraic Number Theory,Finiteness of the class number,NumberField.RingOfIntegers.instFintypeClassGroup,definition,45,True,True
+overview,General algebra,General algebra / Algebraic Number Theory,Dirichlet unit theorem,NumberField.Units.exist_unique_eq_mul_prod,theorem,36,True,True
+overview,General algebra,General algebra / Algebraic Number Theory,Dirichlet class number formula,NumberField.tendsto_sub_one_mul_dedekindZeta_nhdsGT,theorem,48,True,True
+overview,General algebra,General algebra / Representation theory,representation,Representation,definition,12,False,True
+overview,General algebra,General algebra / Representation theory,category of finite-dimensional representations,FDRep,definition,14,False,True
+overview,General algebra,General algebra / Representation theory,character,FDRep.character,definition,20,False,False
+overview,General algebra,General algebra / Representation theory,orthogonality of characters,FDRep.char_orthonormal,theorem,20,False,False
+overview,Linear algebra,Linear algebra / Fundamentals,module,Module,definition,7,False,False
+overview,Linear algebra,Linear algebra / Fundamentals,linear map,LinearMap,definition,8,False,False
+overview,Linear algebra,Linear algebra / Fundamentals,the category of modules over a ring,ModuleCat,definition,8,False,True
+overview,Linear algebra,Linear algebra / Fundamentals,vector space,Module,definition,7,False,False
+overview,Linear algebra,Linear algebra / Fundamentals,quotient space,Submodule.hasQuotient,definition,10,False,False
+overview,Linear algebra,Linear algebra / Fundamentals,tensor product,TensorProduct,definition,9,False,True
+overview,Linear algebra,Linear algebra / Fundamentals,Noetherian module,IsNoetherian,definition,11,False,True
+overview,Linear algebra,Linear algebra / Fundamentals,basis,Module.Basis,definition,12,False,False
+overview,Linear algebra,Linear algebra / Fundamentals,multilinear map,MultilinearMap,definition,8,False,False
+overview,Linear algebra,Linear algebra / Fundamentals,alternating map,AlternatingMap,definition,9,False,True
+overview,Linear algebra,Linear algebra / Fundamentals,general linear group,LinearMap.GeneralLinearGroup,definition,12,False,False
+overview,Linear algebra,Linear algebra / Duality,dual vector space,Module.Dual,definition,9,False,False
+overview,Linear algebra,Linear algebra / Duality,dual basis,Module.Basis.dualBasis,definition,18,False,False
+overview,Linear algebra,Linear algebra / Finite-dimensional vector spaces,finite-dimensionality,FiniteDimensional,definition,18,False,False
+overview,Linear algebra,Linear algebra / Finite-dimensional vector spaces,isomorphism with $K^n$,Module.Basis.equivFun,definition,15,False,False
+overview,Linear algebra,Linear algebra / Finite-dimensional vector spaces,isomorphism with bidual,Module.evalEquiv,definition,16,False,False
+overview,Linear algebra,Linear algebra / Finitely generated modules over a PID,structure theorem,Module.equiv_free_prod_directSum,theorem,11,False,True
+overview,Linear algebra,Linear algebra / Matrices,ring-valued matrix,Matrix,definition,1,False,False
+overview,Linear algebra,Linear algebra / Matrices,matrix representation of a linear map,LinearMap.toMatrix,definition,17,False,False
+overview,Linear algebra,Linear algebra / Matrices,determinant,Matrix.det,definition,15,False,False
+overview,Linear algebra,Linear algebra / Matrices,invertibility,Matrix.inv,definition,18,False,False
+overview,Linear algebra,Linear algebra / Endomorphism polynomials,minimal polynomial,minpoly,definition,17,False,False
+overview,Linear algebra,Linear algebra / Endomorphism polynomials,characteristic polynomial,Matrix.charpoly,definition,16,False,False
+overview,Linear algebra,Linear algebra / Endomorphism polynomials,Cayley-Hamilton theorem,Matrix.aeval_self_charpoly,theorem,16,False,False
+overview,Linear algebra,Linear algebra / Structure theory of endomorphisms,eigenvalue,Module.End.HasEigenvalue,definition,14,False,False
+overview,Linear algebra,Linear algebra / Structure theory of endomorphisms,eigenvector,Module.End.HasEigenvector,definition,14,False,False
+overview,Linear algebra,Linear algebra / Structure theory of endomorphisms,existence of an eigenvalue,Module.End.exists_eigenvalue,theorem,18,False,True
+overview,Linear algebra,Linear algebra / Bilinear and quadratic forms,bilinear form,LinearMap.BilinForm,definition,10,False,False
+overview,Linear algebra,Linear algebra / Bilinear and quadratic forms,alternating bilinear form,LinearMap.BilinForm.IsAlt,definition,11,False,False
+overview,Linear algebra,Linear algebra / Bilinear and quadratic forms,symmetric bilinear form,LinearMap.BilinForm.IsSymm,definition,11,False,False
+overview,Linear algebra,Linear algebra / Bilinear and quadratic forms,matrix representation,LinearMap.BilinForm.toMatrix,definition,18,False,False
+overview,Linear algebra,Linear algebra / Bilinear and quadratic forms,quadratic form,QuadraticForm,definition,11,False,False
+overview,Linear algebra,Linear algebra / Bilinear and quadratic forms,polar form of a quadratic,QuadraticMap.polar,definition,7,False,False
+overview,Linear algebra,"Linear algebra / Finite-dimensional inner product spaces (see also Hilbert spaces, below)",existence of orthonormal basis,OrthonormalBasis,definition,44,True,True
+overview,Linear algebra,"Linear algebra / Finite-dimensional inner product spaces (see also Hilbert spaces, below)",diagonalization of self-adjoint endomorphisms,LinearMap.IsSymmetric.eigenvectorBasis_apply_self_apply,theorem,49,True,False
+overview,Topology,Topology / General topology,filter,Filter,definition,4,False,True
+overview,Topology,Topology / General topology,limit of a map with respect to filters,Filter.Tendsto,definition,6,False,False
+overview,Topology,Topology / General topology,topological space,TopologicalSpace,definition,4,False,True
+overview,Topology,Topology / General topology,continuous function,Continuous,definition,6,False,False
+overview,Topology,Topology / General topology,the category of topological spaces,TopCat,definition,5,False,True
+overview,Topology,Topology / General topology,induced topology,TopologicalSpace.induced,definition,6,False,False
+overview,Topology,Topology / General topology,open map,IsOpenMap,definition,6,False,True
+overview,Topology,Topology / General topology,closed map,IsClosedMap,definition,7,False,True
+overview,Topology,Topology / General topology,closure,closure,definition,7,False,True
+overview,Topology,Topology / General topology,cluster point,ClusterPt,definition,8,False,False
+overview,Topology,Topology / General topology,Hausdorff space,T2Space,definition,10,False,True
+overview,Topology,Topology / General topology,sequential space,SequentialSpace,definition,10,False,True
+overview,Topology,Topology / General topology,extension by continuity,IsDenseInducing.extend,definition,11,False,True
+overview,Topology,Topology / General topology,compactness in terms of filters,IsCompact,definition,9,False,True
+overview,Topology,Topology / General topology,compactness in terms of open covers (Borel-Lebesgue),isCompact_iff_finite_subcover,theorem,9,False,False
+overview,Topology,Topology / General topology,connectedness,ConnectedSpace,definition,8,False,False
+overview,Topology,Topology / General topology,compact open topology,ContinuousMap.compactOpen,definition,9,False,True
+overview,Topology,Topology / General topology,Stone-Cech compactification,StoneCech,definition,13,False,True
+overview,Topology,Topology / General topology,topological fiber bundle,FiberBundle,definition,15,False,True
+overview,Topology,Topology / General topology,topological vector bundle,VectorBundle,definition,32,True,True
+overview,Topology,Topology / General topology,Urysohn's lemma,exists_continuous_zero_one_of_isClosed,theorem,28,True,True
+overview,Topology,Topology / General topology,Stone-Weierstrass theorem,ContinuousMap.subalgebra_topologicalClosure_eq_top_of_separatesPoints,theorem,31,True,True
+overview,Topology,Topology / Uniform notions,uniform space,UniformSpace,definition,9,False,True
+overview,Topology,Topology / Uniform notions,uniformly continuous function,Metric.uniformContinuous_iff,theorem,28,True,False
+overview,Topology,Topology / Uniform notions,uniform convergence,TendstoUniformly,definition,11,False,False
+overview,Topology,Topology / Uniform notions,Cauchy filter,Cauchy,definition,11,False,True
+overview,Topology,Topology / Uniform notions,Cauchy sequence,CauchySeq,definition,12,False,False
+overview,Topology,Topology / Uniform notions,completeness,CompleteSpace,definition,12,False,True
+overview,Topology,Topology / Uniform notions,completion,UniformSpace.Completion,definition,14,False,True
+overview,Topology,Topology / Uniform notions,Heine-Cantor theorem,CompactSpace.uniformContinuous_of_continuous,theorem,11,False,False
+overview,Topology,Topology / Topological algebra,order topology,OrderTopology,definition,7,False,True
+overview,Topology,Topology / Topological algebra,intermediate value theorem,intermediate_value_Icc,theorem,11,False,False
+overview,Topology,Topology / Topological algebra,extreme value theorem,IsCompact.exists_isMinOn,theorem,10,False,True
+overview,Topology,Topology / Topological algebra,topological group,IsTopologicalGroup,definition,12,False,True
+overview,Topology,Topology / Topological algebra,completion of an abelian topological group,UniformSpace.Completion.instAddCommGroup,definition,17,False,True
+overview,Topology,Topology / Topological algebra,infinite sum,HasSum,definition,10,False,True
+overview,Topology,Topology / Topological algebra,topological ring,IsTopologicalRing,definition,13,False,True
+overview,Topology,Topology / Topological algebra,completion of a topological ring,UniformSpace.Completion.ring,definition,17,False,True
+overview,Topology,Topology / Topological algebra,topological module,ContinuousSMul,definition,11,False,True
+overview,Topology,Topology / Topological algebra,continuous linear map,ContinuousLinearMap,definition,9,False,False
+overview,Topology,Topology / Topological algebra,Haar measure on a locally compact Hausdorff group,MeasureTheory.Measure.haarMeasure,definition,35,True,True
+overview,Topology,Topology / Metric spaces,metric space,MetricSpace,definition,29,True,True
+overview,Topology,Topology / Metric spaces,ball,Metric.ball,definition,29,True,True
+overview,Topology,Topology / Metric spaces,sequential compactness is equivalent to compactness (Bolzano-Weierstrass),isCompact_iff_isSeqCompact,theorem,11,False,False
+overview,Topology,Topology / Metric spaces,Heine-Borel theorem (proper metric space version),Metric.isCompact_iff_isClosed_bounded,theorem,30,True,False
+overview,Topology,Topology / Metric spaces,Lipschitz continuity,LipschitzWith,definition,29,True,False
+overview,Topology,Topology / Metric spaces,Hölder continuity,HolderWith,definition,42,True,True
+overview,Topology,Topology / Metric spaces,contraction mapping theorem,ContractingWith.exists_fixedPoint,theorem,30,True,False
+overview,Topology,Topology / Metric spaces,Baire theorem,BaireSpace.of_completelyPseudoMetrizable,theorem,29,True,True
+overview,Topology,Topology / Metric spaces,Arzela-Ascoli theorem,BoundedContinuousFunction.arzela_ascoli,theorem,29,True,False
+overview,Topology,Topology / Metric spaces,Hausdorff distance,Metric.hausdorffEDist,definition,30,True,True
+overview,Topology,Topology / Metric spaces,Gromov-Hausdorff space,GromovHausdorff.GHSpace,definition,43,True,True
+overview,Analysis,Analysis / Topological vector spaces,local convexity,LocallyConvexSpace,definition,9,False,True
+overview,Analysis,Analysis / Topological vector spaces,Bornology,Bornology,definition,8,False,True
+overview,Analysis,Analysis / Topological vector spaces,weak-* topology for dualities,WeakBilin.instTopologicalSpace,definition,11,False,True
+overview,Analysis,Analysis / Normed vector spaces/Banach spaces,normed vector space over a normed field,NormedSpace,definition,31,True,True
+overview,Analysis,Analysis / Normed vector spaces/Banach spaces,topology on a normed vector space,NormSMulClass.toIsBoundedSMul,theorem,29,True,False
+overview,Analysis,Analysis / Normed vector spaces/Banach spaces,equivalence of norms in finite dimension,LinearEquiv.toContinuousLinearEquiv,definition,32,True,False
+overview,Analysis,Analysis / Normed vector spaces/Banach spaces,finite-dimensional normed spaces over complete normed fields are complete,Submodule.complete_of_finiteDimensional,theorem,31,True,True
+overview,Analysis,Analysis / Normed vector spaces/Banach spaces,Heine-Borel theorem (finite-dimensional normed spaces are proper),FiniteDimensional.proper,theorem,31,True,False
+overview,Analysis,Analysis / Normed vector spaces/Banach spaces,norm of a continuous linear map,LinearMap.mkContinuous,definition,30,True,False
+overview,Analysis,Analysis / Normed vector spaces/Banach spaces,Banach-Steinhaus theorem,banach_steinhaus,theorem,32,True,True
+overview,Analysis,Analysis / Normed vector spaces/Banach spaces,Banach open mapping theorem,ContinuousLinearMap.isOpenMap,theorem,31,True,False
+overview,Analysis,Analysis / Normed vector spaces/Banach spaces,absolutely convergent series in Banach spaces,Summable.of_norm,theorem,29,True,False
+overview,Analysis,Analysis / Normed vector spaces/Banach spaces,Hahn-Banach theorem,exists_extension_norm_eq,theorem,33,True,True
+overview,Analysis,Analysis / Normed vector spaces/Banach spaces,dual of a normed space,StrongDual,definition,10,False,False
+overview,Analysis,Analysis / Normed vector spaces/Banach spaces,isometric inclusion in double dual,NormedSpace.inclusionInDoubleDualLi,definition,41,True,True
+overview,Analysis,Analysis / Normed vector spaces/Banach spaces,completeness of spaces of bounded continuous functions,BoundedContinuousFunction.instCompleteSpace,theorem,29,True,False
+overview,Analysis,Analysis / Hilbert spaces,"Inner product space, over $R$ or $C$",InnerProductSpace,definition,33,True,False
+overview,Analysis,Analysis / Hilbert spaces,Cauchy-Schwarz inequality,inner_mul_inner_self_le,theorem,33,True,False
+overview,Analysis,Analysis / Hilbert spaces,adjoint operator,LinearPMap.adjoint,definition,40,True,True
+overview,Analysis,Analysis / Hilbert spaces,self-adjoint operator,IsSelfAdjoint,definition,2,False,False
+overview,Analysis,Analysis / Hilbert spaces,orthogonal projection,Submodule.orthogonalProjectionOnto,definition,36,True,False
+overview,Analysis,Analysis / Hilbert spaces,reflection,Submodule.reflection,definition,39,True,True
+overview,Analysis,Analysis / Hilbert spaces,orthogonal complement,Submodule.orthogonal,definition,34,True,False
+overview,Analysis,Analysis / Hilbert spaces,existence of Hilbert basis,exists_hilbertBasis,theorem,43,True,True
+overview,Analysis,Analysis / Hilbert spaces,eigenvalues from Rayleigh quotient,IsSelfAdjoint.hasEigenvector_of_isLocalExtrOn,theorem,42,True,True
+overview,Analysis,Analysis / Hilbert spaces,Fréchet-Riesz representation of the dual of a Hilbert space,InnerProductSpace.toDual,definition,38,True,False
+overview,Analysis,Analysis / Hilbert spaces,Lax-Milgram theorem,IsCoercive.continuousLinearEquivOfBilin,definition,40,True,False
+overview,Analysis,Analysis / Differentiability,differentiable function between normed vector spaces,HasFDerivAt,definition,33,True,True
+overview,Analysis,Analysis / Differentiability,derivative of a composition of functions,HasFDerivAt.comp,theorem,33,True,True
+overview,Analysis,Analysis / Differentiability,derivative of the inverse of a function,HasFDerivAt.of_local_left_inverse,theorem,33,True,True
+overview,Analysis,Analysis / Differentiability,Rolle's theorem,exists_deriv_eq_zero,theorem,37,True,False
+overview,Analysis,Analysis / Differentiability,mean value theorem,exists_ratio_deriv_eq_ratio_slope,theorem,37,True,False
+overview,Analysis,Analysis / Differentiability,$C^k$ function,ContDiff,definition,38,True,False
+overview,Analysis,Analysis / Differentiability,Leibniz formula,fderiv_mul,theorem,36,True,True
+overview,Analysis,Analysis / Differentiability,local extrema,IsLocalMin.fderiv_eq_zero,theorem,36,True,False
+overview,Analysis,Analysis / Differentiability,inverse function theorem,HasStrictFDerivAt.to_localInverse,theorem,37,True,True
+overview,Analysis,Analysis / Differentiability,implicit function theorem,ImplicitFunctionData.implicitFunction,definition,38,True,False
+overview,Analysis,Analysis / Differentiability,analytic function,AnalyticAt,definition,36,True,True
+overview,Analysis,Analysis / Convexity,convex function,ConvexOn,definition,9,False,False
+overview,Analysis,Analysis / Convexity,characterization of convexity,convexOn_of_deriv2_nonneg,theorem,37,True,False
+overview,Analysis,Analysis / Convexity,Jensen's inequality (finite sum version),ConvexOn.map_sum_le,theorem,17,False,True
+overview,Analysis,Analysis / Convexity,Jensen's inequality (integral version),ConvexOn.map_integral_le,theorem,52,True,True
+overview,Analysis,Analysis / Convexity,Carathéodory's theorem,convexHull_eq_union,theorem,17,False,True
+overview,Analysis,Analysis / Special functions,logarithm,Real.log,definition,33,True,False
+overview,Analysis,Analysis / Special functions,exponential,Real.exp,definition,31,True,False
+overview,Analysis,Analysis / Special functions,trigonometric functions,Real.sin,definition,32,True,False
+overview,Analysis,Analysis / Special functions,inverse trigonometric functions,Real.arcsin,definition,35,True,False
+overview,Analysis,Analysis / Special functions,hyperbolic trigonometric functions,Real.sinh,definition,32,True,False
+overview,Analysis,Analysis / Special functions,inverse hyperbolic trigonometric functions,Real.arsinh,definition,34,True,False
+overview,Analysis,Analysis / Measures and integral calculus,sigma-algebra,MeasurableSpace,definition,6,False,False
+overview,Analysis,Analysis / Measures and integral calculus,measurable function,Measurable,definition,8,False,False
+overview,Analysis,Analysis / Measures and integral calculus,the category of measurable spaces,MeasCat,definition,7,False,True
+overview,Analysis,Analysis / Measures and integral calculus,Borel sigma-algebra,BorelSpace,definition,9,False,False
+overview,Analysis,Analysis / Measures and integral calculus,positive measure,MeasureTheory.Measure,definition,31,True,False
+overview,Analysis,Analysis / Measures and integral calculus,Stieltjes measure,StieltjesFunction.measure,definition,32,True,True
+overview,Analysis,Analysis / Measures and integral calculus,Lebesgue measure,Real.measureSpace,definition,46,True,True
+overview,Analysis,Analysis / Measures and integral calculus,Hausdorff measure,MeasureTheory.Measure.hausdorffMeasure,definition,42,True,True
+overview,Analysis,Analysis / Measures and integral calculus,Hausdorff dimension,dimH,definition,43,True,True
+overview,Analysis,Analysis / Measures and integral calculus,Giry monad,MeasureTheory.Measure.instMeasurableSpace,definition,31,True,True
+overview,Analysis,Analysis / Measures and integral calculus,integral of positive measurable functions,MeasureTheory.lintegral,definition,33,True,False
+overview,Analysis,Analysis / Measures and integral calculus,monotone convergence theorem,MeasureTheory.lintegral_iInf_ae,theorem,33,True,False
+overview,Analysis,Analysis / Measures and integral calculus,Fatou's lemma,MeasureTheory.lintegral_liminf_le,theorem,33,True,False
+overview,Analysis,Analysis / Measures and integral calculus,vector-valued integrable function (Bochner integral),MeasureTheory.Integrable,definition,35,True,False
+overview,Analysis,Analysis / Measures and integral calculus,uniform integrability,MeasureTheory.UniformIntegrable,definition,45,True,True
+overview,Analysis,Analysis / Measures and integral calculus,$L^p$ space,MeasureTheory.Lp,definition,44,True,False
+overview,Analysis,Analysis / Measures and integral calculus,Bochner integral,MeasureTheory.integral,definition,52,True,False
+overview,Analysis,Analysis / Measures and integral calculus,dominated convergence theorem,MeasureTheory.tendsto_integral_of_dominated_convergence,theorem,52,True,False
+overview,Analysis,Analysis / Measures and integral calculus,"fundamental theorem of calculus, part 1",intervalIntegral.integral_hasFDerivAt_of_tendsto_ae,theorem,53,True,True
+overview,Analysis,Analysis / Measures and integral calculus,"fundamental theorem of calculus, part 2",intervalIntegral.integral_eq_sub_of_hasDeriv_right_of_le,theorem,53,True,True
+overview,Analysis,Analysis / Measures and integral calculus,Fubini's theorem,MeasureTheory.integral_prod,theorem,52,True,False
+overview,Analysis,Analysis / Measures and integral calculus,product of finitely many measures,MeasureTheory.Measure.pi,definition,34,True,True
+overview,Analysis,Analysis / Measures and integral calculus,convolution,MeasureTheory.convolution,definition,53,True,False
+overview,Analysis,Analysis / Measures and integral calculus,approximation by convolution,ContDiffBump.convolution_tendsto_right,theorem,53,True,False
+overview,Analysis,Analysis / Measures and integral calculus,regularization by convolution,HasCompactSupport.contDiff_convolution_left,theorem,53,True,False
+overview,Analysis,Analysis / Measures and integral calculus,change of variables formula,MeasureTheory.integral_image_eq_integral_abs_det_fderiv_smul,theorem,52,True,False
+overview,Analysis,Analysis / Measures and integral calculus,divergence theorem,MeasureTheory.integral_divergence_of_hasFDerivAt_off_countable,theorem,52,True,True
+overview,Analysis,Analysis / Complex analysis,Cauchy integral formula,DiffContOnCl.circleIntegral_sub_inv_smul,theorem,54,True,True
+overview,Analysis,Analysis / Complex analysis,Liouville theorem,Differentiable.apply_eq_apply_of_bounded,theorem,35,True,True
+overview,Analysis,Analysis / Complex analysis,maximum modulus principle,Complex.eventually_eq_of_isLocalMax_norm,theorem,34,True,False
+overview,Analysis,Analysis / Complex analysis,principle of isolated zeros,AnalyticAt.eventually_eq_zero_or_eventually_ne_zero,theorem,36,True,False
+overview,Analysis,Analysis / Complex analysis,principle of analytic continuation,AnalyticOnNhd.eqOn_of_preconnected_of_frequently_eq,theorem,37,True,False
+overview,Analysis,Analysis / Complex analysis,analyticity of holomorphic functions,DifferentiableOn.analyticAt,theorem,36,True,False
+overview,Analysis,Analysis / Complex analysis,Schwarz lemma,Complex.norm_le_norm_of_mapsTo_ball,theorem,35,True,True
+overview,Analysis,Analysis / Complex analysis,removable singularity,Complex.differentiableOn_update_limUnder_insert_of_isLittleO,theorem,35,True,True
+overview,Analysis,Analysis / Complex analysis,Phragmen-Lindelöf principle,PhragmenLindelof.horizontal_strip,theorem,36,True,True
+overview,Analysis,Analysis / Complex analysis,fundamental theorem of algebra,Complex.isAlgClosed,theorem,26,True,True
+overview,Analysis,Analysis / Complex analysis,First Main Theorem of Value Distribution Theory,ValueDistribution.characteristic_sub_characteristic_inv_le,theorem,56,True,True
+overview,Analysis,Analysis / Distribution theory,Test functions,TestFunction,definition,39,True,False
+overview,Analysis,Analysis / Distribution theory,Schwartz space,SchwartzMap,definition,39,True,False
+overview,Analysis,Analysis / Distribution theory,Distributions,Distribution,definition,44,True,False
+overview,Analysis,Analysis / Distribution theory,tempered distributions,TemperedDistribution,definition,42,True,False
+overview,Analysis,Analysis / Fourier analysis,Fourier transform as an integral,Real.fourier_eq,theorem,53,True,False
+overview,Analysis,Analysis / Fourier analysis,inversion formula,Continuous.fourierInv_fourier_eq,theorem,53,True,False
+overview,Analysis,Analysis / Fourier analysis,Riemann-Lebesgue lemma,tendsto_integral_exp_inner_smul_cocompact,theorem,52,True,True
+overview,Analysis,Analysis / Fourier analysis,Parseval formula for Fourier series,tsum_sq_fourierCoeff,theorem,53,True,False
+overview,Probability Theory,Probability Theory / Definitions in probability theory,probability measure,MeasureTheory.IsProbabilityMeasure,definition,32,True,False
+overview,Probability Theory,Probability Theory / Definitions in probability theory,independent events,ProbabilityTheory.iIndepSet,definition,36,True,False
+overview,Probability Theory,Probability Theory / Definitions in probability theory,independent sigma-algebras,ProbabilityTheory.iIndep,definition,35,True,False
+overview,Probability Theory,Probability Theory / Definitions in probability theory,conditional probability,ProbabilityTheory.cond,definition,37,True,False
+overview,Probability Theory,Probability Theory / Definitions in probability theory,conditional expectation,MeasureTheory.condExp,definition,59,True,True
+overview,Probability Theory,Probability Theory / Definitions in probability theory,characteristic function,MeasureTheory.charFun,definition,53,True,False
+overview,Probability Theory,Probability Theory / Random variables and their laws,discrete law,PMF,definition,27,True,False
+overview,Probability Theory,Probability Theory / Random variables and their laws,probability density function,MeasureTheory.HasPDF,definition,39,True,False
+overview,Probability Theory,Probability Theory / Random variables and their laws,variance of a real-valued random variable,ProbabilityTheory.variance,definition,54,True,False
+overview,Probability Theory,Probability Theory / Random variables and their laws,independence of random variables,ProbabilityTheory.iIndepFun,definition,36,True,False
+overview,Probability Theory,Probability Theory / Random variables and their laws,Kolmogorov's $0$-$1$ law,ProbabilityTheory.measure_zero_or_one_of_measurableSet_limsup_atTop,theorem,35,True,False
+overview,Probability Theory,Probability Theory / Random variables and their laws,mean of product of independent random variables,ProbabilityTheory.IndepFun.integral_mul_eq_mul_integral,theorem,52,True,True
+overview,Probability Theory,Probability Theory / Random variables and their laws,moment of a random variable,ProbabilityTheory.moment,definition,53,True,False
+overview,Probability Theory,Probability Theory / Random variables and their laws,Bernoulli law,ProbabilityTheory.bernoulliMeasure,definition,35,True,False
+overview,Probability Theory,Probability Theory / Random variables and their laws,binomial law,ProbabilityTheory.binomial,definition,42,True,False
+overview,Probability Theory,Probability Theory / Random variables and their laws,geometric law,ProbabilityTheory.geometricMeasure,definition,35,True,False
+overview,Probability Theory,Probability Theory / Random variables and their laws,Poisson law,ProbabilityTheory.poissonMeasure,definition,35,True,False
+overview,Probability Theory,Probability Theory / Random variables and their laws,exponential law,ProbabilityTheory.expMeasure,definition,59,True,False
+overview,Probability Theory,Probability Theory / Random variables and their laws,Gaussian law,ProbabilityTheory.gaussianReal,definition,47,True,False
+overview,Probability Theory,Probability Theory / Random variables and their laws,Gaussian measures,ProbabilityTheory.IsGaussian,definition,55,True,True
+overview,Probability Theory,Probability Theory / Convergence of a sequence of random variables,convergence in probability,MeasureTheory.TendstoInMeasure,definition,32,True,False
+overview,Probability Theory,Probability Theory / Convergence of a sequence of random variables,$\mathrm{L}^p$ convergence,MeasureTheory.Lp,definition,44,True,False
+overview,Probability Theory,Probability Theory / Convergence of a sequence of random variables,almost sure convergence,MeasureTheory.ae,definition,28,True,False
+overview,Probability Theory,Probability Theory / Convergence of a sequence of random variables,convergence in distribution,MeasureTheory.ProbabilityMeasure.tendsto_iff_forall_integral_tendsto,theorem,52,True,True
+overview,Probability Theory,Probability Theory / Convergence of a sequence of random variables,Markov inequality,MeasureTheory.mul_meas_ge_le_lintegral,theorem,33,True,False
+overview,Probability Theory,Probability Theory / Convergence of a sequence of random variables,Chebyshev inequality,ProbabilityTheory.meas_ge_le_variance_div_sq,theorem,54,True,False
+overview,Probability Theory,Probability Theory / Convergence of a sequence of random variables,strong law of large numbers,ProbabilityTheory.strong_law_ae,theorem,52,True,False
+overview,Probability Theory,Probability Theory / Convergence of a sequence of random variables,central limit theorem,ProbabilityTheory.tendstoInDistribution_inv_sqrt_mul_sum_sub,theorem,54,True,False
+overview,Probability Theory,Probability Theory / Stochastic Processes,martingale,MeasureTheory.Martingale,definition,60,True,True
+overview,Probability Theory,Probability Theory / Stochastic Processes,optional stopping theorem,MeasureTheory.submartingale_iff_expected_stoppedValue_mono,theorem,60,True,True
+overview,Probability Theory,Probability Theory / Stochastic Processes,stopping time,MeasureTheory.IsStoppingTime,definition,9,False,True
+overview,Probability Theory,Probability Theory / Stochastic Processes,hitting time,MeasureTheory.hittingBtwn,definition,7,False,True
+overview,Probability Theory,Probability Theory / Stochastic Processes,Gaussian processes,ProbabilityTheory.IsGaussianProcess,definition,57,True,True
+overview,Geometry,Geometry / Affine and Euclidean geometry,affine space,AddTorsor,definition,6,False,False
+overview,Geometry,Geometry / Affine and Euclidean geometry,affine function,AffineMap,definition,9,False,False
+overview,Geometry,Geometry / Affine and Euclidean geometry,affine subspace,AffineSubspace,definition,8,False,False
+overview,Geometry,Geometry / Affine and Euclidean geometry,barycenter,Finset.affineCombination,definition,12,False,False
+overview,Geometry,Geometry / Affine and Euclidean geometry,affine span,affineSpan,definition,12,False,False
+overview,Geometry,Geometry / Affine and Euclidean geometry,Euclidean affine space,NormedAddTorsor,definition,30,True,True
+overview,Geometry,Geometry / Affine and Euclidean geometry,angle,InnerProductGeometry.angle,definition,37,True,False
+overview,Geometry,Geometry / Differentiable manifolds,smooth or analytic manifold (with boundary and corners),IsManifold,definition,42,True,True
+overview,Geometry,Geometry / Differentiable manifolds,smooth map between manifolds,ContMDiff,definition,42,True,True
+overview,Geometry,Geometry / Differentiable manifolds,smooth immersion,Manifold.IsImmersion,definition,47,True,True
+overview,Geometry,Geometry / Differentiable manifolds,smooth embedding,Manifold.IsSmoothEmbedding,definition,48,True,True
+overview,Geometry,Geometry / Differentiable manifolds,product of manifolds,IsManifold.prod,theorem,42,True,True
+overview,Geometry,Geometry / Differentiable manifolds,disjoint union of manifolds,IsManifold.disjointUnion,theorem,42,True,True
+overview,Geometry,Geometry / Differentiable manifolds,interior of a manifold,ModelWithCorners.interior,definition,39,True,True
+overview,Geometry,Geometry / Differentiable manifolds,boundary of a manifold,ModelWithCorners.boundary,definition,39,True,True
+overview,Geometry,Geometry / Differentiable manifolds,tangent bundle,TangentBundle,definition,37,True,True
+overview,Geometry,Geometry / Differentiable manifolds,tangent map,tangentMap,definition,40,True,True
+overview,Geometry,Geometry / Differentiable manifolds,pullback of vector fields,VectorField.mpullback,definition,40,True,True
+overview,Geometry,Geometry / Differentiable manifolds,Lie bracket of vector field,VectorField.mlieBracket,definition,42,True,True
+overview,Geometry,Geometry / Differentiable manifolds,Jacobi/Leibniz identity,VectorField.leibniz_identity_mlieBracket,theorem,43,True,True
+overview,Geometry,Geometry / Differentiable manifolds,integral curves,IsMIntegralCurve,definition,40,True,True
+overview,Geometry,Geometry / Differentiable manifolds,local existence of integral curves,exists_isMIntegralCurveAt_of_contMDiffAt_boundaryless,theorem,43,True,True
+overview,Geometry,Geometry / Differentiable manifolds,uniform time existence,exists_isMIntegralCurve_of_isMIntegralCurveOn,theorem,43,True,True
+overview,Geometry,Geometry / Differentiable manifolds,uniqueness of integral curves,isMIntegralCurveOn_Ioo_eqOn_of_contMDiff_boundaryless,theorem,43,True,True
+overview,Geometry,Geometry / Differentiable manifolds,Lie group,LieGroup,definition,44,True,True
+overview,Geometry,Geometry / Differentiable manifolds,Lie algebra of a Lie group,GroupLieAlgebra,definition,37,True,True
+overview,Geometry,Geometry / Differentiable manifolds,sphere,EuclideanSpace.instIsManifoldSphere,theorem,48,True,True
+overview,Geometry,Geometry / Differentiable manifolds,closed interval,instIsManifoldIcc,theorem,44,True,True
+overview,Geometry,Geometry / Differentiable manifolds,general linear group as a Lie group,Units.instLieGroupModelWithCornersSelf,theorem,44,True,True
+overview,Geometry,Geometry / Differentiable manifolds,discrete spaces are 0-manifolds,IsManifold.of_discreteTopology,theorem,42,True,True
+overview,Geometry,Geometry / Differentiable manifolds,0-manifolds are discrete spaces,ChartedSpace.discreteTopology,theorem,13,False,True
+overview,Geometry,Geometry / Smooth vector and fiber bundles,(topological) fiber bundle,FiberBundle,definition,15,False,True
+overview,Geometry,Geometry / Smooth vector and fiber bundles,(smooth) vector bundle,ContMDiffVectorBundle,definition,42,True,True
+overview,Geometry,Geometry / Smooth vector and fiber bundles,(smooth) trivial vector bundle,Bundle.Trivial.contMDiffVectorBundle,theorem,42,True,True
+overview,Geometry,Geometry / Smooth vector and fiber bundles,(smooth) direct sum of vector bundles,Bundle.Prod.contMDiffVectorBundle,theorem,42,True,True
+overview,Geometry,Geometry / Smooth vector and fiber bundles,(smooth) pullback vector bundle,ContMDiffVectorBundle.pullback,theorem,43,True,True
+overview,Geometry,Geometry / Smooth vector and fiber bundles,(smooth) Hom bundle,ContMDiffVectorBundle.continuousLinearMap,theorem,42,True,True
+overview,Geometry,Geometry / Smooth vector and fiber bundles,covariant derivatives,CovariantDerivative,definition,42,True,True
+overview,Geometry,Geometry / Riemannian manifolds,Riemannian/bundle metric,Bundle.RiemannianMetric,definition,32,True,True
+overview,Geometry,Geometry / Riemannian manifolds,Smooth bundle metric,Bundle.ContMDiffRiemannianMetric,definition,43,True,True
+overview,Geometry,Geometry / Riemannian manifolds,Riemannian manifold,IsRiemannianManifold,definition,48,True,True
+overview,Geometry,Geometry / Algebraic geometry,prime spectrum,PrimeSpectrum,definition,11,False,True
+overview,Geometry,Geometry / Algebraic geometry,Zariski topology,PrimeSpectrum.zariskiTopology,definition,12,False,True
+overview,Geometry,Geometry / Algebraic geometry,locally ringed space,AlgebraicGeometry.LocallyRingedSpace,definition,19,False,True
+overview,Geometry,Geometry / Algebraic geometry,scheme,AlgebraicGeometry.Scheme,definition,26,False,True
+overview,Geometry,Geometry / Algebraic geometry,Nullstellensatz,MvPolynomial.vanishingIdeal_zeroLocus_eq_radical,theorem,18,False,True
+overview,Geometry,Geometry / Convex geometry,convex cone,ConvexCone,definition,7,False,True
+overview,Geometry,Geometry / Convex geometry,salient cone,ConvexCone.Salient,definition,8,False,True
+overview,Geometry,Geometry / Convex geometry,positive cone,ConvexCone.positive,definition,8,False,True
+overview,Geometry,Geometry / Convex geometry,pointed cone,PointedCone,definition,10,False,True
+overview,Geometry,Geometry / Convex geometry,dual cone,PointedCone.dual,definition,11,False,True
+overview,Geometry,Geometry / Convex geometry,minimal tensor product,PointedCone.minTensorProduct,definition,12,False,True
+overview,Geometry,Geometry / Convex geometry,maximal tensor product,PointedCone.maxTensorProduct,definition,18,False,True
+overview,Combinatorics,Combinatorics / Pigeonhole principles,finite,Fintype.exists_ne_map_eq_of_card_lt,theorem,9,False,True
+overview,Combinatorics,Combinatorics / Pigeonhole principles,infinite,Finite.exists_infinite_fiber,theorem,6,False,True
+overview,Combinatorics,Combinatorics / Pigeonhole principles,strong pigeonhole principle,Fintype.exists_lt_card_fiber_of_mul_lt_card,theorem,9,False,True
+overview,Combinatorics,Combinatorics / Transversals,Hall's marriage theorem,Finset.all_card_le_biUnion_card_iff_exists_injective,theorem,11,False,True
+overview,Combinatorics,Combinatorics / Enumerative combinatorics,Catalan numbers,catalan,definition,9,False,True
+overview,Combinatorics,Combinatorics / Enumerative combinatorics,Bell numbers,Multiset.bell,definition,11,False,True
+overview,Combinatorics,Combinatorics / Enumerative combinatorics,Dyck words,DyckWord,definition,9,False,True
+overview,Combinatorics,Combinatorics / Set families,Four functions theorem,four_functions_theorem,theorem,13,False,True
+overview,Combinatorics,Combinatorics / Set families,Harris-Kleitman inequality,IsLowerSet.le_card_inter_finset,theorem,9,False,True
+overview,Combinatorics,Combinatorics / Set families,Ahlswede-Zhang identity,AhlswedeZhang.infSum_eq_one,theorem,14,False,True
+overview,Combinatorics,Combinatorics / Set families,LYM inequality,Finset.lubell_yamamoto_meshalkin_inequality_sum_card_div_choose,theorem,17,False,True
+overview,Combinatorics,Combinatorics / Set families,Sperner's theorem,IsAntichain.sperner,theorem,9,False,True
+overview,Combinatorics,Combinatorics / Set families,Maximum size of an intersecting family,Set.Intersecting.is_max_iff_card_eq,theorem,9,False,True
+overview,Combinatorics,Combinatorics / Set families,Kleitman's theorem,Finset.card_biUnion_le_of_intersecting,theorem,11,False,True
+overview,Combinatorics,Combinatorics / Set families,VC dimension,Finset.vcDim,definition,13,False,True
+overview,Combinatorics,Combinatorics / Set families,Sauer-Shelah lemma,Finset.card_shatterer_le_sum_vcDim,theorem,13,False,True
+overview,Combinatorics,Combinatorics / Set families,Kruskal-Katona theorem,Finset.kruskal_katona,theorem,12,False,True
+overview,Combinatorics,Combinatorics / Graph theory,simple graph,SimpleGraph,definition,4,False,True
+overview,Combinatorics,Combinatorics / Graph theory,degree-sum formula,SimpleGraph.sum_degrees_eq_twice_card_edges,theorem,12,False,True
+overview,Combinatorics,Combinatorics / Graph theory,matching,SimpleGraph.Subgraph.IsMatching,definition,6,False,True
+overview,Combinatorics,Combinatorics / Graph theory,adjacency matrix,SimpleGraph.adjMatrix,definition,7,False,True
+overview,Combinatorics,Combinatorics / Graph theory,Strongly regular graphs,SimpleGraph.IsSRGWith,definition,13,False,True
+overview,Combinatorics,Combinatorics / Graph theory,Turán's theorem,SimpleGraph.isTuranMaximal_iff_nonempty_iso_turanGraph,theorem,14,False,True
+overview,Combinatorics,Combinatorics / Graph theory,Regularity lemma,szemeredi_regularity,theorem,35,True,True
+overview,Combinatorics,Combinatorics / Graph theory,Triangle counting lemma,SimpleGraph.triangle_counting,theorem,23,True,True
+overview,Combinatorics,Combinatorics / Graph theory,Triangle removal lemma,SimpleGraph.triangle_removal,theorem,36,True,True
+overview,Combinatorics,Combinatorics / Ramsey theory,van der Waerden theorem,Combinatorics.exists_mono_homothetic_copy,theorem,6,False,True
+overview,Combinatorics,Combinatorics / Ramsey theory,Hales-Jewett theorem,Combinatorics.Line.exists_mono_in_high_dimension,theorem,7,False,True
+overview,Combinatorics,Combinatorics / Ramsey theory,Hindman's theorem,Hindman.FS_partition_regular,theorem,6,False,True
+overview,Combinatorics,Combinatorics / Additive combinatorics,sets without arithmetic progressions,ThreeAPFree,definition,4,False,True
+overview,Combinatorics,Combinatorics / Additive combinatorics,Roth's theorem,roth_3ap_theorem_nat,theorem,37,True,True
+overview,Combinatorics,Combinatorics / Additive combinatorics,Corners theorem,corners_theorem_nat,theorem,37,True,True
+overview,Combinatorics,Combinatorics / Additive combinatorics,Behrend's construction,Behrend.roth_lower_bound,theorem,33,True,True
+overview,Combinatorics,Combinatorics / Additive combinatorics,doubling constant,Finset.addConst,definition,16,False,True
+overview,Combinatorics,Combinatorics / Additive combinatorics,Ruzsa covering lemma,Set.ruzsa_covering_add,theorem,22,True,True
+overview,Combinatorics,Combinatorics / Additive combinatorics,Ruzsa triangle inequality,Finset.ruzsa_triangle_inequality_sub_sub_sub,theorem,13,False,True
+overview,Combinatorics,Combinatorics / Additive combinatorics,Plünnecke-Petridis inequality,Finset.pluennecke_petridis_inequality_add,theorem,13,False,True
+overview,Combinatorics,Combinatorics / Additive combinatorics,Small tripling implies small powers,Finset.small_pow_of_small_tripling,theorem,23,True,True
+overview,Combinatorics,Combinatorics / Additive combinatorics,Dyson transform,Finset.addDysonETransform,definition,13,False,True
+overview,Combinatorics,Combinatorics / Additive combinatorics,Cauchy-Davenport theorem,ZMod.cauchy_davenport,theorem,13,False,True
+overview,Combinatorics,Combinatorics / Additive combinatorics,Erdős–Ginzburg–Ziv theorem,ZMod.erdos_ginzburg_ziv,theorem,11,False,True
+overview,Combinatorics,Combinatorics / Additive combinatorics,Additive energy,Finset.addEnergy,definition,12,False,True
+overview,Combinatorics,Combinatorics / Additive combinatorics,Freiman homomorphisms,IsAddFreimanHom,definition,7,False,True
+overview,Dynamics,Dynamics / Circle dynamics,translation number,CircleDeg1Lift.translationNumber,definition,29,True,True
+overview,Dynamics,Dynamics / Circle dynamics,translation numbers define a group action up to semiconjugacy,CircleDeg1Lift.semiconj_of_group_action_of_forall_translationNumber_eq,theorem,29,True,True
+overview,Dynamics,Dynamics / Circle dynamics,translation number defines a homeomorphism up to semiconjugacy,CircleDeg1Lift.semiconj_of_bijective_of_translationNumber_eq,theorem,29,True,True
+overview,Dynamics,Dynamics / General theory,omega-limit sets,omegaLimit,definition,8,False,True
+overview,Dynamics,Dynamics / General theory,fixed points,Function.fixedPoints,definition,3,False,True
+overview,Dynamics,Dynamics / General theory,periodic points,Function.periodicPts,definition,5,False,True
+overview,Data structures,Data structures / List-like structures,list,List,definition,1,False,True
+overview,Data structures,Data structures / List-like structures,array,Array,definition,2,False,True
+overview,Data structures,Data structures / List-like structures,difference list,Batteries.DList,definition,3,False,True
+overview,Data structures,Data structures / List-like structures,lazy list,MLList,definition,6,False,True
+overview,Data structures,Data structures / List-like structures,stream,Stream',definition,2,False,True
+overview,Data structures,Data structures / List-like structures,sequence,Stream'.Seq,definition,4,False,True
+overview,Data structures,Data structures / List-like structures,weak sequence,Stream'.WSeq,definition,5,False,True
+overview,Data structures,Data structures / Sets,set,Set,definition,1,False,True
+overview,Data structures,Data structures / Sets,finite set,Finset,definition,6,False,True
+overview,Data structures,Data structures / Sets,multiset,Multiset,definition,4,False,True
+overview,Data structures,Data structures / Sets,ordered set,Ordset,definition,15,False,True
+overview,Data structures,Data structures / Maps,key-value map,AList,definition,7,False,True
+overview,Data structures,Data structures / Maps,hash map,Std.HashMap,definition,24,False,True
+overview,Data structures,Data structures / Maps,finitely supported function,Finsupp,definition,7,False,True
+overview,Data structures,Data structures / Maps,finite map,Finmap,definition,8,False,True
+overview,Data structures,Data structures / Trees,tree,BinaryTree,definition,1,False,True
+overview,Data structures,Data structures / Trees,size-balanced binary search tree,Ordnode,definition,2,False,True
+overview,Data structures,Data structures / Trees,W type,WType,definition,1,False,True
+overview,Logic and computation,Logic and computation / Computability / computable function,in terms of general recursive functions,Computable,definition,16,False,True
+overview,Logic and computation,Logic and computation / Computability / computable function,in terms of Turing machines,Turing.TM2Computable,definition,12,False,True
+overview,Logic and computation,Logic and computation / Computability,primitive recursive function,Primrec,definition,15,False,True
+overview,Logic and computation,Logic and computation / Computability,Ackermann function,ack,definition,6,False,True
+overview,Logic and computation,Logic and computation / Computability,Turing machine,Turing.TM0.Machine,definition,3,False,True
+overview,Logic and computation,Logic and computation / Computability,halting problem,ComputablePred.halting_problem,theorem,17,False,True
+overview,Logic and computation,Logic and computation / Computability,Rice theorem,ComputablePred.rice,theorem,17,False,True
+overview,Logic and computation,Logic and computation / Computability,Turing degrees,TuringDegree,definition,17,False,True
+overview,Logic and computation,Logic and computation / Complexity,polynomial-time computation,Turing.TM2ComputableInPolyTime,definition,14,False,True
+overview,Logic and computation,Logic and computation / Formal languages,language,Language,definition,2,False,True
+overview,Logic and computation,Logic and computation / Formal languages,Arden's lemma,Language.self_eq_mul_add_iff,theorem,4,False,True
+overview,Logic and computation,Logic and computation / Formal languages,regular language,Language.IsRegular,definition,8,False,True
+overview,Logic and computation,Logic and computation / Formal languages,DFA,DFA,definition,2,False,True
+overview,Logic and computation,Logic and computation / Formal languages,NFA,NFA,definition,2,False,True
+overview,Logic and computation,Logic and computation / Formal languages,$\varepsilon$-NFA,εNFA,definition,2,False,True
+overview,Logic and computation,Logic and computation / Formal languages,regular expression,RegularExpression,definition,1,False,True
+overview,Logic and computation,Logic and computation / Formal languages,context-free language,Language.IsContextFree,definition,12,False,True
+overview,Logic and computation,Logic and computation / Formal languages,context-free grammar,ContextFreeGrammar,definition,7,False,True
+overview,Logic and computation,Logic and computation / Set theory / Ordinals,ordinal,Ordinal,definition,6,False,True
+overview,Logic and computation,Logic and computation / Set theory / Ordinals,Cantor normal form,Ordinal.CNF,definition,13,False,True
+overview,Logic and computation,Logic and computation / Set theory / Ordinals,fundamental sequences,Ordinal.IsFundamentalSeq,definition,13,False,True
+overview,Logic and computation,Logic and computation / Set theory / Ordinals,epsilon numbers,Ordinal.epsilon,definition,15,False,True
+overview,Logic and computation,Logic and computation / Set theory / Ordinals,gamma numbers,Ordinal.gamma,definition,15,False,True
+overview,Logic and computation,Logic and computation / Set theory / Cardinals,cardinal,Cardinal,definition,5,False,True
+overview,Logic and computation,Logic and computation / Set theory / Cardinals,aleph numbers,Cardinal.aleph,definition,15,False,True
+overview,Logic and computation,Logic and computation / Set theory / Cardinals,beth numbers,Cardinal.beth,definition,12,False,True
+overview,Logic and computation,Logic and computation / Set theory / Cardinals,cofinality,Order.cof,definition,11,False,True
+overview,Logic and computation,Logic and computation / Set theory,model of ZFC,ZFSet,definition,4,False,True
+overview,Logic and computation,Logic and computation / Model theory,first-order structure,FirstOrder.Language.Structure,definition,5,False,True
+overview,Logic and computation,Logic and computation / Model theory,first-order formula,FirstOrder.Language.Formula,definition,7,False,True
+overview,Logic and computation,Logic and computation / Model theory,satisfiability,FirstOrder.Language.Theory.IsSatisfiable,definition,14,False,True
+overview,Logic and computation,Logic and computation / Model theory,substructure,FirstOrder.Language.Substructure,definition,7,False,True
+overview,Logic and computation,Logic and computation / Model theory,definable set,Set.Definable,definition,11,False,True
+overview,Logic and computation,Logic and computation / Model theory,elementary embedding,FirstOrder.Language.ElementaryEmbedding,definition,11,False,True
+overview,Logic and computation,Logic and computation / Model theory,Compactness theorem,FirstOrder.Language.Theory.isSatisfiable_iff_isFinitelySatisfiable,theorem,15,False,True
+overview,Logic and computation,Logic and computation / Model theory,Löwenheim-Skolem,FirstOrder.Language.exists_elementaryEmbedding_card_eq,theorem,11,False,True

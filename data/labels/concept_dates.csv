@@ -1,0 +1,184 @@
+label,decl,year,confidence,note
+category,CategoryTheory.Category,1945,high,Eilenberg and Mac Lane
+functor,CategoryTheory.Functor,1945,high,Eilenberg and Mac Lane
+natural transformation,CategoryTheory.NatTrans,1945,high,Eilenberg and Mac Lane
+Yoneda embedding,CategoryTheory.yoneda,1954,medium,Yoneda
+adjunction,CategoryTheory.Adjunction,1958,high,Kan
+monad,CategoryTheory.Monad,1958,medium,Godement standard construction
+comma category,CategoryTheory.Comma,1963,medium,Lawvere thesis
+limit in a category,CategoryTheory.Limits.IsLimit,1958,medium,Kan
+monoidal category,CategoryTheory.MonoidalCategory,1963,medium,Benabou and Mac Lane
+abelian category,CategoryTheory.Abelian,1955,medium,Buchsbaum; Grothendieck Tohoku 1957
+Grothendieck topology,CategoryTheory.GrothendieckTopology,1962,medium,Grothendieck
+sheafed space,AlgebraicGeometry.SheafedSpace,1955,low,Serre FAC
+natural number,Nat,-2000,low,counting numbers; ancient
+integer,Int,628,medium,Brahmagupta negative numbers
+rational number,Rat,-1800,low,Egyptian and Babylonian fractions
+continued fraction,ContFract,1572,low,Bombelli
+real number,Real,1585,low,Stevin decimals; rigorous construction 1872
+complex number,Complex,1572,medium,Bombelli
+p-adic number,Padic,1897,high,Hensel
+p-adic integer,PadicInt,1897,high,Hensel
+hyperreal number,Hyperreal,1961,high,Robinson
+group,Group,1854,medium,Cayley abstract definition; Galois 1832 permutation groups
+subgroup,Subgroup,1832,medium,Galois
+normal subgroup,Subgroup.Normal,1832,medium,Galois
+simple group,IsSimpleGroup,1870,medium,Jordan
+free group,FreeGroup,1882,medium,Dyck
+presented group,PresentedGroup,1882,medium,Dyck
+permutation,Equiv.Perm,1770,medium,Lagrange
+alternating group,alternatingGroup,1870,low,Jordan
+ring,Ring,1914,medium,Fraenkel axioms; Hilbert Zahlring 1897
+localization,Localization,1926,low,Grell
+local ring,IsLocalRing,1938,medium,Krull
+Noetherian ring,IsNoetherianRing,1921,high,Noether
+ideal,Ideal,1876,high,Dedekind
+prime ideal,Ideal.IsPrime,1876,medium,Dedekind
+Euler totient,Nat.totient,1763,high,Euler
+polynomial,Polynomial,1591,low,Viete
+separable polynomial,Polynomial.Separable,1910,medium,Steinitz
+associative algebra,Algebra,1870,medium,Benjamin Peirce
+Lie algebra,LieAlgebra,1876,low,Lie infinitesimal groups; Weyl name 1934
+exterior algebra,ExteriorAlgebra,1844,high,Grassmann
+Clifford algebra,CliffordAlgebra,1878,high,Clifford
+field,Field,1871,high,Dedekind
+characteristic p,CharP,1910,medium,Steinitz
+Frobenius morphism,frobenius,1896,low,Frobenius
+algebraically closed field,IsAlgClosed,1910,medium,Steinitz
+algebraic closure,AlgebraicClosure,1910,high,Steinitz
+adjoining a root,AdjoinRoot,1882,medium,Kronecker
+splitting field,Polynomial.SplittingField,1882,low,Kronecker
+Bernoulli numbers,bernoulli,1713,high,Jacob Bernoulli
+Witt vectors,WittVector,1936,high,Witt
+group representation,Representation,1896,high,Frobenius
+character of a representation,FDRep.character,1896,high,Frobenius
+module,Module,1921,medium,Noether
+linear map,LinearMap,1888,medium,Peano
+tensor product,TensorProduct,1938,medium,Whitney
+basis,Module.Basis,1888,medium,Peano
+matrix,Matrix,1850,high,Sylvester name; Cayley 1858
+determinant,Matrix.det,1693,medium,Leibniz; Seki 1683
+minimal polynomial,minpoly,1878,low,Frobenius
+characteristic polynomial,Matrix.charpoly,1829,low,Cauchy
+eigenvalue,Module.End.HasEigenvalue,1829,low,Cauchy
+quadratic form,QuadraticForm,1801,medium,Gauss; Lagrange 1773
+orthonormal basis,OrthonormalBasis,1907,low,Schmidt
+filter,Filter,1937,high,Henri Cartan
+filter limit,Filter.Tendsto,1937,medium,Cartan
+topological space,TopologicalSpace,1914,high,Hausdorff
+continuous function,Continuous,1817,medium,Bolzano
+Hausdorff space,T2Space,1914,high,Hausdorff
+sequential space,SequentialSpace,1965,medium,Franklin
+compactness,IsCompact,1906,medium,Frechet
+connectedness,ConnectedSpace,1914,low,Hausdorff
+Stone-Cech compactification,StoneCech,1937,high,Stone and Cech
+fiber bundle,FiberBundle,1935,medium,Whitney
+vector bundle,VectorBundle,1935,medium,Whitney
+uniform space,UniformSpace,1937,high,Weil
+uniform convergence,TendstoUniformly,1841,medium,Weierstrass
+Cauchy sequence,CauchySeq,1821,high,Cauchy
+complete space,CompleteSpace,1906,medium,Frechet
+completion of a uniform space,UniformSpace.Completion,1937,medium,Weil
+topological group,IsTopologicalGroup,1926,medium,Schreier
+Haar measure,MeasureTheory.Measure.haarMeasure,1933,high,Haar
+metric space,MetricSpace,1906,high,Frechet
+Lipschitz continuity,LipschitzWith,1864,medium,Lipschitz
+Holder continuity,HolderWith,1882,medium,Holder
+Hausdorff distance,Metric.hausdorffEDist,1914,high,Hausdorff
+Gromov-Hausdorff space,GromovHausdorff.GHSpace,1981,high,Gromov
+locally convex space,LocallyConvexSpace,1935,medium,von Neumann
+normed space,NormedSpace,1920,high,Banach
+inner product space,InnerProductSpace,1927,medium,von Neumann abstract Hilbert space
+adjoint operator,LinearPMap.adjoint,1929,medium,von Neumann
+Frechet derivative,HasFDerivAt,1911,high,Frechet
+analytic function,AnalyticAt,1841,medium,Weierstrass
+convex function,ConvexOn,1906,medium,Jensen
+logarithm,Real.log,1614,high,Napier
+exponential function,Real.exp,1748,medium,Euler
+sine,Real.sin,500,medium,Aryabhata jya
+hyperbolic sine,Real.sinh,1757,medium,Riccati
+sigma-algebra,MeasurableSpace,1915,low,Frechet
+Borel sigma-algebra,BorelSpace,1898,medium,Borel
+measure,MeasureTheory.Measure,1915,medium,Frechet and Radon abstract measure
+Lebesgue measure,MeasureTheory.MeasureSpace,1901,high,Lebesgue
+Stieltjes measure,StieltjesFunction.measure,1913,medium,Radon; Stieltjes 1894
+Hausdorff measure,MeasureTheory.Measure.hausdorffMeasure,1918,high,Hausdorff
+Hausdorff dimension,dimH,1918,high,Hausdorff
+Lebesgue integral,MeasureTheory.lintegral,1902,high,Lebesgue
+Bochner integrable function,MeasureTheory.Integrable,1933,high,Bochner
+Lp space,MeasureTheory.Lp,1910,high,Riesz
+Schwartz space,SchwartzMap,1950,high,Schwartz
+distribution,Distribution,1945,high,Schwartz; Sobolev 1936
+tempered distribution,TemperedDistribution,1950,high,Schwartz
+test function,TestFunction,1945,medium,Schwartz
+probability measure,MeasureTheory.IsProbabilityMeasure,1933,high,Kolmogorov
+independence,ProbabilityTheory.iIndep,1933,medium,Kolmogorov
+conditional probability,ProbabilityTheory.cond,1718,medium,de Moivre
+conditional expectation,MeasureTheory.condExp,1933,high,Kolmogorov
+characteristic function,MeasureTheory.charFun,1922,medium,Levy
+discrete probability law,PMF,1654,low,Pascal and Fermat
+variance,ProbabilityTheory.variance,1918,high,Fisher
+moment,ProbabilityTheory.moment,1893,medium,Pearson
+Bernoulli law,ProbabilityTheory.bernoulliMeasure,1713,high,Jacob Bernoulli
+binomial law,ProbabilityTheory.binomial,1713,high,Jacob Bernoulli
+Poisson law,ProbabilityTheory.poissonMeasure,1837,high,Poisson
+Gaussian law,ProbabilityTheory.gaussianReal,1809,high,Gauss; de Moivre 1733
+convergence in measure,MeasureTheory.TendstoInMeasure,1909,medium,Riesz
+martingale,MeasureTheory.Martingale,1939,high,Ville
+stopping time,MeasureTheory.IsStoppingTime,1949,low,Doob era
+affine space,AddTorsor,1918,medium,Weyl
+Euclidean affine space,NormedAddTorsor,-300,low,Euclid plane; modern axioms much later
+angle,InnerProductGeometry.angle,-300,low,Euclid
+manifold,IsManifold,1854,medium,Riemann; Weyl 1913
+Lie group,LieGroup,1873,high,Lie
+Riemannian metric,Bundle.RiemannianMetric,1854,medium,Riemann
+Riemannian manifold,IsRiemannianManifold,1854,medium,Riemann
+prime spectrum,PrimeSpectrum,1960,high,Grothendieck
+locally ringed space,AlgebraicGeometry.LocallyRingedSpace,1960,medium,Grothendieck
+scheme,AlgebraicGeometry.Scheme,1960,high,Grothendieck EGA
+Catalan numbers,catalan,1751,medium,Euler; Catalan 1838
+VC dimension,Finset.vcDim,1971,high,Vapnik and Chervonenkis
+graph,SimpleGraph,1736,medium,Euler; Sylvester name 1878
+matching,SimpleGraph.Subgraph.IsMatching,1931,low,Konig
+sets without arithmetic progressions,ThreeAPFree,1936,medium,Erdos and Turan
+Freiman homomorphism,IsAddFreimanHom,1973,medium,Freiman
+omega-limit set,omegaLimit,1927,medium,Birkhoff
+set,Set,1874,high,Cantor
+computable function,Computable,1936,high,Turing and Church
+Turing machine,Turing.TM0.Machine,1936,high,Turing
+primitive recursive function,Primrec,1931,medium,Godel; Skolem 1923
+Ackermann function,ack,1928,high,Ackermann
+Turing degree,TuringDegree,1944,high,Post
+polynomial-time computation,Turing.TM2ComputableInPolyTime,1965,medium,Cobham and Edmonds
+regular language,Language.IsRegular,1956,high,Kleene
+deterministic finite automaton,DFA,1959,high,Rabin and Scott
+nondeterministic finite automaton,NFA,1959,high,Rabin and Scott
+regular expression,RegularExpression,1956,high,Kleene
+context-free grammar,ContextFreeGrammar,1956,high,Chomsky
+ordinal,Ordinal,1883,high,Cantor
+Cantor normal form,Ordinal.CNF,1897,high,Cantor
+epsilon numbers,Ordinal.epsilon,1897,medium,Cantor
+cardinal,Cardinal,1878,medium,Cantor
+aleph numbers,Cardinal.aleph,1895,high,Cantor
+cofinality,Order.cof,1908,medium,Hausdorff
+model of ZF set theory,ZFSet,1908,medium,Zermelo
+first-order structure,FirstOrder.Language.Structure,1933,medium,Tarski
+first-order formula,FirstOrder.Language.Formula,1879,medium,Frege
+prime number,Prime,-300,high,Euclid
+congruence,Int.ModEq,1801,high,Gauss
+cyclotomic polynomial,Polynomial.cyclotomic,1801,medium,Gauss
+symmetric polynomial,MvPolynomial.IsSymmetric,1629,low,Girard
+transcendental number,Transcendental,1844,high,Liouville
+convex set,Convex,1896,medium,Minkowski
+convex hull,convexHull,1896,low,Minkowski
+extreme point,Set.extremePoints,1940,low,Krein and Milman
+derivative,HasDerivAt,1684,high,Leibniz
+Riemann sum,BoxIntegral.integralSum,1854,high,Riemann
+radius of convergence,FormalMultilinearSeries.radius,1821,medium,Cauchy
+complex exponential,Complex.exp,1748,high,Euler
+holomorphic function,DifferentiableOn,1825,medium,Cauchy
+homeomorphism,Homeomorph,1895,medium,Poincare
+Hilbert basis,HilbertBasis,1907,medium,Schmidt and Riesz
+Lagrange interpolation,Lagrange.interpolate,1795,high,Lagrange; Waring 1779
+sign of a permutation,Equiv.Perm.sign,1815,medium,Cauchy
+cross product,crossProduct,1881,medium,Gibbs; Hamilton quaternions 1843

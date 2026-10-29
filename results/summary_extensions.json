@@ -1,0 +1,669 @@
+{
+ "numbers_given": {
+  "depth": {
+   "rho": -0.03484388760116519,
+   "lo": -0.16426703071176632,
+   "hi": 0.0908712333523714,
+   "p": 0.5857518620622051,
+   "n": 247
+  },
+  "size": {
+   "rho": -0.06765280223739897,
+   "lo": -0.20019188076760908,
+   "hi": 0.05974598168441774,
+   "p": 0.28956894450661763,
+   "n": 247
+  },
+  "r2": {
+   "year": 8.180099896815118e-05,
+   "field": 0.48188865594318286,
+   "uses real numbers": 0.4216718548491659,
+   "real, measure, inner product": 0.7374125344811596
+  },
+  "era_medians": {
+   "before 1500": 13.0,
+   "1500 to 1799": 15.0,
+   "1800 to 1899": 16.0,
+   "1900 to 1949": 14.0,
+   "1950 on": 13.0
+  },
+  "within_real": {
+   "no real": {
+    "rho": 0.1319273039532236,
+    "lo": -0.045221875903791064,
+    "hi": 0.29711413435983186,
+    "p": 0.14412688208799246,
+    "n": 124
+   },
+   "real": {
+    "rho": -0.06078389838710637,
+    "lo": -0.23261977837705275,
+    "hi": 0.12023998342958252,
+    "p": 0.5042224209908894,
+    "n": 123
+   }
+  },
+  "depths": {
+   "Nat": 1,
+   "Int": 1,
+   "Rat": 1,
+   "Real": 1,
+   "Complex": 1,
+   "Field": 8,
+   "Group": 5,
+   "TopologicalSpace": 4,
+   "MetricSpace": 12,
+   "MeasureTheory.Measure": 17,
+   "AlgebraicGeometry.Scheme": 26,
+   "MeasureTheory.Martingale": 45
+  },
+  "median_depth": 14.0,
+  "median_depth_before": 21.0,
+  "library_median": {
+   "real": 19.0,
+   "nonreal": 10.0
+  },
+  "concepts": {
+   "rho": -0.0583648035851404,
+   "lo": -0.20709093587878286,
+   "hi": 0.0929685696452836,
+   "p": 0.43256870181375395,
+   "n": 183
+  },
+  "concepts_real": {
+   "rho": 0.34566564631230984,
+   "lo": 0.09022502518657605,
+   "hi": 0.5676197762184103,
+   "p": 0.006827828041221418,
+   "n": 60
+  }
+ },
+ "direct": {
+  "edges": 940,
+  "forward_share": 0.3617021276595745,
+  "backward_share": 0.624468085106383,
+  "tie_share": 0.013829787234042601,
+  "null_forward_mean": 0.49460797872340423,
+  "null_lo": 0.3627659574468085,
+  "null_hi": 0.6372340425531915,
+  "p_less_than_null": 0.024,
+  "users": 136,
+  "users_with_younger": 0.5661764705882353,
+  "by_era": {
+   "before 1500": {
+    "share": 1.0,
+    "n": 14,
+    "null": 1.0,
+    "null_lo": 1.0,
+    "null_hi": 1.0
+   },
+   "1500 to 1799": {
+    "share": 0.9,
+    "n": 30,
+    "null": 0.9430000000000001,
+    "null_lo": 0.8666666666666667,
+    "null_hi": 1.0
+   },
+   "1800 to 1899": {
+    "share": 0.696969696969697,
+    "n": 33,
+    "null": 0.887151515151515,
+    "null_lo": 0.7878787878787878,
+    "null_hi": 0.9696969696969697
+   },
+   "1900 to 1949": {
+    "share": 0.2727272727272727,
+    "n": 44,
+    "null": 0.6230454545454545,
+    "null_lo": 0.5,
+    "null_hi": 0.75
+   },
+   "1950 on": {
+    "share": 0.06666666666666667,
+    "n": 15,
+    "null": 0.23866666666666667,
+    "null_lo": 0.06666666666666667,
+    "null_hi": 0.4
+   }
+  },
+  "reduced_edges": 471,
+  "reduced_forward_share": 0.3630573248407643,
+  "dag": true
+ },
+ "dating": {
+  "wikipedia lead, linked by Wikidata": {
+   "n": 69,
+   "median_gap": 0.0,
+   "within10": 0.8260869565217391,
+   "within50": 0.9565217391304348,
+   "rho_with_hand": {
+    "rho": 0.9767384511666176,
+    "lo": 0.9372721636851269,
+    "hi": 0.9947150813390869,
+    "p": 1.5627649502863478e-46,
+    "n": 69
+   }
+  },
+  "wikipedia lead, any": {
+   "n": 82,
+   "median_gap": 0.0,
+   "within10": 0.7560975609756098,
+   "within50": 0.926829268292683,
+   "rho_with_hand": {
+    "rho": 0.9679194451808617,
+    "lo": 0.9292178664639236,
+    "hi": 0.9878528532909101,
+    "p": 9.39312363171093e-50,
+    "n": 82
+   }
+  },
+  "wikipedia body": {
+   "n": 69,
+   "median_gap": 20.0,
+   "within10": 0.463768115942029,
+   "within50": 0.6376811594202898,
+   "rho_with_hand": {
+    "rho": 0.7463451639445713,
+    "lo": 0.5659491616639435,
+    "hi": 0.8744727181867767,
+    "p": 1.8322001433443725e-13,
+    "n": 69
+   }
+  },
+  "mactutor": {
+   "n": 26,
+   "median_gap": 3.5,
+   "within10": 0.6538461538461539,
+   "within50": 0.7307692307692307,
+   "rho_with_hand": {
+    "rho": 0.8537212416202669,
+    "lo": 0.6528421879308082,
+    "hi": 0.9597859909211333,
+    "p": 2.942263191071156e-08,
+    "n": 26
+   }
+  },
+  "disagreements": {
+   "source error": 7,
+   "different version": 4,
+   "earlier result": 2
+  },
+  "h1_swapped": {
+   "rho": -0.10000649476525034,
+   "lo": -0.22191989983666677,
+   "hi": 0.026049831783145516,
+   "p": 0.11695458819380498,
+   "n": 247
+  },
+  "h1_wikipedia_only": {
+   "rho": -0.03715836132902903,
+   "lo": -0.29290479507355277,
+   "hi": 0.20318656311314975,
+   "p": 0.7617935686996695,
+   "n": 69
+  },
+  "h1_mactutor_only": {
+   "rho": -0.03534670459315663,
+   "lo": -0.45848805031134304,
+   "hi": 0.3701116911753803,
+   "p": 0.8638914604129146,
+   "n": 26
+  }
+ },
+ "textbook": {
+  "n": 20,
+  "rows": [
+   {
+    "name": "pythagoras",
+    "title": "Pythagorean theorem",
+    "year_stated": -500.0,
+    "mathlib_depth": 38,
+    "textbook_depth": 23,
+    "mathlib_depth_numbers": 23,
+    "textbook_depth_numbers": 3,
+    "textbook_uses_real": true
+   },
+   {
+    "name": "pythagoras_int",
+    "title": "Pythagorean theorem",
+    "year_stated": -500.0,
+    "mathlib_depth": 38,
+    "textbook_depth": 8,
+    "mathlib_depth_numbers": 23,
+    "textbook_depth_numbers": 4,
+    "textbook_uses_real": false
+   },
+   {
+    "name": "thales",
+    "title": "Thales's theorem",
+    "year_stated": -600.0,
+    "mathlib_depth": 38,
+    "textbook_depth": 23,
+    "mathlib_depth_numbers": 23,
+    "textbook_depth_numbers": 3,
+    "textbook_uses_real": true
+   },
+   {
+    "name": "heron",
+    "title": "Heron\u2019s Formula",
+    "year_stated": 60.0,
+    "mathlib_depth": 38,
+    "textbook_depth": 23,
+    "mathlib_depth_numbers": 23,
+    "textbook_depth_numbers": 3,
+    "textbook_uses_real": true
+   },
+   {
+    "name": "euclid_primes",
+    "title": "Euclid's theorem",
+    "year_stated": -300.0,
+    "mathlib_depth": 7,
+    "textbook_depth": 3,
+    "mathlib_depth_numbers": 7,
+    "textbook_depth_numbers": 2,
+    "textbook_uses_real": false
+   },
+   {
+    "name": "sqrt_two_irrational",
+    "title": "The Irrationality of the Square Root of 2",
+    "year_stated": -500.0,
+    "mathlib_depth": 28,
+    "textbook_depth": 12,
+    "mathlib_depth_numbers": 13,
+    "textbook_depth_numbers": 3,
+    "textbook_uses_real": false
+   },
+   {
+    "name": "fermat_little",
+    "title": "Fermat's little theorem",
+    "year_stated": 1640.0,
+    "mathlib_depth": 17,
+    "textbook_depth": 7,
+    "mathlib_depth_numbers": 9,
+    "textbook_depth_numbers": 7,
+    "textbook_uses_real": false
+   },
+   {
+    "name": "wilson",
+    "title": "Wilson's theorem",
+    "year_stated": 1770.0,
+    "mathlib_depth": 17,
+    "textbook_depth": 7,
+    "mathlib_depth_numbers": 9,
+    "textbook_depth_numbers": 7,
+    "textbook_uses_real": false
+   },
+   {
+    "name": "crt",
+    "title": "Chinese remainder theorem",
+    "year_stated": 400.0,
+    "mathlib_depth": 11,
+    "textbook_depth": 10,
+    "mathlib_depth_numbers": 11,
+    "textbook_depth_numbers": 1,
+    "textbook_uses_real": false
+   },
+   {
+    "name": "bezout",
+    "title": "B\u00e9zout's identity",
+    "year_stated": 1624.0,
+    "mathlib_depth": 12,
+    "textbook_depth": 10,
+    "mathlib_depth_numbers": 6,
+    "textbook_depth_numbers": 3,
+    "textbook_uses_real": false
+   },
+   {
+    "name": "two_squares",
+    "title": "Fermat's theorem on sums of two squares",
+    "year_stated": 1640.0,
+    "mathlib_depth": 7,
+    "textbook_depth": 7,
+    "mathlib_depth_numbers": 7,
+    "textbook_depth_numbers": 7,
+    "textbook_uses_real": false
+   },
+   {
+    "name": "geometric_sum",
+    "title": "Sum of a Geometric Series",
+    "year_stated": -300.0,
+    "mathlib_depth": 17,
+    "textbook_depth": 13,
+    "mathlib_depth_numbers": 8,
+    "textbook_depth_numbers": 7,
+    "textbook_uses_real": false
+   },
+   {
+    "name": "arithmetic_sum",
+    "title": "Sum of an arithmetic series",
+    "year_stated": -300.0,
+    "mathlib_depth": 7,
+    "textbook_depth": 7,
+    "mathlib_depth_numbers": 7,
+    "textbook_depth_numbers": 7,
+    "textbook_uses_real": false
+   },
+   {
+    "name": "triangle",
+    "title": "The Triangle Inequality",
+    "year_stated": -300.0,
+    "mathlib_depth": 29,
+    "textbook_depth": 23,
+    "mathlib_depth_numbers": 12,
+    "textbook_depth_numbers": 7,
+    "textbook_uses_real": true
+   },
+   {
+    "name": "am_gm",
+    "title": "Arithmetic Mean/Geometric Mean",
+    "year_stated": 1821.0,
+    "mathlib_depth": 39,
+    "textbook_depth": 23,
+    "mathlib_depth_numbers": 24,
+    "textbook_depth_numbers": 4,
+    "textbook_uses_real": true
+   },
+   {
+    "name": "binomial",
+    "title": "Binomial theorem",
+    "year_stated": 1000.0,
+    "mathlib_depth": 7,
+    "textbook_depth": 7,
+    "mathlib_depth_numbers": 7,
+    "textbook_depth_numbers": 7,
+    "textbook_uses_real": false
+   },
+   {
+    "name": "ivt",
+    "title": "Intermediate value theorem",
+    "year_stated": 1817.0,
+    "mathlib_depth": 11,
+    "textbook_depth": 23,
+    "mathlib_depth_numbers": 11,
+    "textbook_depth_numbers": 7,
+    "textbook_uses_real": true
+   },
+   {
+    "name": "fta",
+    "title": "Fundamental theorem of algebra",
+    "year_stated": 1629.0,
+    "mathlib_depth": 26,
+    "textbook_depth": 25,
+    "mathlib_depth_numbers": 15,
+    "textbook_depth_numbers": 13,
+    "textbook_uses_real": true
+   },
+   {
+    "name": "area_circle",
+    "title": "The Area of a Circle",
+    "year_stated": -250.0,
+    "mathlib_depth": 46,
+    "textbook_depth": 53,
+    "mathlib_depth_numbers": 31,
+    "textbook_depth_numbers": 38,
+    "textbook_uses_real": true
+   },
+   {
+    "name": "cauchy_schwarz",
+    "title": "The Cauchy-Schwarz Inequality",
+    "year_stated": 1821.0,
+    "mathlib_depth": 33,
+    "textbook_depth": 23,
+    "mathlib_depth_numbers": 16,
+    "textbook_depth_numbers": 8,
+    "textbook_uses_real": true
+   }
+  ],
+  "median_change": -4.0,
+  "shallower": 14,
+  "deeper": 2,
+  "same": 3,
+  "h1_substituted": {
+   "rho": -0.04733484159314871,
+   "lo": -0.17402491170113485,
+   "hi": 0.07751688987039095,
+   "p": 0.4589559846308662,
+   "n": 247
+  }
+ },
+ "metamath": {
+  "n_listed": 73,
+  "n_dated": 72,
+  "depth": {
+   "rho": -0.029655240746016203,
+   "lo": -0.28825643303948084,
+   "hi": 0.22316563771495115,
+   "p": 0.8046888411516199,
+   "n": 72
+  },
+  "depth_numbers": {
+   "rho": -0.16322350636270275,
+   "lo": -0.4001942542683999,
+   "hi": 0.08968571179854692,
+   "p": 0.1706978182815982,
+   "n": 72
+  },
+  "r2": {
+   "year": 0.001117447687465467,
+   "passes through RR": 0.29940429940429925,
+   "passes through CC": 0.6184954751131221
+  },
+  "share_complex": 0.9444444444444444,
+  "share_real": 0.9166666666666666,
+  "cross_depth": {
+   "rho": 0.5419274712208189,
+   "lo": 0.3277230415123652,
+   "hi": 0.7181452625372607,
+   "p": 2.6093303210477883e-06,
+   "n": 66
+  },
+  "cross_proof": {
+   "rho": 0.6029224506836448,
+   "lo": 0.3760701133391634,
+   "hi": 0.7838822781990482,
+   "p": 8.457490841562805e-08,
+   "n": 66
+  },
+  "n_shared": 66,
+  "anachronism": {
+   "edges": 328,
+   "forward_share": 0.5396341463414634,
+   "backward_share": 0.4481707317073171,
+   "tie_share": 0.012195121951219468,
+   "null_forward_mean": 0.4915731707317073,
+   "null_lo": 0.2621189024390244,
+   "null_hi": 0.7225609756097561,
+   "p_less_than_null": 0.648,
+   "users": 67,
+   "users_with_younger": 0.9253731343283582,
+   "by_era": {
+    "before 1500": {
+     "share": 1.0,
+     "n": 19,
+     "null": 0.9866315789473684,
+     "null_lo": 0.9473684210526315,
+     "null_hi": 1.0
+    },
+    "1500 to 1799": {
+     "share": 1.0,
+     "n": 30,
+     "null": 0.923,
+     "null_lo": 0.8333333333333334,
+     "null_hi": 1.0
+    },
+    "1800 to 1899": {
+     "share": 1.0,
+     "n": 13,
+     "null": 0.6576923076923076,
+     "null_lo": 0.46153846153846156,
+     "null_hi": 0.8461538461538461
+    },
+    "1900 to 1949": {
+     "share": 0.0,
+     "n": 4,
+     "null": 0.144,
+     "null_lo": 0.0,
+     "null_hi": 0.5
+    },
+    "1950 on": {
+     "share": 0.0,
+     "n": 1,
+     "null": 0.0,
+     "null_lo": 0.0,
+     "null_hi": 0.0
+    }
+   },
+   "reduced_edges": 187,
+   "reduced_forward_share": 0.45989304812834225,
+   "dag": true
+  },
+  "n_theorems": 47957,
+  "median_depth": 30.0,
+  "median_depth_numbers": 17.0
+ },
+ "research": {
+  "rows": [
+   {
+    "name": "pfr",
+    "title": "Polynomial Freiman\u2013Ruzsa conjecture",
+    "decl": "PFR_conjecture",
+    "module": "PFR.Main",
+    "field": "Combinatorics",
+    "year_stated": 1999,
+    "year_proved": 2023,
+    "note": "Marton's conjecture as stated by Ruzsa (1999); proved by Gowers, Green, Manners and Tao",
+    "stmt_depth": 39,
+    "stmt_size": 477,
+    "depth_numbers": 24,
+    "uses_real": true,
+    "uses_measure": false,
+    "proof_depth": 262,
+    "proof_size": 28606,
+    "uses_sorry": false,
+    "nodes": 463135,
+    "ref_Nat": 1,
+    "ref_Rat": 11,
+    "ref_Real": 22,
+    "ref_Complex": 23,
+    "ref_Field": 17,
+    "ref_MetricSpace": 29,
+    "ref_MeasureTheory.Measure": 31,
+    "uses_inner": false,
+    "offset": 0,
+    "stmt_depth_adj": 39,
+    "predicted": 30.2,
+    "residual": 8.8
+   },
+   {
+    "name": "sphere-packing",
+    "title": "Sphere packing in dimension 8",
+    "decl": "SpherePacking.MainTheorem",
+    "module": "SpherePacking.MainTheorem",
+    "field": "Geometry",
+    "year_stated": 2003,
+    "year_proved": 2016,
+    "note": "optimality of E8; Cohn and Elkies's bound (2003), proved by Viazovska",
+    "stmt_depth": 49,
+    "stmt_size": 903,
+    "depth_numbers": 34,
+    "uses_real": true,
+    "uses_measure": true,
+    "proof_depth": 154,
+    "proof_size": 16555,
+    "uses_sorry": true,
+    "nodes": 445112,
+    "ref_Nat": 1,
+    "ref_Rat": 11,
+    "ref_Real": 22,
+    "ref_Complex": 23,
+    "ref_Field": 17,
+    "ref_MetricSpace": 29,
+    "ref_MeasureTheory.Measure": 31,
+    "uses_inner": true,
+    "offset": 0,
+    "stmt_depth_adj": 49,
+    "predicted": 49.5,
+    "residual": -0.5
+   },
+   {
+    "name": "sphere-eversion",
+    "title": "Smale's sphere eversion",
+    "decl": "Smale",
+    "module": "SphereEversion.Main",
+    "field": "Topology",
+    "year_stated": 1957,
+    "year_proved": 1957,
+    "note": "Smale 1957, published 1959",
+    "stmt_depth": 48,
+    "stmt_size": 1005,
+    "depth_numbers": 33,
+    "uses_real": true,
+    "uses_measure": false,
+    "proof_depth": 234,
+    "proof_size": 31437,
+    "uses_sorry": false,
+    "nodes": 421433,
+    "ref_Nat": 1,
+    "ref_Rat": 11,
+    "ref_Real": 22,
+    "ref_Complex": 23,
+    "ref_Field": 17,
+    "ref_MetricSpace": 29,
+    "ref_MeasureTheory.Measure": 31,
+    "uses_inner": true,
+    "offset": 0,
+    "stmt_depth_adj": 48,
+    "predicted": 39.1,
+    "residual": 8.9
+   },
+   {
+    "name": "carleson",
+    "title": "Carleson's theorem",
+    "decl": "classical_carleson",
+    "module": "Carleson.Classical.ClassicalCarleson",
+    "field": "Analysis",
+    "year_stated": 1915,
+    "year_proved": 1966,
+    "note": "Lusin's conjecture (1915); proved by Carleson",
+    "stmt_depth": 54,
+    "stmt_size": 1041,
+    "depth_numbers": 40,
+    "uses_real": true,
+    "uses_measure": true,
+    "proof_depth": 249,
+    "proof_size": 34163,
+    "uses_sorry": false,
+    "nodes": 434997,
+    "ref_Nat": 1,
+    "ref_Rat": 10,
+    "ref_Real": 21,
+    "ref_Complex": 22,
+    "ref_Field": 16,
+    "ref_MetricSpace": 28,
+    "ref_MeasureTheory.Measure": 30,
+    "uses_inner": true,
+    "offset": 1,
+    "stmt_depth_adj": 55,
+    "predicted": 49.5,
+    "residual": 5.5
+   }
+  ],
+  "median_depth_sample_1950": 13.5,
+  "sample_abs_residual_median": 3.5268272463501376,
+  "sample_abs_residual_p90": 7.213973195781314
+ },
+ "research_h1": {
+  "rho": -0.06120665642600821,
+  "lo": -0.18643792552565427,
+  "hi": 0.07152976326045792,
+  "p": 0.334163625619019,
+  "n": 251
+ },
+ "research_h1_proved": {
+  "rho": -0.06951330333451353,
+  "lo": -0.20312679822676255,
+  "hi": 0.06063281961677375,
+  "p": 0.2725852888650644,
+  "n": 251
+ }
+}

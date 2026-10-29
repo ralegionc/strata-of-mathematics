@@ -1,0 +1,251 @@
+key,source,wikidata,title,decls,statement_only
+wQ11518,1000,Q11518,Pythagorean theorem,EuclideanGeometry.dist_sq_eq_dist_sq_add_dist_sq_iff_angle_eq_pi_div_two,False
+wQ26708,1000,Q26708,Binomial theorem,add_pow,False
+wQ132427,1000,Q132427,Rademacher's theorem,LipschitzOnWith.ae_differentiableWithinAt,False
+wQ132469,1000,Q132469,Fermat's Last Theorem,FermatLastTheorem,True
+wQ137164,1000,Q137164,Besicovitch covering theorem,Besicovitch.exists_disjoint_closedBall_covering_ae,False
+wQ172298,1000,Q172298,Lasker–Noether theorem,Submodule.isPrimary_decomposition_pairwise_ne_radical,False
+wQ179208,1000,Q179208,Cayley's theorem,Equiv.Perm.subgroupOfMulAction,False
+wQ180345X,1000,Q180345,Integral root theorem,isInteger_of_is_root_of_monic,False
+wQ180345,1000,Q180345,Rational root theorem,num_dvd_of_is_root den_dvd_of_is_root,False
+wQ182505,1000,Q182505,Bayes' theorem,ProbabilityTheory.cond_eq_inv_mul_cond_mul,False
+wQ188295,1000,Q188295,Fermat's little theorem,ZMod.pow_card_sub_one_eq_one,False
+wQ189136,1000,Q189136,Mean value theorem,exists_deriv_eq_slope exists_ratio_deriv_eq_ratio_slope,False
+wQ190391,1000,Q190391,Central limit theorem,ProbabilityTheory.tendstoInDistribution_inv_sqrt_mul_sum_sub,False
+wQ190556,1000,Q190556,De Moivre's theorem,Complex.cos_add_sin_mul_I_pow,False
+wQ191693,1000,Q191693,Lebesgue's decomposition theorem,MeasureTheory.Measure.haveLebesgueDecomposition_of_sigmaFinite,False
+wQ192760,1000,Q192760,Fundamental theorem of algebra,Complex.isAlgClosed,False
+wQ193286,1000,Q193286,Rolle's theorem,exists_deriv_eq_zero,False
+wQ193878,1000,Q193878,Chinese remainder theorem,Ideal.quotientInfRingEquivPiQuotient ZMod.chineseRemainder,False
+wQ193910,1000,Q193910,Euler's theorem,Nat.ModEq.pow_totient,False
+wQ203565,1000,Q203565,Solutions of a general cubic equation,Theorems100.cubic_eq_zero_iff,False
+wQ213603,1000,Q213603,Ceva's theorem,Affine.Triangle.prod_dist_div_dist_eq_one_of_mem_line_of_mem_line,False
+wQ220680,1000,Q220680,Banach fixed-point theorem,ContractingWith.exists_fixedPoint,False
+wQ226014,1000,Q226014,Poincaré recurrence theorem,MeasureTheory.Conservative.ae_mem_imp_frequently_image_mem,False
+wQ245098,1000,Q245098,Intermediate value theorem,intermediate_value_Icc,False
+wQ253214,1000,Q253214,Heine–Borel theorem,Metric.isCompact_iff_isClosed_bounded FiniteDimensional.proper,False
+wQ258374,1000,Q258374,Carathéodory's theorem (measure theory),MeasureTheory.OuterMeasure.caratheodory,False
+wQ276082,1000,Q276082,Wilson's theorem,ZMod.wilsons_lemma,False
+wQ282649,1000,Q282649,Pentagonal number theorem,PowerSeries.WithPiTopology.hasProd_one_sub_X_pow hasProd_eulerFunction,False
+wQ285719,1000,Q285719,Thales's theorem,EuclideanGeometry.Sphere.thales_theorem,False
+wQ288465,1000,Q288465,Orbit-stabilizer theorem,MulAction.orbitEquivQuotientStabilizer,False
+wQ303402,1000,Q303402,Rank–nullity theorem,LinearMap.rank_range_add_rank_ker,False
+wQ318767,1000,Q318767,Abel's theorem,Complex.tendsto_tsum_powerSeries_nhdsWithin_stolzCone Real.tendsto_tsum_powerSeries_nhdsWithin_lt,False
+wQ338886,1000,Q338886,Divergence theorem,MeasureTheory.integral_divergence_of_hasFDerivAt_off_countable,False
+wQ420714,1000,Q420714,Akra–Bazzi theorem,AkraBazziRecurrence.isBigO_asympBound,False
+wQ422187,1000,Q422187,Myhill–Nerode theorem,Language.isRegular_iff_finite_range_leftQuotient,False
+wQ459547,1000,Q459547,Ptolemy's theorem,EuclideanGeometry.mul_dist_add_mul_dist_eq_mul_dist_of_cospherical,False
+wQ468391,1000,Q468391,Bolzano–Weierstrass theorem,tendsto_subseq_of_frequently_bounded tendsto_subseq_of_bounded,False
+wQ470877,1000,Q470877,Stirling's theorem,Stirling.tendsto_stirlingSeq_sqrt_pi,False
+wQ472883,1000,Q472883,Quadratic reciprocity theorem,legendreSym.quadratic_reciprocity jacobiSym.quadratic_reciprocity,False
+wQ474881,1000,Q474881,Cantor's theorem,Function.cantor_surjective,False
+wQ476776,1000,Q476776,Solutions of a general quartic equation,Theorems100.quartic_eq_zero_iff,False
+wQ505798,1000,Q505798,Lagrange's theorem (group theory),Subgroup.card_subgroup_dvd_card,False
+wQ510197,1000,Q510197,Tutte theorem,SimpleGraph.tutte,False
+wQ530152,1000,Q530152,Picard–Lindelöf theorem,IsPicardLindelof.exists_eq_forall_mem_Icc_hasDerivWithinAt,False
+wQ536640,1000,Q536640,Hall's marriage theorem,Finset.all_card_le_biUnion_card_iff_exists_injective SimpleGraph.exists_isPerfectMatching_of_forall_ncard_le,False
+wQ537618,1000,Q537618,Banach–Alaoglu theorem,WeakDual.isCompact_polar,False
+wQ550402,1000,Q550402,Dirichlet's theorem on arithmetic progressions,Nat.infinite_setOfPred_prime_and_eq_mod,False
+wQ570779,1000,Q570779,Vieta's formulas,Multiset.prod_X_add_C_eq_sum_esymm,False
+wQ576478,1000,Q576478,Liouville's theorem (complex analysis),Differentiable.apply_eq_apply_of_bounded,False
+wQ595466,1000,Q595466,Dini's theorem,Monotone.tendstoLocallyUniformly_of_forall_tendsto,False
+wQ609612,1000,Q609612,Knaster–Tarski theorem,fixedPoints.completeLattice,False
+wQ619985,1000,Q619985,Multinomial theorem,Finset.sum_pow_eq_sum_piAntidiag_of_commute,False
+wQ632546,1000,Q632546,Bertrand's postulate,Nat.bertrand,False
+wQ642620,1000,Q642620,Krein–Milman theorem,closure_convexHull_extremePoints,False
+wQ643826,1000,Q643826,Slutsky's theorem,MeasureTheory.TendstoInDistribution.continuous_comp_prodMk_of_tendstoInMeasure_const,False
+wQ656198,1000,Q656198,Maschke's theorem,MonoidAlgebra.Submodule.exists_isCompl,False
+wQ656645,1000,Q656645,Hilbert's basis theorem,Polynomial.isNoetherianRing,False
+wQ656772,1000,Q656772,Cayley–Hamilton theorem,Matrix.aeval_self_charpoly,False
+wQ657482,1000,Q657482,Abel–Ruffini theorem,AbelRuffini.exists_not_solvable_by_rad,False
+wQ660799,1000,Q660799,Darboux's theorem (analysis),exists_hasDerivWithinAt_eq_of_gt_of_lt exists_hasDerivWithinAt_eq_of_lt_of_gt Set.OrdConnected.image_hasDerivWithinAt Set.OrdConnected.image_derivWithin Set.OrdConnected.image_deriv Convex.image_hasDerivWithinAt Convex.image_derivWithin Convex.image_deriv exists_hasDerivWithinAt_eq_of_ge_of_le exists_hasDerivWithinAt_eq_of_le_of_ge,False
+wQ670235,1000,Q670235,Fundamental theorem of arithmetic,Nat.primeFactorsList_unique Int.euclideanDomain EuclideanDomain.instIsPrincipalIdealRing UniqueFactorizationMonoid UniqueFactorizationMonoid.factors_unique,False
+wQ716171,1000,Q716171,Erdős–Ginzburg–Ziv theorem,ZMod.erdos_ginzburg_ziv,False
+wQ718875,1000,Q718875,Erdős–Ko–Rado theorem,Finset.erdos_ko_rado,False
+wQ720469,1000,Q720469,Chevalley–Warning theorem,char_dvd_card_solutions_of_sum_lt,False
+wQ727102,1000,Q727102,Fermat's theorem (stationary points),IsLocalExtr.deriv_eq_zero IsLocalExtr.fderiv_eq_zero,False
+wQ739403,1000,Q739403,Stewart's theorem,EuclideanGeometry.dist_sq_mul_dist_add_dist_sq_mul_dist,False
+wQ752375,1000,Q752375,Extreme value theorem,IsCompact.exists_isMinOn,False
+wQ756946,1000,Q756946,Lagrange's four-square theorem,Nat.sum_four_squares,False
+wQ764287,1000,Q764287,Van der Waerden's theorem,Combinatorics.exists_mono_homothetic_copy,False
+wQ765987,1000,Q765987,Heine–Cantor theorem,CompactSpace.uniformContinuous_of_continuous,False
+wQ776578,1000,Q776578,Wedderburn–Artin theorem,IsSimpleRing.exists_algEquiv_matrix_divisionRing IsSemisimpleRing.exists_algEquiv_pi_matrix_divisionRing,False
+wQ791663,1000,Q791663,Beatty's theorem,Irrational.beattySeq_symmDiff_beattySeq_pos compl_beattySeq,False
+wQ810431,1000,Q810431,Basel problem,hasSum_zeta_two,False
+wQ842953,1000,Q842953,Lebesgue's density theorem,Besicovitch.ae_tendsto_measure_inter_div,False
+wQ848375,1000,Q848375,Implicit function theorem,ImplicitFunctionData.implicitFunction,False
+wQ853067,1000,Q853067,Solutions to Pell's equation,Pell.eq_pell Pell.exists_of_not_isSquare,False
+wQ859122,1000,Q859122,Cauchy–Hadamard theorem,FormalMultilinearSeries.radius_inv_eq_limsup,False
+wQ866116,1000,Q866116,Hahn–Banach theorem,exists_extension_norm_eq,False
+wQ869647,1000,Q869647,Szpilrajn extension theorem,extend_partialOrder,False
+wQ872088,1000,Q872088,Boolean prime ideal theorem,DistribLattice.prime_ideal_of_disjoint_filter_ideal,False
+wQ877489,1000,Q877489,Apollonius's theorem,EuclideanGeometry.dist_sq_add_dist_sq_eq_two_mul_dist_midpoint_sq_add_half_dist_sq,False
+wQ914517,1000,Q914517,Fermat's theorem on sums of two squares,Nat.Prime.sq_add_sq,False
+wQ931001,1000,Q931001,Inverse function theorem,HasStrictFDerivAt.to_localInverse,False
+wQ939927,1000,Q939927,Stone–Weierstrass theorem,ContinuousMap.subalgebra_topologicalClosure_eq_top_of_separatesPoints,False
+wQ943246,1000,Q943246,Wedderburn's little theorem,littleWedderburn,False
+wQ944297,1000,Q944297,Open mapping theorem (functional analysis),ContinuousLinearMap.isOpenMap,False
+wQ967972,1000,Q967972,Open mapping theorem (complex analysis),AnalyticOnNhd.is_constant_or_isOpen,False
+wQ976607,1000,Q976607,Erdős–Szekeres theorem,Theorems100.erdos_szekeres,False
+wQ978688,1000,Q978688,Gershgorin circle theorem,eigenvalue_mem_ball,False
+wQ1008566,1000,Q1008566,Gauss–Lucas theorem,Polynomial.rootSet_derivative_subset_convexHull_rootSet Polynomial.eq_centerMass_of_eval_derivative_eq_zero,False
+wQ1032886,1000,Q1032886,Hales–Jewett theorem,Combinatorics.Line.exists_mono_in_high_dimension,False
+wQ1033910,1000,Q1033910,Cantor–Bernstein–Schroeder theorem,Function.Embedding.schroeder_bernstein,False
+wQ1038716,1000,Q1038716,Identity theorem,AnalyticOnNhd.eqOn_of_preconnected_of_frequently_eq,False
+wQ1047749,1000,Q1047749,Turán's theorem,SimpleGraph.isTuranMaximal_iff_nonempty_iso_turanGraph,False
+wQ1050203,1000,Q1050203,Cantor's intersection theorem,IsCompact.nonempty_sInter_of_directed_nonempty_isCompact_isClosed,False
+wQ1052678,1000,Q1052678,Baire category theorem,BaireSpace.of_completelyPseudoMetrizable BaireSpace.of_t2Space_locallyCompactSpace,False
+wQ1057919,1000,Q1057919,Sylow theorems,Sylow.exists_subgroup_card_pow_prime Sylow.isPretransitive_of_finite Sylow.card_dvd_index card_sylow_modEq_one,False
+wQ1065257,1000,Q1065257,Squeeze theorem,tendsto_of_tendsto_of_tendsto_of_le_of_le',False
+wQ1065966,1000,Q1065966,Isomorphism theorem,QuotientGroup.quotientKerEquivRange QuotientGroup.quotientInfEquivProdNormalQuotient QuotientGroup.quotientQuotientEquivQuotient,False
+wQ1067156,1000,Q1067156,Dominated convergence theorem,MeasureTheory.tendsto_integral_of_dominated_convergence,False
+wQ1067156X,1000,Q1067156,Bounded convergence theorem,MeasureTheory.FiniteMeasure.tendsto_lintegral_nn_of_le_const MeasureTheory.tendsto_lintegral_nn_filter_of_le_const,False
+wQ1068085,1000,Q1068085,Closed graph theorem,LinearMap.continuous_of_isClosed_graph,False
+wQ1068283,1000,Q1068283,Löwenheim–Skolem theorem,FirstOrder.Language.exists_elementaryEmbedding_card_eq,False
+wQ1068976,1000,Q1068976,Hilbert's Nullstellensatz,MvPolynomial.vanishingIdeal_zeroLocus_eq_radical,False
+wQ1077462,1000,Q1077462,König's theorem (set theory),Cardinal.sum_lt_prod,False
+wQ1082910,1000,Q1082910,Euler's partition theorem,Nat.Partition.card_odds_eq_card_distincts,False
+wQ1097021,1000,Q1097021,Minkowski's theorem,MeasureTheory.exists_ne_zero_mem_lattice_of_measure_mul_two_pow_lt_measure,False
+wQ1137014,1000,Q1137014,Tychonoff's theorem,isCompact_pi_infinite,False
+wQ1137206,1000,Q1137206,Taylor's theorem,taylor_mean_remainder_lagrange taylor_mean_remainder_cauchy,False
+wQ1139041,1000,Q1139041,Cauchy's theorem (group theory),exists_prime_orderOf_dvd_card,False
+wQ1140119,1000,Q1140119,Morera's theorem,Complex.isConservativeOn_and_continuousOn_iff_isDifferentiableOn,False
+wQ1148215,1000,Q1148215,Mitchell's embedding theorem,CategoryTheory.Abelian.freyd_mitchell,False
+wQ1149022,1000,Q1149022,Fubini's theorem,MeasureTheory.integral_prod,False
+wQ1149458,1000,Q1149458,Compactness theorem,FirstOrder.Language.Theory.isSatisfiable_iff_isFinitelySatisfiable,False
+wQ1153584,1000,Q1153584,Monotone convergence theorem,MeasureTheory.integral_tendsto_of_tendsto_of_antitone MeasureTheory.lintegral_tendsto_of_tendsto_of_monotone,False
+wQ1186808,1000,Q1186808,Lucas's theorem,Choose.lucas_theorem,False
+wQ1188392,1000,Q1188392,Zeckendorf's theorem,Nat.zeckendorfEquiv,False
+wQ1191319,1000,Q1191319,Radon–Nikodym theorem,MeasureTheory.Measure.absolutelyContinuous_iff_withDensity_rnDeriv_eq,False
+wQ1191709,1000,Q1191709,Egorov's theorem,MeasureTheory.tendstoUniformlyOn_of_ae_tendsto,False
+wQ1194053,1000,Q1194053,Metrization theorems,TopologicalSpace.metrizableSpace_of_t3_secondCountable,False
+wQ1217677,1000,Q1217677,Fundamental theorem of calculus,intervalIntegral.integral_hasStrictDerivAt_of_tendsto_ae_right intervalIntegral.integral_eq_sub_of_hasDeriv_right_of_le,False
+wQ1227702,1000,Q1227702,Dirichlet's unit theorem,NumberField.Units.basisModTorsion NumberField.Units.exist_unique_eq_mul_prod,False
+wQ1227703,1000,Q1227703,Dirichlet's approximation theorem,AddCircle.exists_norm_nsmul_le Real.exists_int_int_abs_mul_sub_le Real.exists_nat_abs_mul_sub_round_le Real.exists_rat_abs_sub_le_and_den_le,False
+wQ1243340,1000,Q1243340,Birkhoff–Von Neumann theorem,doublyStochastic_eq_convexHull_permMatrix,False
+wQ1259814,1000,Q1259814,Nielsen–Schreier theorem,subgroupIsFreeOfIsFree,False
+wQ1306095,1000,Q1306095,Whitney embedding theorem,exists_embedding_euclidean_of_compact,False
+wQ1346677,1000,Q1346677,Tietze extension theorem,BoundedContinuousFunction.exists_extension_norm_eq_of_isClosedEmbedding,False
+wQ1357684,1000,Q1357684,Riesz representation theorem,InnerProductSpace.toDual,False
+wQ1426292,1000,Q1426292,Banach–Steinhaus theorem,banach_steinhaus,False
+wQ1443036,1000,Q1443036,Parseval's theorem,tsum_sq_fourierCoeff,False
+wQ1457052,1000,Q1457052,Well-ordering theorem,exists_wellFoundedLT,False
+wQ1471282,1000,Q1471282,Radon's theorem,Convex.radon_partition,False
+wQ1472120,1000,Q1472120,Hellinger&ndash;Toeplitz theorem,LinearMap.IsSymmetric.continuous,False
+wQ1477053,1000,Q1477053,Arzelà–Ascoli theorem,BoundedContinuousFunction.arzela_ascoli,False
+wQ1506253,1000,Q1506253,Euclid's theorem,Nat.exists_infinite_primes,False
+wQ1535225,1000,Q1535225,Łoś' theorem,FirstOrder.Language.Ultraproduct.sentence_realize,False
+wQ1551745,1000,Q1551745,Binomial inverse theorem,Matrix.invOf_add_mul_mul',False
+wQ1566341,1000,Q1566341,Hindman's theorem,Hindman.FP_partition_regular,False
+wQ1568811,1000,Q1568811,Hahn decomposition theorem,MeasureTheory.SignedMeasure.exists_isCompl_positive_negative,False
+wQ1632433,1000,Q1632433,Helly's theorem,Convex.helly_theorem,False
+wQ1752621,1000,Q1752621,Sylvester's law of inertia,QuadraticForm.equivalent_one_zero_neg_one_weighted_sum_squared,False
+wQ1766814,1000,Q1766814,Smn theorem,Nat.Partrec.Code.smn,False
+wQ1816952,1000,Q1816952,Schur's lemma,CategoryTheory.finrank_endomorphism_simple_eq_one,False
+wQ1893717,1000,Q1893717,Rice's theorem,ComputablePred.rice,False
+wQ1933521,1000,Q1933521,Kleene's recursion theorem,Nat.Partrec.Code.fixed_point₂,False
+wQ1966978,1000,Q1966978,Lévy continuity theorem,MeasureTheory.ProbabilityMeasure.tendsto_iff_tendsto_charFun,False
+wQ2027347,1000,Q2027347,Optional stopping theorem,MeasureTheory.submartingale_iff_expected_stoppedValue_mono,False
+wQ2093886,1000,Q2093886,Primitive element theorem,Field.exists_primitive_element,False
+wQ2096184,1000,Q2096184,Plancherel theorem,SchwartzMap.integral_inner_fourier_fourier,False
+wQ2226625,1000,Q2226625,Commandino's theorem,Affine.Simplex.point_vsub_centroid_eq_smul_vsub,False
+wQ2226677,1000,Q2226677,Gelfand–Mazur theorem,NormedRing.algEquivComplexOfComplete NormedAlgebra.Complex.algEquivOfNormMul NormedAlgebra.Real.nonempty_algEquiv_or,False
+wQ2226786,1000,Q2226786,Sperner's theorem,IsAntichain.sperner,False
+wQ2226800,1000,Q2226800,Schur–Zassenhaus theorem,Subgroup.exists_left_complement'_of_coprime,False
+wQ2226868,1000,Q2226868,Geometric mean theorem,EuclideanGeometry.dist_sq_eq_dist_mul_dist_of_angle_eq_pi_div_two,False
+wQ2253746,1000,Q2253746,Bertrand's ballot theorem,Ballot.ballot_problem,False
+wQ2267175,1000,Q2267175,Tangent-secant theorem,EuclideanGeometry.Sphere.dist_sq_eq_mul_dist_of_tangent_and_secant,False
+wQ2275191,1000,Q2275191,Lebesgue differentiation theorem,VitaliFamily.ae_tendsto_lintegral_div,False
+wQ2379132,1000,Q2379132,Going-up and going-down theorems,Ideal.exists_ideal_over_prime_of_isIntegral_of_isDomain Ideal.exists_ideal_over_prime_of_isIntegral_of_isPrime Algebra.HasGoingDown.iff_generalizingMap_primeSpectrumComap Algebra.HasGoingDown.of_comap_localRingHom_surjective,False
+wQ2471737,1000,Q2471737,Carathéodory's theorem (convex hull),convexHull_eq_union,False
+wQ2525646,1000,Q2525646,Jordan–Hölder theorem,CompositionSeries.jordan_holder,False
+wQ2631152,1000,Q2631152,Carathéodory's extension theorem,MeasureTheory.AddContent.measure MeasureTheory.AddContent.measure_eq,False
+wQ2919401,1000,Q2919401,Ostrowski's theorem,Rat.AbsoluteValue.equiv_real_or_padic RatFunc.valuation_isEquiv_infty_or_adic,False
+wQ3229335,1000,Q3229335,Borel–Carathéodory theorem,Complex.borelCaratheodory,False
+wQ3229352,1000,Q3229352,Vitali covering theorem,Vitali.exists_disjoint_covering_ae,False
+wQ3527102,1000,Q3527102,Kruskal–Katona theorem,Finset.kruskal_katona,False
+wQ3527118,1000,Q3527118,Mahler's theorem,PadicInt.hasSum_mahler,False
+wQ3527166,1000,Q3527166,Steinhaus theorem,MeasureTheory.Measure.div_mem_nhds_one_of_haar_pos,False
+wQ3527189,1000,Q3527189,Lattice theorem,QuotientGroup.quotientQuotientEquivQuotient,False
+wQ3527205,1000,Q3527205,Dimension theorem for vector spaces,mk_eq_mk_of_basis,False
+wQ3527215,1000,Q3527215,Hilbert projection theorem,exists_norm_eq_iInf_of_complete_convex,False
+wQ3527217,1000,Q3527217,M. Riesz extension theorem,riesz_extension,False
+wQ3527219,1000,Q3527219,Weierstrass preparation theorem,PowerSeries.exists_isWeierstrassFactorization,False
+wQ3527230,1000,Q3527230,Von Staudt–Clausen theorem,Bernoulli.vonStaudt_clausen,False
+wQ3527241,1000,Q3527241,Krull's principal ideal theorem,Ideal.height_le_one_of_isPrincipal_of_mem_minimalPrimes,False
+wQ3527250,1000,Q3527250,Hadamard three-lines theorem,Complex.HadamardThreeLines.norm_le_interpStrip_of_mem_verticalClosedStrip,False
+wQ3527263,1000,Q3527263,Kleene fixed-point theorem,fixedPoints.lfp_eq_sSup_iterate,False
+wQ3984053,1000,Q3984053,Fourier inversion theorem,Continuous.fourierInv_fourier_eq,False
+wQ4116459,1000,Q4116459,Niven's theorem,niven,False
+wQ4378868,1000,Q4378868,Phragmén–Lindelöf theorem,PhragmenLindelof.horizontal_strip,False
+wQ4695203,1000,Q4695203,Four functions theorem,four_functions_theorem,False
+wQ4830725,1000,Q4830725,Ax–Grothendieck theorem,ax_grothendieck_zeroLocus,False
+wQ4878586,1000,Q4878586,Beck's monadicity theorem,CategoryTheory.Monad.monadicOfCreatesGSplitCoequalizers,False
+wQ4950096,1000,Q4950096,Bourbaki–Witt theorem,ChainCompletePartialOrder.nonempty_fixedPoints_of_inflationary,False
+wQ4971339,1000,Q4971339,British flag theorem,EuclideanGeometry.dist_sq_add_dist_sq_eq_dist_sq_add_dist_sq_of_angle_eq_pi_div_two,False
+wQ513028,1000,Q513028,Bézout's identity,Nat.gcd_eq_gcd_ab,False
+wQ5165492,1000,Q5165492,Continuous mapping theorem,MeasureTheory.TendstoInDistribution.continuous_comp,False
+wQ5171652,1000,Q5171652,Corners theorem,corners_theorem_nat,False
+wQ5421989,1000,Q5421989,Exterior angle theorem,EuclideanGeometry.exterior_angle_eq_angle_add_angle,False
+wQ5437947,1000,Q5437947,Fatou–Lebesgue theorem,MeasureTheory.lintegral_liminf_le,False
+wQ5445112,1000,Q5445112,Fernique's theorem,ProbabilityTheory.IsGaussian.exists_integrable_exp_sq,False
+wQ5463860,1000,Q5463860,Focal subgroup theorem,Subgroup.commutator_inf_eq_focalSubgroup,False
+wQ5504427,1000,Q5504427,Friendship theorem,Theorems100.friendship_theorem,False
+wQ5566491,1000,Q5566491,Glaisher's theorem,Nat.Partition.card_restricted_eq_card_countRestricted,False
+wQ5638886,1000,Q5638886,Hahn embedding theorem,hahnEmbedding_isOrderedAddMonoid,False
+wQ6783821,1000,Q6783821,Mason–Stothers theorem,Polynomial.abc,False
+wQ6813106,1000,Q6813106,Mellin inversion theorem,mellinInv_mellin_eq,False
+wQ7208500,1000,Q7208500,Poisson limit theorem,ProbabilityTheory.tendsto_choose_mul_pow_of_tendsto_mul_atTop,False
+wQ7249519,1000,Q7249519,Prokhorov's theorem,isCompact_setOfPred_finiteMeasure_mass_le_compl_isCompact_le isCompact_setOfPred_finiteMeasure_mass_eq_compl_isCompact_le isCompact_setOfPred_probabilityMeasure_mass_eq_compl_isCompact_le isCompact_closure_of_isTightMeasureSet,False
+wQ7432915,1000,Q7432915,Schroeder–Bernstein theorem for measurable spaces,MeasurableEmbedding.schroederBernstein,False
+wQ7433182,1000,Q7433182,Schwartz–Zippel theorem,MvPolynomial.schwartz_zippel_sup_sum,False
+wQ7660749,1000,Q7660749,Sylvester's determinant theorem,Matrix.det_one_add_mul_comm,False
+wQ7888360,1000,Q7888360,Structure theorem for finitely generated modules over a principal ideal domain,Module.equiv_free_prod_directSum,False
+wQ9993851,1000,Q9993851,Lax–Milgram theorem,IsCoercive.continuousLinearEquivOfBilin,False
+wQ11352023,1000,Q11352023,Vitali convergence theorem,MeasureTheory.tendstoInMeasure_iff_tendsto_Lp,False
+wQ16251580,1000,Q16251580,Matiyasevich's theorem,Pell.matiyasevic,False
+wQ17005116,1000,Q17005116,Birkhoff's representation theorem,LatticeHom.birkhoffSet,False
+wQ17098298,1000,Q17098298,Jacobson density theorem,jacobson_density,False
+wQ18206266,1000,Q18206266,Euclid–Euler theorem,Theorems100.Nat.eq_two_pow_mul_prime_mersenne_of_even_perfect,False
+wQ20971632,1000,Q20971632,Lie's theorem,LieModule.exists_nontrivial_weightSpace_of_isSolvable,False
+wQ22952648,1000,Q22952648,Uncountability of the continuum,Cardinal.not_countable_real,False
+wQ25378679,1000,Q25378679,Euler's theorem on homogeneous functions,HasFDerivAt.apply_self_eq_smul_of_eventuallyEq HasFDerivAt.apply_self_eq_smul_of_homogeneous HasFDerivAt.apply_self_eq_nsmul_of_homogeneous,False
+wQ25378690,1000,Q25378690,Ionescu-Tulcea theorem,ProbabilityTheory.Kernel.traj,False
+wQ107710112,1000,Q107710112,Cantor's isomorphism theorem,Order.iso_of_countable_dense,False
+f1,100,,The Irrationality of the Square Root of 2,irrational_sqrt_two,False
+f3,100,,The Denumerability of the Rational Numbers,Rat.instDenumerable,False
+f9,100,,The Area of a Circle,Theorems100.area_disc,False
+f18,100,,Liouville’s Theorem and the Construction of Transcendental Numbers,Liouville.transcendental,False
+f23,100,,Formula for Pythagorean Triples,PythagoreanTriple.classification,False
+f26,100,,Leibniz’s Series for Pi,Real.tendsto_sum_pi_div_four,False
+f27,100,,Sum of the Angles of a Triangle,EuclideanGeometry.angle_add_angle_add_angle_eq_pi,False
+f34,100,,Divergence of the Harmonic Series,Real.tendsto_sum_range_one_div_nat_succ_atTop,False
+f38,100,,Arithmetic Mean/Geometric Mean,Real.geom_mean_le_arith_mean_weighted,False
+f42,100,,Sum of the Reciprocals of the Triangular Numbers,Theorems100.inverse_triangle_sum,False
+f52,100,,The Number of Subsets of a Set,Finset.card_powerset,False
+f54,100,,Königsberg Bridges Problem,Konigsberg.not_isEulerian,False
+f55,100,,Product of Segments of Chords,EuclideanGeometry.mul_dist_eq_mul_dist_of_cospherical_of_angle_eq_pi,False
+f57,100,,Heron’s Formula,Theorems100.heron,False
+f58,100,,Formula for the Number of Combinations,Finset.card_powersetCard Finset.mem_powersetCard,False
+f59,100,,The Laws of Large Numbers,ProbabilityTheory.strong_law_ae,False
+f64,100,,L’Hopital’s Rule,deriv.lhopital_zero_nhds,False
+f65,100,,Isosceles Triangle Theorem,EuclideanGeometry.angle_eq_angle_of_dist_eq,False
+f66,100,,Sum of a Geometric Series,geom_sum_Ico NNReal.hasSum_geometric,False
+f68,100,,Sum of an arithmetic series,Finset.sum_range_id,False
+f69,100,,Greatest Common Divisor Algorithm,EuclideanDomain.gcd EuclideanDomain.gcd_dvd EuclideanDomain.dvd_gcd,False
+f76,100,,Fourier Series,fourierCoeff hasSum_fourier_series_L2,False
+f77,100,,Sum of kth powers,sum_range_pow sum_Ico_pow,False
+f78,100,,The Cauchy-Schwarz Inequality,inner_mul_inner_self_le norm_inner_le_norm,False
+f81,100,,Divergence of the Prime Reciprocal Series,Theorems100.Real.tendsto_sum_one_div_prime_atTop not_summable_one_div_on_primes,False
+f82,100,,Dissection of Cubes (J.E. Littlewood’s ‘elegant’ proof),Theorems100.82.cannot_cube_a_cube,False
+f85,100,,Divisibility by 3 Rule,Nat.three_dvd_iff,False
+f86,100,,Lebesgue Measure and Integration,MeasureTheory.lintegral,False
+f88,100,,Derangements Formula,card_derangements_eq_numDerangements numDerangements_sum,False
+f89,100,,The Factor and Remainder Theorems,Polynomial.dvd_iff_isRoot Polynomial.mod_X_sub_C_eq_C_eval,False
+f91,100,,The Triangle Inequality,norm_add_le,False
+f93,100,,The Birthday Problem,Theorems100.birthday Theorems100.birthday_measure,False
+f94,100,,The Law of Cosines,EuclideanGeometry.dist_sq_eq_dist_sq_add_dist_sq_sub_two_mul_dist_mul_dist_mul_cos_angle,False
+f96,100,,Principle of Inclusion/Exclusion,Finset.inclusion_exclusion_sum_biUnion Finset.inclusion_exclusion_card_biUnion Finset.inclusion_exclusion_sum_inf_compl Finset.inclusion_exclusion_card_inf_compl,False
+f97,100,,Cramer’s Rule,Matrix.mulVec_cramer,False
+f99,100,,Buffon Needle Problem,BuffonsNeedle.buffon_short BuffonsNeedle.buffon_long,False
+f100,100,,Descartes Rule of Signs,Polynomial.roots_countP_pos_le_signVariations,False

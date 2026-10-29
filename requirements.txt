@@ -1,0 +1,10 @@
+numpy
+pandas
+pyarrow
+scipy
+statsmodels
+networkx
+matplotlib
+requests
+pyyaml
+pytest

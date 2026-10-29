@@ -1,0 +1,60 @@
+label,year,confidence,note
+extended real number,1901,low,used in Lebesgue-era measure theory
+ball,1906,low,Frechet metric spaces
+norm of a continuous linear map,1922,medium,Banach operator norm
+isometric inclusion in double dual,1927,low,Hahn canonical embedding
+orthogonal projection,1907,low,Schmidt and Riesz in Hilbert space
+reflection,1850,low,reflections as linear maps; ancient as geometric operations
+orthogonal complement,1907,low,Schmidt
+Fréchet-Riesz representation of the dual of a Hilbert space,1907,high,Frechet and Riesz
+$C^k$ function,1920,low,class C^k notation
+inverse trigonometric functions,1729,medium,Daniel Bernoulli
+inverse hyperbolic trigonometric functions,1768,medium,Lambert
+uniform integrability,1907,medium,Vitali equi-integrability
+Bochner integral,1933,high,Bochner
+product of finitely many measures,1907,low,Fubini
+convolution,1754,medium,d'Alembert
+independent events,1718,medium,de Moivre
+probability density function,1812,low,Laplace
+independence of random variables,1933,low,Kolmogorov formal definition
+geometric law,1713,low,Bernoulli and Montmort era
+exponential law,1909,low,Erlang
+Gaussian measures,1923,low,Wiener measure
+almost sure convergence,1909,medium,Borel strong law
+Gaussian processes,1940,low,Kolmogorov and Wiener era
+smooth map between manifolds,1936,low,Whitney
+smooth immersion,1936,low,Whitney
+smooth embedding,1936,medium,Whitney
+interior of a manifold,1930,low,manifolds with boundary
+boundary of a manifold,1930,low,manifolds with boundary
+tangent bundle,1935,medium,Whitney fibre bundles
+tangent map,1930,low,differential of a smooth map
+pullback of vector fields,1950,low,
+Lie bracket of vector field,1874,low,Lie
+integral curves,1881,low,Poincare qualitative theory
+Lie algebra of a Lie group,1888,medium,Killing and Lie
+(smooth) vector bundle,1935,medium,Whitney
+covariant derivatives,1901,high,Ricci-Curbastro and Levi-Civita
+Smooth bundle metric,1950,low,
+translation number,1885,high,Poincare rotation number
+norm,1922,medium,Banach
+isometries of a Euclidean affine space,1872,low,Klein Erlangen programme
+cocyclicity,-300,low,Euclid
+higher-order derivatives of functions,1695,low,Leibniz
+power functions,1676,low,Newton fractional exponents
+cos,1748,medium,Euler complex cosine
+sin,1748,medium,Euler complex sine
+path connectedness,1921,low,
+"example, the Hilbert basis of trigonometric polynomials",1907,low,orthonormal basis of L2
+differentials (linear tangent functions),1911,medium,Frechet derivative
+directional derivative,1850,low,
+gradient vector,1847,medium,Hamilton nabla
+differentiable functions,1821,low,Cauchy
+counting measure,1915,low,
+Fourier transform on $\mathrm{L}^2(\R^d)$,1910,high,Plancherel
+stability by derivation,1950,medium,Schwartz space
+stability by multiplication by a slowly growing smooth function,1950,medium,Schwartz space
+Fourier transforms on $\mathcal{S}(\R^d)$,1950,high,Schwartz
+convolution of two functions of $\mathcal{S}(\R^d)$,1950,medium,Schwartz
+multiplication by a function $C^\infty$ of slow growth,1950,medium,tempered distributions
+$L^p$ functions,1950,medium,Lp functions as tempered distributions

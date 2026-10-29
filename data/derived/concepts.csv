@@ -1,0 +1,184 @@
+label,decl,year,confidence,note,depth,size,uses_real,module,field
+category,CategoryTheory.Category,1945,high,Eilenberg and Mac Lane,3,4,False,Mathlib.CategoryTheory.Category.Basic,Algebra
+functor,CategoryTheory.Functor,1945,high,Eilenberg and Mac Lane,4,5,False,Mathlib.CategoryTheory.Functor.Basic,Algebra
+natural transformation,CategoryTheory.NatTrans,1945,high,Eilenberg and Mac Lane,5,6,False,Mathlib.CategoryTheory.NatTrans,Algebra
+Yoneda embedding,CategoryTheory.yoneda,1954,medium,Yoneda,7,23,False,Mathlib.CategoryTheory.Yoneda,Algebra
+adjunction,CategoryTheory.Adjunction,1958,high,Kan,7,11,False,Mathlib.CategoryTheory.Adjunction.Basic,Algebra
+monad,CategoryTheory.Monad,1958,medium,Godement standard construction,7,11,False,Mathlib.CategoryTheory.Monad.Basic,Algebra
+comma category,CategoryTheory.Comma,1963,medium,Lawvere thesis,5,6,False,Mathlib.CategoryTheory.Comma.Basic,Algebra
+limit in a category,CategoryTheory.Limits.IsLimit,1958,medium,Kan,9,11,False,Mathlib.CategoryTheory.Limits.IsLimit,Algebra
+monoidal category,CategoryTheory.MonoidalCategory,1963,medium,Benabou and Mac Lane,6,7,False,Mathlib.CategoryTheory.Monoidal.Category,Algebra
+abelian category,CategoryTheory.Abelian,1955,medium,Buchsbaum; Grothendieck Tohoku 1957,14,88,False,Mathlib.CategoryTheory.Abelian.Basic,Algebra
+Grothendieck topology,CategoryTheory.GrothendieckTopology,1962,medium,Grothendieck,8,56,False,Mathlib.CategoryTheory.Sites.Grothendieck,Algebra
+sheafed space,AlgebraicGeometry.SheafedSpace,1955,low,Serre FAC,12,101,False,Mathlib.Geometry.RingedSpace.SheafedSpace,Geometry
+natural number,Nat,-2000,low,counting numbers; ancient,1,1,False,Init.Prelude,Other
+integer,Int,628,medium,Brahmagupta negative numbers,2,2,False,Init.Data.Int.Basic,Other
+rational number,Rat,-1800,low,Egyptian and Babylonian fractions,11,47,False,Init.Data.Rat.Basic,Other
+continued fraction,ContFract,1572,low,Bombelli,10,31,False,Mathlib.Algebra.ContinuedFractions.Basic,Algebra
+real number,Real,1585,low,Stevin decimals; rigorous construction 1872,22,183,True,Mathlib.Basic.Real.Basic,Other
+complex number,Complex,1572,medium,Bombelli,23,184,True,Mathlib.Basic.Complex.Basic,Other
+p-adic number,Padic,1897,high,Hensel,22,195,False,Mathlib.NumberTheory.Padics.PadicNumbers,Number theory
+p-adic integer,PadicInt,1897,high,Hensel,26,262,True,Mathlib.NumberTheory.Padics.PadicIntegers,Number theory
+hyperreal number,Hyperreal,1961,high,Robinson,23,225,True,Mathlib.Analysis.Real.Hyperreal,Analysis
+group,Group,1854,medium,Cayley abstract definition; Galois 1832 permutation groups,5,24,False,Mathlib.Algebra.Group.Defs,Algebra
+subgroup,Subgroup,1832,medium,Galois,6,35,False,Mathlib.Algebra.Group.Subgroup.Defs,Algebra
+normal subgroup,Subgroup.Normal,1832,medium,Galois,7,38,False,Mathlib.Algebra.Group.Subgroup.Defs,Algebra
+simple group,IsSimpleGroup,1870,medium,Jordan,8,52,False,Mathlib.GroupTheory.Subgroup.Simple,Algebra
+free group,FreeGroup,1882,medium,Dyck,4,12,False,Mathlib.GroupTheory.FreeGroup.Basic,Algebra
+presented group,PresentedGroup,1882,medium,Dyck,9,107,False,Mathlib.GroupTheory.PresentedGroup,Algebra
+permutation,Equiv.Perm,1770,medium,Lagrange,5,5,False,Mathlib.Logic.Equiv.Defs,Logic and foundations
+alternating group,alternatingGroup,1870,low,Jordan,13,166,False,Mathlib.GroupTheory.SpecificGroups.Alternating,Algebra
+ring,Ring,1914,medium,Fraenkel axioms; Hilbert Zahlring 1897,6,31,False,Mathlib.Algebra.Ring.Defs,Algebra
+localization,Localization,1926,low,Grell,8,42,False,Mathlib.GroupTheory.MonoidLocalization.Basic,Algebra
+local ring,IsLocalRing,1938,medium,Krull,7,39,False,Mathlib.RingTheory.LocalRing.Defs,Algebra
+Noetherian ring,IsNoetherianRing,1921,high,Noether,12,79,False,Mathlib.RingTheory.Noetherian.Defs,Algebra
+ideal,Ideal,1876,high,Dedekind,9,48,False,Mathlib.RingTheory.Ideal.Defs,Algebra
+prime ideal,Ideal.IsPrime,1876,medium,Dedekind,10,59,False,Mathlib.RingTheory.Ideal.Prime,Algebra
+Euler totient,Nat.totient,1763,high,Euler,11,72,False,Mathlib.Data.Nat.Totient,Number theory
+polynomial,Polynomial,1591,low,Viete,9,54,False,Mathlib.Algebra.Polynomial.Basic,Algebra
+separable polynomial,Polynomial.Separable,1910,medium,Steinitz,15,162,False,Mathlib.FieldTheory.Separable,Algebra
+associative algebra,Algebra,1870,medium,Benjamin Peirce,8,41,False,Mathlib.Algebra.Algebra.Defs,Algebra
+Lie algebra,LieAlgebra,1876,low,Lie infinitesimal groups; Weyl name 1934,8,55,False,Mathlib.Algebra.Lie.Basic,Algebra
+exterior algebra,ExteriorAlgebra,1844,high,Grassmann,18,145,False,Mathlib.LinearAlgebra.ExteriorAlgebra.Basic,Algebra
+Clifford algebra,CliffordAlgebra,1878,high,Clifford,17,144,False,Mathlib.LinearAlgebra.CliffordAlgebra.Basic,Algebra
+field,Field,1871,high,Dedekind,17,102,False,Mathlib.Algebra.Field.Defs,Algebra
+characteristic p,CharP,1910,medium,Steinitz,5,26,False,Mathlib.Algebra.CharP.Defs,Algebra
+Frobenius morphism,frobenius,1896,low,Frobenius,9,59,False,Mathlib.Algebra.CharP.Lemmas,Algebra
+algebraically closed field,IsAlgClosed,1910,medium,Steinitz,18,227,False,Mathlib.FieldTheory.IsAlgClosed.Basic,Algebra
+algebraic closure,AlgebraicClosure,1910,high,Steinitz,23,383,False,Mathlib.FieldTheory.IsAlgClosed.AlgebraicClosure,Algebra
+adjoining a root,AdjoinRoot,1882,medium,Kronecker,12,201,False,Mathlib.RingTheory.AdjoinRoot,Algebra
+splitting field,Polynomial.SplittingField,1882,low,Kronecker,22,419,False,Mathlib.FieldTheory.SplittingField.Construction,Algebra
+Bernoulli numbers,bernoulli,1713,high,Jacob Bernoulli,15,141,False,Mathlib.NumberTheory.Bernoulli,Number theory
+Witt vectors,WittVector,1936,high,Witt,2,2,False,Mathlib.RingTheory.WittVector.Defs,Algebra
+group representation,Representation,1896,high,Frobenius,12,91,False,Mathlib.RepresentationTheory.Basic,Algebra
+character of a representation,FDRep.character,1896,high,Frobenius,20,366,False,Mathlib.RepresentationTheory.Character,Algebra
+module,Module,1921,medium,Noether,7,39,False,Mathlib.Algebra.Module.Defs,Algebra
+linear map,LinearMap,1888,medium,Peano,8,52,False,Mathlib.Algebra.Module.LinearMap.Defs,Algebra
+tensor product,TensorProduct,1938,medium,Whitney,9,79,False,Mathlib.LinearAlgebra.TensorProduct.Defs,Algebra
+basis,Module.Basis,1888,medium,Peano,12,134,False,Mathlib.LinearAlgebra.Basis.Defs,Algebra
+matrix,Matrix,1850,high,Sylvester name; Cayley 1858,1,1,False,Mathlib.LinearAlgebra.Matrix.Defs,Algebra
+determinant,Matrix.det,1693,medium,Leibniz; Seki 1683,15,249,False,Mathlib.LinearAlgebra.Matrix.Determinant.Basic,Algebra
+minimal polynomial,minpoly,1878,low,Frobenius,17,207,False,Mathlib.FieldTheory.Minpoly.Basic,Algebra
+characteristic polynomial,Matrix.charpoly,1829,low,Cauchy,16,320,False,Mathlib.LinearAlgebra.Matrix.Charpoly.Basic,Algebra
+eigenvalue,Module.End.HasEigenvalue,1829,low,Cauchy,14,198,False,Mathlib.LinearAlgebra.Eigenspace.Basic,Algebra
+quadratic form,QuadraticForm,1801,medium,Gauss; Lagrange 1773,11,71,False,Mathlib.LinearAlgebra.QuadraticForm.Basic,Algebra
+orthonormal basis,OrthonormalBasis,1907,low,Schmidt,44,609,True,Mathlib.Analysis.InnerProductSpace.PiL2,Analysis
+filter,Filter,1937,high,Henri Cartan,4,12,False,Mathlib.Order.Filter.Defs,Logic and foundations
+filter limit,Filter.Tendsto,1937,medium,Cartan,6,22,False,Mathlib.Order.Filter.Defs,Logic and foundations
+topological space,TopologicalSpace,1914,high,Hausdorff,4,13,False,Mathlib.Topology.Defs.Basic,Topology
+continuous function,Continuous,1817,medium,Bolzano,6,16,False,Mathlib.Topology.Defs.Basic,Topology
+Hausdorff space,T2Space,1914,high,Hausdorff,10,80,False,Mathlib.Topology.Separation.Hausdorff,Topology
+sequential space,SequentialSpace,1965,medium,Franklin,10,70,False,Mathlib.Topology.Defs.Sequences,Topology
+compactness,IsCompact,1906,medium,Frechet,9,41,False,Mathlib.Topology.Defs.Filter,Topology
+connectedness,ConnectedSpace,1914,low,Hausdorff,8,24,False,Mathlib.Topology.Connected.Basic,Topology
+Stone-Cech compactification,StoneCech,1937,high,Stone and Cech,13,105,False,Mathlib.Topology.Compactification.StoneCech,Topology
+fiber bundle,FiberBundle,1935,medium,Whitney,15,120,False,Mathlib.Topology.FiberBundle.Basic,Topology
+vector bundle,VectorBundle,1935,medium,Whitney,32,437,True,Mathlib.Topology.VectorBundle.Basic,Topology
+uniform space,UniformSpace,1937,high,Weil,9,45,False,Mathlib.Topology.UniformSpace.Defs,Topology
+uniform convergence,TendstoUniformly,1841,medium,Weierstrass,11,48,False,Mathlib.Topology.UniformSpace.UniformConvergence,Topology
+Cauchy sequence,CauchySeq,1821,high,Cauchy,12,57,False,Mathlib.Topology.UniformSpace.Cauchy,Topology
+complete space,CompleteSpace,1906,medium,Frechet,12,55,False,Mathlib.Topology.UniformSpace.Cauchy,Topology
+completion of a uniform space,UniformSpace.Completion,1937,medium,Weil,14,90,False,Mathlib.Topology.UniformSpace.Completion,Topology
+topological group,IsTopologicalGroup,1926,medium,Schreier,12,131,False,Mathlib.Topology.Algebra.Group.Defs,Topology
+Haar measure,MeasureTheory.Measure.haarMeasure,1933,high,Haar,35,504,True,Mathlib.MeasureTheory.Measure.Haar.Basic,Measure and probability
+metric space,MetricSpace,1906,high,Frechet,29,258,True,Mathlib.Topology.MetricSpace.Defs,Topology
+Lipschitz continuity,LipschitzWith,1864,medium,Lipschitz,29,297,True,Mathlib.Topology.EMetricSpace.Lipschitz,Topology
+Holder continuity,HolderWith,1882,medium,Holder,42,447,True,Mathlib.Topology.MetricSpace.Holder,Topology
+Hausdorff distance,Metric.hausdorffEDist,1914,high,Hausdorff,30,337,True,Mathlib.Topology.MetricSpace.HausdorffDistance,Topology
+Gromov-Hausdorff space,GromovHausdorff.GHSpace,1981,high,Gromov,43,613,True,Mathlib.Topology.MetricSpace.GromovHausdorff,Topology
+locally convex space,LocallyConvexSpace,1935,medium,von Neumann,9,80,False,Mathlib.Topology.Algebra.Module.LocallyConvex,Topology
+normed space,NormedSpace,1920,high,Banach,31,271,True,Mathlib.Analysis.Normed.Module.Basic,Analysis
+inner product space,InnerProductSpace,1927,medium,von Neumann abstract Hilbert space,33,361,True,Mathlib.Analysis.InnerProductSpace.Defs,Analysis
+adjoint operator,LinearPMap.adjoint,1929,medium,von Neumann,40,568,True,Mathlib.Analysis.InnerProductSpace.LinearPMap,Analysis
+Frechet derivative,HasFDerivAt,1911,high,Frechet,33,373,True,Mathlib.Analysis.Calculus.FDeriv.Defs,Analysis
+analytic function,AnalyticAt,1841,medium,Weierstrass,36,434,True,Mathlib.Analysis.Analytic.Basic,Analysis
+convex function,ConvexOn,1906,medium,Jensen,9,46,False,Mathlib.Analysis.Convex.Function,Analysis
+logarithm,Real.log,1614,high,Napier,33,357,True,Mathlib.Analysis.SpecialFunctions.Log.Basic,Analysis
+exponential function,Real.exp,1748,medium,Euler,31,353,True,Mathlib.Analysis.Complex.Exponential,Analysis
+sine,Real.sin,500,medium,Aryabhata jya,32,356,True,Mathlib.Analysis.Complex.Trigonometric,Analysis
+hyperbolic sine,Real.sinh,1757,medium,Riccati,32,355,True,Mathlib.Analysis.Complex.Trigonometric,Analysis
+sigma-algebra,MeasurableSpace,1915,low,Frechet,6,17,False,Mathlib.MeasureTheory.MeasurableSpace.Defs,Measure and probability
+Borel sigma-algebra,BorelSpace,1898,medium,Borel,9,28,False,Mathlib.MeasureTheory.Constructions.BorelSpace.Basic,Measure and probability
+measure,MeasureTheory.Measure,1915,medium,Frechet and Radon abstract measure,31,394,True,Mathlib.MeasureTheory.Measure.MeasureSpaceDef,Measure and probability
+Lebesgue measure,MeasureTheory.MeasureSpace,1901,high,Lebesgue,32,395,True,Mathlib.MeasureTheory.Measure.MeasureSpaceDef,Measure and probability
+Stieltjes measure,StieltjesFunction.measure,1913,medium,Radon; Stieltjes 1894,32,446,True,Mathlib.MeasureTheory.Measure.Stieltjes,Measure and probability
+Hausdorff measure,MeasureTheory.Measure.hausdorffMeasure,1918,high,Hausdorff,42,567,True,Mathlib.MeasureTheory.Measure.Hausdorff,Measure and probability
+Hausdorff dimension,dimH,1918,high,Hausdorff,43,568,True,Mathlib.Topology.MetricSpace.HausdorffDimension,Topology
+Lebesgue integral,MeasureTheory.lintegral,1902,high,Lebesgue,33,398,True,Mathlib.MeasureTheory.Integral.Lebesgue.Basic,Measure and probability
+Bochner integrable function,MeasureTheory.Integrable,1933,high,Bochner,35,413,True,Mathlib.MeasureTheory.Function.L1Space.Integrable,Measure and probability
+Lp space,MeasureTheory.Lp,1910,high,Riesz,44,628,True,Mathlib.MeasureTheory.Function.LpSpace.Basic,Measure and probability
+Schwartz space,SchwartzMap,1950,high,Schwartz,39,572,True,Mathlib.Analysis.Distribution.SchwartzSpace.Basic,Analysis
+distribution,Distribution,1945,high,Schwartz; Sobolev 1936,44,650,True,Mathlib.Analysis.Distribution.Distribution,Analysis
+tempered distribution,TemperedDistribution,1950,high,Schwartz,42,703,True,Mathlib.Analysis.Distribution.TemperedDistribution,Analysis
+test function,TestFunction,1945,medium,Schwartz,39,554,True,Mathlib.Analysis.Distribution.TestFunction,Analysis
+probability measure,MeasureTheory.IsProbabilityMeasure,1933,high,Kolmogorov,32,395,True,Mathlib.MeasureTheory.Measure.Typeclasses.Probability,Measure and probability
+independence,ProbabilityTheory.iIndep,1933,medium,Kolmogorov,35,435,True,Mathlib.Probability.Independence.Basic,Measure and probability
+conditional probability,ProbabilityTheory.cond,1718,medium,de Moivre,37,448,True,Mathlib.Probability.ConditionalProbability,Measure and probability
+conditional expectation,MeasureTheory.condExp,1933,high,Kolmogorov,59,868,True,Mathlib.MeasureTheory.Function.ConditionalExpectation.Basic,Measure and probability
+characteristic function,MeasureTheory.charFun,1922,medium,Levy,53,780,True,Mathlib.MeasureTheory.Measure.CharacteristicFunction.Basic,Measure and probability
+discrete probability law,PMF,1654,low,Pascal and Fermat,27,293,True,Mathlib.Probability.ProbabilityMassFunction.Basic,Measure and probability
+variance,ProbabilityTheory.variance,1918,high,Fisher,54,746,True,Mathlib.Probability.Moments.Variance,Measure and probability
+moment,ProbabilityTheory.moment,1893,medium,Pearson,53,745,True,Mathlib.Probability.Moments.Basic,Measure and probability
+Bernoulli law,ProbabilityTheory.bernoulliMeasure,1713,high,Jacob Bernoulli,35,417,True,Mathlib.Probability.Distributions.Bernoulli,Measure and probability
+binomial law,ProbabilityTheory.binomial,1713,high,Jacob Bernoulli,42,550,True,Mathlib.Probability.Distributions.Binomial,Measure and probability
+Poisson law,ProbabilityTheory.poissonMeasure,1837,high,Poisson,35,517,True,Mathlib.Probability.Distributions.Poisson.Basic,Measure and probability
+Gaussian law,ProbabilityTheory.gaussianReal,1809,high,Gauss; de Moivre 1733,47,889,True,Mathlib.Probability.Distributions.Gaussian.Real,Measure and probability
+convergence in measure,MeasureTheory.TendstoInMeasure,1909,medium,Riesz,32,396,True,Mathlib.MeasureTheory.Function.ConvergenceInMeasure,Measure and probability
+martingale,MeasureTheory.Martingale,1939,high,Ville,60,872,True,Mathlib.Probability.Martingale.Basic,Measure and probability
+stopping time,MeasureTheory.IsStoppingTime,1949,low,Doob era,9,38,False,Mathlib.Probability.Process.Stopping,Measure and probability
+affine space,AddTorsor,1918,medium,Weyl,6,32,False,Mathlib.Algebra.Torsor.Defs,Algebra
+Euclidean affine space,NormedAddTorsor,-300,low,Euclid plane; modern axioms much later,30,269,True,Mathlib.Analysis.Normed.Group.AddTorsor,Analysis
+angle,InnerProductGeometry.angle,-300,low,Euclid,37,472,True,Mathlib.Geometry.Euclidean.Angle.Unoriented.Basic,Geometry
+manifold,IsManifold,1854,medium,Riemann; Weyl 1913,42,649,True,Mathlib.Geometry.Manifold.IsManifold.Basic,Geometry
+Lie group,LieGroup,1873,high,Lie,44,669,True,Mathlib.Geometry.Manifold.Algebra.LieGroup,Geometry
+Riemannian metric,Bundle.RiemannianMetric,1854,medium,Riemann,32,418,True,Mathlib.Topology.VectorBundle.Riemannian,Topology
+Riemannian manifold,IsRiemannianManifold,1854,medium,Riemann,48,1056,True,Mathlib.Geometry.Manifold.Riemannian.Basic,Geometry
+prime spectrum,PrimeSpectrum,1960,high,Grothendieck,11,61,False,Mathlib.RingTheory.Spectrum.Prime.Defs,Algebra
+locally ringed space,AlgebraicGeometry.LocallyRingedSpace,1960,medium,Grothendieck,19,196,False,Mathlib.Geometry.RingedSpace.LocallyRingedSpace,Geometry
+scheme,AlgebraicGeometry.Scheme,1960,high,Grothendieck EGA,26,488,False,Mathlib.AlgebraicGeometry.Scheme,Algebra
+Catalan numbers,catalan,1751,medium,Euler; Catalan 1838,9,85,False,Mathlib.Combinatorics.Enumerative.Catalan.Basic,Combinatorics
+VC dimension,Finset.vcDim,1971,high,Vapnik and Chervonenkis,13,172,False,Mathlib.Combinatorics.SetFamily.Shatter,Combinatorics
+graph,SimpleGraph,1736,medium,Euler; Sylvester name 1878,4,5,False,Mathlib.Combinatorics.SimpleGraph.Basic,Combinatorics
+matching,SimpleGraph.Subgraph.IsMatching,1931,low,Konig,6,14,False,Mathlib.Combinatorics.SimpleGraph.Matching,Combinatorics
+sets without arithmetic progressions,ThreeAPFree,1936,medium,Erdos and Turan,4,19,False,Mathlib.Combinatorics.Additive.AP.Three.Defs,Combinatorics
+Freiman homomorphism,IsAddFreimanHom,1973,medium,Freiman,7,44,False,Mathlib.Combinatorics.Additive.FreimanHom,Combinatorics
+omega-limit set,omegaLimit,1927,medium,Birkhoff,8,30,False,Mathlib.Dynamics.OmegaLimit,Analysis
+set,Set,1874,high,Cantor,1,1,False,Mathlib.Data.Set.Defs,Logic and foundations
+computable function,Computable,1936,high,Turing and Church,16,94,False,Mathlib.Computability.Partrec,Logic and foundations
+Turing machine,Turing.TM0.Machine,1936,high,Turing,3,6,False,Mathlib.Computability.TuringMachine.PostTuringMachine,Logic and foundations
+primitive recursive function,Primrec,1931,medium,Godel; Skolem 1923,15,57,False,Mathlib.Computability.Primrec.Basic,Logic and foundations
+Ackermann function,ack,1928,high,Ackermann,6,25,False,Mathlib.Computability.Ackermann,Logic and foundations
+Turing degree,TuringDegree,1944,high,Post,17,122,False,Mathlib.Computability.TuringDegree,Logic and foundations
+polynomial-time computation,Turing.TM2ComputableInPolyTime,1965,medium,Cobham and Edmonds,14,142,False,Mathlib.Computability.TuringMachine.Computable,Logic and foundations
+regular language,Language.IsRegular,1956,high,Kleene,8,36,False,Mathlib.Computability.DFA,Logic and foundations
+deterministic finite automaton,DFA,1959,high,Rabin and Scott,2,2,False,Mathlib.Computability.DFA,Logic and foundations
+nondeterministic finite automaton,NFA,1959,high,Rabin and Scott,2,2,False,Mathlib.Computability.NFA,Logic and foundations
+regular expression,RegularExpression,1956,high,Kleene,1,1,False,Mathlib.Computability.RegularExpressions,Logic and foundations
+context-free grammar,ContextFreeGrammar,1956,high,Chomsky,7,22,False,Mathlib.Computability.ContextFreeGrammar,Logic and foundations
+ordinal,Ordinal,1883,high,Cantor,6,23,False,Mathlib.SetTheory.Ordinal.Basic,Logic and foundations
+Cantor normal form,Ordinal.CNF,1897,high,Cantor,13,177,False,Mathlib.SetTheory.Ordinal.CantorNormalForm,Logic and foundations
+epsilon numbers,Ordinal.epsilon,1897,medium,Cantor,15,183,False,Mathlib.SetTheory.Ordinal.Veblen,Logic and foundations
+cardinal,Cardinal,1878,medium,Cantor,5,10,False,Mathlib.SetTheory.Cardinal.Defs,Logic and foundations
+aleph numbers,Cardinal.aleph,1895,high,Cantor,15,176,False,Mathlib.SetTheory.Cardinal.Aleph,Logic and foundations
+cofinality,Order.cof,1908,medium,Hausdorff,11,128,False,Mathlib.SetTheory.Cardinal.Cofinality.Basic,Logic and foundations
+model of ZF set theory,ZFSet,1908,medium,Zermelo,4,10,False,Mathlib.SetTheory.ZFC.Basic,Logic and foundations
+first-order structure,FirstOrder.Language.Structure,1933,medium,Tarski,5,7,False,Mathlib.ModelTheory.Basic,Logic and foundations
+first-order formula,FirstOrder.Language.Formula,1879,medium,Frege,7,16,False,Mathlib.ModelTheory.Syntax,Logic and foundations
+prime number,Prime,-300,high,Euclid,6,35,False,Mathlib.Algebra.Prime.Defs,Algebra
+congruence,Int.ModEq,1801,high,Gauss,9,33,False,Mathlib.Data.Int.ModEq,Number theory
+cyclotomic polynomial,Polynomial.cyclotomic,1801,medium,Gauss,26,395,True,Mathlib.RingTheory.Polynomial.Cyclotomic.Basic,Algebra
+symmetric polynomial,MvPolynomial.IsSymmetric,1629,low,Girard,16,171,False,Mathlib.RingTheory.MvPolynomial.Symmetric.Defs,Algebra
+transcendental number,Transcendental,1844,high,Liouville,18,204,False,Mathlib.RingTheory.Algebraic.Defs,Algebra
+convex set,Convex,1896,medium,Minkowski,8,45,False,Mathlib.Analysis.Convex.Basic,Analysis
+convex hull,convexHull,1896,low,Minkowski,10,117,False,Mathlib.Analysis.Convex.Hull,Analysis
+extreme point,Set.extremePoints,1940,low,Krein and Milman,8,47,False,Mathlib.Analysis.Convex.Extreme,Analysis
+derivative,HasDerivAt,1684,high,Leibniz,34,411,True,Mathlib.Analysis.Calculus.Deriv.Basic,Analysis
+Riemann sum,BoxIntegral.integralSum,1854,high,Riemann,32,430,True,Mathlib.Analysis.BoxIntegral.Basic,Analysis
+radius of convergence,FormalMultilinearSeries.radius,1821,medium,Cauchy,33,398,True,Mathlib.Analysis.Analytic.ConvergenceRadius,Analysis
+complex exponential,Complex.exp,1748,high,Euler,30,352,True,Mathlib.Analysis.Complex.Exponential,Analysis
+holomorphic function,DifferentiableOn,1825,medium,Cauchy,35,376,True,Mathlib.Analysis.Calculus.FDeriv.Defs,Analysis
+homeomorphism,Homeomorph,1895,medium,Poincare,7,21,False,Mathlib.Topology.Homeomorph.Defs,Topology
+Hilbert basis,HilbertBasis,1907,medium,Schmidt and Riesz,43,619,True,Mathlib.Analysis.InnerProductSpace.l2Space,Analysis
+Lagrange interpolation,Lagrange.interpolate,1795,high,Lagrange; Waring 1779,20,246,False,Mathlib.LinearAlgebra.Lagrange,Algebra
+sign of a permutation,Equiv.Perm.sign,1815,medium,Cauchy,12,149,False,Mathlib.GroupTheory.Perm.Sign,Algebra
+cross product,crossProduct,1881,medium,Gibbs; Hamilton quaternions 1843,13,122,False,Mathlib.LinearAlgebra.CrossProduct,Algebra
